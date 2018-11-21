@@ -10,7 +10,7 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
+
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -29,4 +29,137 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    padding-left: 0px;
+    height: 116px;
+    z-index: 105;
+    background-color: #ffffff;
+
+    box-shadow: 0px 6px 20px 2px #aaaaaa;
+}
+.header #header_main #menu {
+    height: 78px;
+    position: relative;
+    padding: 5px 0px;
+    padding-top: 0px;
+}
+.header #header_main #menu nav#main {
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    text-align: center;
+    position: relative;
+}
+.header #header_main #menu nav#main span {
+    display: inline-block;
+  padding: 12px 14px;
+    cursor: pointer;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    color: #224ca4;
+    text-transform: uppercase;
+    border-right: 2px solid #2a84c9;
+    font-size: 14px;
+    font-family: Raleway-Bold !important;
+    font-weight: 400;
+    position: relative;
+}
+
+.header #header_main #menu nav#main span:hover {
+
+    color: #ffcc0c;
+    text-transform: uppercase;
+    border-right: 2px solid #2a84c9;
+
+}
+
+
+.logodam {
+  padding-top: 10px;
+  position: absolute;
+width: 160px;
+margin: 0 auto;
+left: 30px;
+
+}
+
+.header #header_main #menu1 {
+    height: 40px;
+    position: relative;
+    padding: 5px 0px;
+    padding-top: 0px;
+      background-color: #224ca4;
+}
+.header #header_main #menu1 nav#main {
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    text-align: center;
+    position: relative;
+}
+.header #header_main #menu1 nav#main span {
+    display: inline-block;
+  padding: 12px 14px;
+    cursor: pointer;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    color: #fff;
+
+    border-right: 2px solid #fff;
+    font-size: 14px;
+    font-family: Raleway-Bold !important;
+    font-weight: 400;
+    position: relative;
+}
+
+
+.slider {
+  width: 100%;
+}
+.sliderP {
+  color:#224ca4;
+}
+.sliderh1 {
+  color:#224ca4;
+  font-size: 70px;
+  font-weight: bold;
+}
+.sliderP2 {
+    color:#224ca4;
+    font-weight: bold;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 10%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 22%;
+    color: #fff;
+    text-align: left;
+}
+.texto_redes{
+text-decoration: none;
+ margin: 0px;
+ background-color: #ecc200;
+  color: #ffffff;
+   padding: 10px;
+    text-align: center;
+    border:0px solid #ffffff;
+     width:300px;
+
 }
