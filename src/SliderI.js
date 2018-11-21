@@ -42,14 +42,14 @@ class SliderI extends Component {
               <p className="sliderP2">PARA GENTE</p>
 
 
-              <section class="container">
+
                 <div class="row justify-content-center">
                     <div className="col-sm-12" >
                       <br/><br/>
                         <a  href="#" >  <h4 className="texto texto_redes" id="tuto" > Envianos tu CV</h4> </a>
                     </div>
                 </div>
-            </section>
+
               </div>
             </div>
             <div className="carousel-item">
@@ -59,14 +59,14 @@ class SliderI extends Component {
               <h1  className="sliderh1">GENTE   </h1>
                 <h1 className="sliderh1" >QUE TRABAJA </h1>
               <p className="sliderP2">PARA GENTE</p>
-              <section class="container">
+
                 <div class="row justify-content-center">
                     <div className="col-sm-12" >
                       <br/><br/>
                         <a  href="#" >  <h4 className="texto texto_redes" id="tuto" > Envianos tu CV</h4> </a>
                     </div>
                 </div>
-            </section>
+
               </div>
 
             </div>
@@ -77,14 +77,14 @@ class SliderI extends Component {
               <h1  className="sliderh1">GENTE   </h1>
                 <h1 className="sliderh1" >QUE TRABAJA </h1>
               <p className="sliderP2">PARA GENTE</p>
-              <section class="container">
+
                 <div class="row justify-content-center">
                     <div className="col-sm-12" >
                       <br/><br/>
                         <a  href="#" >  <h4 className="texto texto_redes" id="tuto" > Envianos tu CV</h4> </a>
                     </div>
                 </div>
-            </section>
+          
               </div>
             </div>
           </div>
@@ -97,7 +97,7 @@ class SliderI extends Component {
             <span class="carousel-control-next-icon"></span>
           </a>
         </div>
-          
+
         </header>
       </div>
     );
