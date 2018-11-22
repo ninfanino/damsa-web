@@ -127,6 +127,7 @@ left: 30px;
 
 .slider {
   width: 100%;
+  height: 900px;
 }
 .sliderP {
   color:#224ca4;
@@ -165,6 +166,7 @@ text-decoration: none;
 }
 
 #valoresh{
+  padding: 40px;
   padding-right: 2%;
     width: 100%;
     height: auto;
@@ -175,5 +177,178 @@ text-decoration: none;
   color: #224ca4;
 }
 #valoresh p{
-  color: #224ca4;
+  color: #525252;
+}
+.dark div{
+      width: 100px;
+      background-color: #ffe500;
+      height: 14px;
+      margin: 0 auto;
+      text-align: center;;
+}
+
+
+#serviciosh{
+  padding: 40px;
+  padding-right: 2%;
+    width: 100%;
+    height: 535px;
+    background-color: #06225cd4;
+
+}
+#serviciosh h3{
+  color: #ffe500;
+}
+#serviciosh p{
+  color: #ccc9c9;
+}
+.franjaServ div{
+      width: 100px;
+      background-color: #ffe500;
+      height: 14px;
+
+}
+
+#serviciosh1{
+  height: 535px;
+  padding-right: 1px;
+  padding-left: 1px;
+}
+.imgServ {
+    height: 535px;
+    width: 100%;
+}
+#ds{
+      margin-top: 80px;
+}
+
+#sliserv{
+  padding: 40px;
+  padding-right: 2%;
+    width: 100%;
+    height: auto;
+
+    text-align: center;
+}
+#sliserv h3{
+  color: #fff;
+}
+#sliserv p{
+  color: #fff;
+}
+
+#indicads .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #ddd404;
+
+}
+
+.sliderVacante {
+  width: 100%;
+  height: 800px;
+}
+.sliderVacanteP {
+  color:#224ca4;
+}
+.sliderVacanteh1 {
+  color:#224ca4;
+  font-size: 70px;
+  font-weight: bold;
+}
+.sliderVacanteP2 {
+    color:#224ca4;
+    font-weight: bold;
+}
+#textoEncima1{
+  top: 50%;
+transform: translateY(-50%);
+position: absolute;
+z-index: 300;
+
+}
+#textoEncima{
+  top: 50%;
+transform: translateY(-50%);
+position: absolute;
+z-index: 300;
+    text-align: center;
+}
+.texto_vacantes {
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: #e0b905;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border: 0px solid #ffffff;
+    width: 300px;
+}
+
+.filtroimg{
+  background-color: #020e5785;
+  width: 100%;
+  height: 800px;
+}
+
+#mejoracontinua{
+  text-align: center;
+  width: 100%;
+  height: 200px;
+
+}
+#mejoracontinua h3{
+ color: #224ca4;
+     margin-top: 54px;
+
+}
+.franjaServ1 div{
+      width: 100px;
+      background-color: #ffe500;
+      height: 14px;
+      margin: 0 auto;
+
+}
+#mejoracuadros1 {
+    padding: 40px;
+    padding-right: 2%;
+    width: 100%;
+    height: 400px;
+background-color: #224ca4;
+    text-align: center;
+}
+
+#mejoracuadros1 h3{
+  margin-top: 100px;
+  color: #fff;
+  font-size: 40px
+}
+#mejoracuadros1 h2{
+
+  color: #fff;
+  font-size: 22px
+}
+
+#mejoracuadros2 {
+    padding: 40px;
+    padding-right: 2%;
+    width: 100%;
+    height: 400px;
+background-color: #e0b905;
+    text-align: center;
+}
+
+#mejoracuadros2 h3{
+  margin-top: 100px;
+}
+#mejoracuadros2 h3{
+  margin-top: 100px;
+  color: #fff;
+  font-size: 40px
+}
+#mejoracuadros2 h2{
+
+  color: #fff;
+  font-size: 22px
 }

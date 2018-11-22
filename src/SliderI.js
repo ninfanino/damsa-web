@@ -25,13 +25,13 @@ class SliderI extends Component {
         <div id="demo" className="carousel slide" data-ride="carousel">
 
 
-        
+
 
 
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img className="slider" src="../images/bg-index1.png" />
-              <div class="carousel-caption  d-md-block" >
+              <div class="carousel-caption  d-md-block" id="textoEncima1" >
               <p className="sliderP">EN DAMSA SOMOS </p>
               <h1  className="sliderh1">GENTE   </h1>
                 <h1 className="sliderh1" >QUE TRABAJA </h1>
@@ -50,7 +50,7 @@ class SliderI extends Component {
             </div>
             <div className="carousel-item">
               <img className="slider" src="../images/bg-index1.png" />
-              <div class="carousel-caption  d-md-block" >
+              <div class="carousel-caption  d-md-block" id="textoEncima1" >
               <p className="sliderP">EN DAMSA SOMOS </p>
               <h1  className="sliderh1">GENTE   </h1>
                 <h1 className="sliderh1" >QUE TRABAJA </h1>
@@ -68,7 +68,7 @@ class SliderI extends Component {
             </div>
             <div className="carousel-item">
               <img className="slider" src="../images/bg-index1.png" />
-              <div class="carousel-caption  d-md-block" >
+              <div class="carousel-caption  d-md-block" id="textoEncima1" >
               <p className="sliderP">EN DAMSA SOMOS </p>
               <h1  className="sliderh1">GENTE   </h1>
                 <h1 className="sliderh1" >QUE TRABAJA </h1>
