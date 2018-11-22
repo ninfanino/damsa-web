@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
   font-family: 'Lato', sans-serif;
@@ -70,7 +71,6 @@
     text-transform: uppercase;
     border-right: 2px solid #2a84c9;
     font-size: 14px;
-    
     font-weight: 400;
     position: relative;
 }
@@ -93,6 +93,7 @@
   transform:translateY(-50%);
   vertical-align:top;
 }
+
 .logodam {
   padding-top: 10px;
   position: absolute;
@@ -110,16 +111,17 @@ left: 30px;
       background-color: #224ca4;
 }
 .header #header_main #menu1 nav#main {
-    float: right;
+        float: right;
     right: 15px;
     /* -webkit-transform: translateY(-50%); */
     /* transform: translateY(-50%); */
     text-align: center;
     position: relative;
+
 }
 .header #header_main #menu1 nav#main span {
     display: inline-block;
-  padding: 0px 14px;
+    padding: 0px 14px;
     height: 25px;
     line-height: 25px;
     margin-top: 5px;
@@ -136,13 +138,12 @@ left: 30px;
     font-weight: 400;
     position: relative;
 }
-
 .header #header_main #menu1 nav#main .border-none span {
   border-right:none;
 }
+
 .slider {
   width: 100%;
-  height: 900px;
 }
 .sliderP {
   color:#224ca4;
@@ -177,7 +178,7 @@ text-decoration: none;
     text-align: center;
     border:0px solid #ffffff;
      width:300px;
-margin-top: 30px;
+     margin-top: 30px;
      cursor: pointer;
      text-shadow: none;
 }
@@ -190,7 +191,6 @@ margin-top: 30px;
 }
 
 #valoresh{
-  padding: 40px;
   padding-right: 2%;
     width: 100%;
     height: auto;
@@ -207,264 +207,23 @@ margin-top: 30px;
   font-size: 30px !important;
     vertical-align: middle;
     margin-right: 15px;
-
-}
-.dark div{
-      width: 100px;
-      background-color: #ffe500;
-      height: 14px;
-      margin: 0 auto;
-      text-align: center;;
-}
-
-
-#serviciosh{
-  padding: 40px;
-  padding-right: 2%;
-    width: 100%;
-    height: 535px;
-    background-color: #06225cd4;
-
-}
-#serviciosh h3{
-  color: #ffe500;
-}
-#serviciosh p{
-  color: #ccc9c9;
-}
-.franjaServ div{
-      width: 100px;
-      background-color: #ffe500;
-      height: 14px;
-
-}
-
-#serviciosh1{
-  height: 535px;
-  padding-right: 1px;
-  padding-left: 1px;
-}
-.imgServ {
-    height: 535px;
-    width: 100%;
-}
-#ds{
-      margin-top: 80px;
-}
-
-#sliserv{
-  padding: 40px;
-  padding-right: 2%;
-    width: 100%;
-    height: auto;
-
-    text-align: center;
-}
-#sliserv h3{
-  color: #fff;
-}
-#sliserv p{
-  color: #fff;
-}
-
-#indicads .active {
-    width: 12px;
-    height: 12px;
-    margin: 0;
-    background-color: #ddd404;
-
-}
-
-.sliderVacante {
-  width: 100%;
-  height: 800px;
-}
-.sliderVacanteP {
-  color:#224ca4;
-}
-.sliderVacanteh1 {
-  color:#224ca4;
-  font-size: 70px;
-  font-weight: bold;
-}
-.sliderVacanteP2 {
-    color:#224ca4;
-    font-weight: bold;
-}
-#textoEncima1{
-  top: 50%;
-transform: translateY(-50%);
-position: absolute;
-z-index: 300;
-
-}
-#textoEncima{
-  top: 50%;
-transform: translateY(-50%);
-position: absolute;
-z-index: 300;
-    text-align: center;
-}
-.texto_vacantes {
-    text-decoration: none;
-    margin: 0 auto;
-    background-color: #e0b905;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    border: 0px solid #ffffff;
-    width: 300px;
-}
-
-.filtroimg{
-  background-color: #020e5785;
-  width: 100%;
-  height: 800px;
-}
-
-#mejoracontinua{
-  text-align: center;
-  width: 100%;
-  height: 200px;
-
-}
-#mejoracontinua h3{
- color: #224ca4;
-     margin-top: 54px;
-
-}
-.franjaServ1 div{
-      width: 100px;
-      background-color: #ffe500;
-      height: 14px;
-      margin: 0 auto;
-
-}
-#mejoracuadros1 {
-    padding: 40px;
-    padding-right: 2%;
-    width: 100%;
-    height: 400px;
-background-color: #224ca4;
-    text-align: center;
-}
-
-#mejoracuadros1 h3{
-  margin-top: 100px;
-  color: #fff;
-  font-size: 40px
-}
-#mejoracuadros1 h2{
-
-  color: #fff;
-  font-size: 22px
-}
-
-#mejoracuadros2 {
-    padding: 40px;
-    padding-right: 2%;
-    width: 100%;
-    height: 400px;
-background-color: #e0b905;
-    text-align: center;
-}
-
-#mejoracuadros2 h3{
-  margin-top: 100px;
-}
-#mejoracuadros2 h3{
-  margin-top: 100px;
-  color: #fff;
-  font-size: 40px
-}
-#mejoracuadros2 h2{
-
-  color: #fff;
-  font-size: 22px
 }
 .SliderI {
-
-
-
-
-
   margin-top: 116px;
 }
 .sliderP {
   font-size: 26px;
   font-weight: 300;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   margin: 0;
   text-shadow:none;
-
-
 }
 .sliderh1 {
-
-
-
-
-
-
-
-
-
-
   font-size: 80px;
   font-weight: 900;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   margin: 0;
   line-height: 70px;
   text-shadow:none;
-
-
-
-
-
-
 }
-
-
-
-
 .sliderP2 {
   font-size: 40px;
   font-weight: 900;
@@ -479,58 +238,22 @@ background-color: #e0b905;
     content: '';
     display: block;
     height: 28px;
-
-
-
-
-
-
-
-
-
-
     margin-top: -6px;
     position: absolute;
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
     right: 30px;
     top: 50%;
-
-
-
-
-
-
-
-
-
-
-
-
     width: 0;
-
-
-
 }
-
 
 .carousel-control-next-icon:after {
     margin-top: 10px;
-
-
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-
-
-
-
-
-
-
-
 
 .carousel-control-prev-icon:before, .carousel-control-prev-icon:after {
     border-right: 6px solid #25559b;
@@ -544,11 +267,7 @@ background-color: #e0b905;
     left: 30px;
     top: 50%;
     width: 0;
-
-
-
 }
-
 
 .carousel-control-prev-icon:after {
     margin-top: 10px;
