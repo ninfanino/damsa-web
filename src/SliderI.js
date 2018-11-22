@@ -25,11 +25,7 @@ class SliderI extends Component {
         <div id="demo" className="carousel slide" data-ride="carousel">
 
 
-          <ul className="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" className="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-          </ul>
+        
 
 
           <div className="carousel-inner">
@@ -84,7 +80,7 @@ class SliderI extends Component {
                         <a  href="#" >  <h4 className="texto texto_redes" id="tuto" > Envianos tu CV</h4> </a>
                     </div>
                 </div>
-          
+
               </div>
             </div>
           </div>
