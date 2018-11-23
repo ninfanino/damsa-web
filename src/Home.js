@@ -122,13 +122,14 @@ class Home extends Component {
 
 <div id="serviciosh" class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 <h3 ><b>SERVICIOS</b></h3>
-<div class="franjaServ">
-<div>
 
-</div>
-</div>
-  <p > te vas a querer quedar con nosotros </p>
+  <p id="serviciosub" > te vas a querer quedar con nosotros </p>
+  <br></br>
+  <div class="franjaServ">
+  <div>
 
+  </div>
+  </div>
 
   <div id="ds" className="carousel slide" data-ride="carousel">
 
@@ -145,17 +146,17 @@ class Home extends Component {
 
       <div id="sliserv"  class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
       <p className="sliderP">icon</p>
-        <p className="sliderP2">Administración integral de personal</p>
+        <p className="sliderP3">Administración integral de personal</p>
       </div>
 
       <div id="sliserv"  class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
       <p className="sliderP">icon</p>
-        <p className="sliderP2">Búsqueda de talento ejecutivo</p>
+        <p className="sliderP3">Búsqueda de talento ejecutivo</p>
       </div>
 
       <div id="sliserv"  class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
       <p className="sliderP">icon</p>
-        <p className="sliderP2">Aplicación e implementación, prueba de confianza</p>
+        <p className="sliderP3">Aplicación e implementación, prueba de confianza</p>
       </div>
 
       </div>
@@ -163,34 +164,34 @@ class Home extends Component {
 
       <div id="sliserv"  class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
       <p className="sliderP">icon</p>
-        <p className="sliderP2">Administración integral de personal</p>
+        <p className="sliderP3">Administración integral de personal</p>
       </div>
 
       <div id="sliserv"  class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
       <p className="sliderP">icon</p>
-        <p className="sliderP2">Búsqueda de talento ejecutivo</p>
+        <p className="sliderP3">Búsqueda de talento ejecutivo</p>
       </div>
 
       <div id="sliserv"  class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
       <p className="sliderP">icon</p>
-        <p className="sliderP2">Aplicación e implementación, prueba de confianza</p>
+        <p className="sliderP3">Aplicación e implementación, prueba de confianza</p>
       </div>
 
       </div>
       <div className="carousel-item">
       <div id="sliserv"  class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
       <p className="sliderP">icon</p>
-        <p className="sliderP2">Administración integral de personal</p>
+        <p className="sliderP3">Administración integral de personal</p>
       </div>
 
       <div id="sliserv"  class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
       <p className="sliderP">icon</p>
-        <p className="sliderP2">Búsqueda de talento ejecutivo</p>
+        <p className="sliderP3">Búsqueda de talento ejecutivo</p>
       </div>
 
       <div id="sliserv"  class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
       <p className="sliderP">icon</p>
-        <p className="sliderP2">Aplicación e implementación, prueba de confianza</p>
+        <p className="sliderP3">Aplicación e implementación, prueba de confianza</p>
       </div>
 
       </div>
@@ -348,10 +349,11 @@ class Home extends Component {
  </div>
 
 
+</div>
 
 
 
-
+  <div id="demo1" >
   <div id="demo2" className="carousel slide" data-ride="carousel">
 
 
@@ -416,11 +418,31 @@ class Home extends Component {
     <a className="carousel-control-next" href="#demo2" data-slide="next">
       <span class="carousel-control-next-icon"></span>
     </a>
+
+    <div id="mejoracontinua" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <h3 ><b>SUCURSALES</b></h3>
+
+      <p > te vas a querer quedar con nosotros </p>
+      <div class="franjaServ1">
+      <div>
+
+      </div>
+      </div>
+      <br></br>
+
+
+    </div>
+
+    <div id="mapa" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=14U8-7qFwj4gYivRQRLbWCLysKBDkt70F" width="100%" height="680"></iframe>
+
+    </div>
   </div>
-
-
-  <div id="mejoracontinua" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-  <h3 ><b>SUCURSALES</b></h3>
+  <div id="contacto" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <br></br>
+  <br></br>
+  <h3 ><b>CONTACTO</b></h3>
 
     <p > te vas a querer quedar con nosotros </p>
     <div class="franjaServ1">
@@ -430,14 +452,64 @@ class Home extends Component {
     </div>
 
 
+    <form id="formul" action="/qualtra/contacto/enviar" method="POST" accept-charset="utf-8" role="form" >
+										<div id="linearoja" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group" >
+                      <input type="text" name="nombre" value="" placeholder="Nombre" class="form-control" required="" />
+                    </div>
+									</div>
+                  <div id="linearoja"  class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <div class="form-group" >
+                    <input type="text" name="empresa" value="" placeholder="Empresa" class="form-control" required=""/>
+                  </div>
+                </div>
+									<div id="linearoja" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+									<div class="form-group" >
+										<input type="text" name="telefono" value="" placeholder="Teléfono" class="form-control" required="" />
+									</div>
+								</div>
+									<div id="linearoja"  class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group" >
+                      <input type="text" name="correo" value="" placeholder="Email" class="form-control" required="" />
+                    </div>
+									</div>
 
+                <div id="linearoja"  class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="form-group" >
+                  <input type="text" name="area" value="" placeholder="Area" class="form-control" required=""/>
+                </div>
+              </div>
+              <div id="linearoja"  class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <div class="form-group" >
+                <input type="text" name="ciudad" value="" placeholder="Ciudad" class="form-control" required=""/>
+              </div>
+            </div>
+									<div id="linearoja"  class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                      <textarea id="areatext" name="mensaje" placeholder="Mensaje" class="form-control3 w-100" required="" ></textarea>
+                    </div>
+									</div>
+
+                  <div id="linearoja"  class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group" id="btncontact" >
+
+                      <button id="boton" type="submit" class="btn btn-default" onclick="" >Enviar</button>
+                    </div>
+                    </div>
+                  </form>
+
+
+  </div>
   </div>
 
 
 
 
 
-</div>
+
+
+
+
 
 
 

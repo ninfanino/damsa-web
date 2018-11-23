@@ -70,7 +70,7 @@
     text-transform: uppercase;
     border-right: 2px solid #2a84c9;
     font-size: 14px;
-    
+
     font-weight: 400;
     position: relative;
 }
@@ -183,7 +183,7 @@ margin-top: 30px;
 }
 .texto_redes:hover{
   background: #daad28;
-  
+
 }
 .decoration-none {
   text-decoration: none !important;
@@ -227,10 +227,30 @@ margin-top: 30px;
 
 }
 #serviciosh h3{
+  text-align: left;
   color: #ffe500;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0;
+  text-shadow: none;
 }
 #serviciosh p{
   color: #ccc9c9;
+
+
+  font-size: 16px;
+  font-weight: 900;
+  margin: 0;
+  text-shadow: none;
+}
+#serviciosub{
+  color: #ccc9c9;
+  text-align: left;
+
+  font-size: 16px;
+  font-weight: 900;
+  margin: 0;
+  text-shadow: none;
 }
 .franjaServ div{
       width: 100px;
@@ -274,6 +294,15 @@ margin-top: 30px;
     background-color: #ddd404;
 
 }
+
+
+.sliderP3 {
+    font-size: 16px;
+    font-weight: 900;
+    margin: 0;
+    text-shadow: none;
+}
+
 
 .sliderVacante {
   width: 100%;
@@ -556,4 +585,142 @@ background-color: #e0b905;
     -o-transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
+}
+#mapa {
+  height: 680px;
+}
+
+.Footer {
+
+    width: 100%;
+left: 0;
+top: 0;
+
+padding-left: 0px;
+
+z-index: 105;
+background-color:#224ca4 ;
+box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.25);
+
+}
+
+#demo1{
+      height: 2780px;
+}
+
+.Footer #footer_main #menu {
+
+    position: relative;
+    padding: 5px 0px;
+    padding-top: 0px;
+}
+
+.Footer #footer_main #menu1 {
+    height: 80px;
+    position: relative;
+    padding: 5px 0px;
+    padding-top: 0px;
+    background-color: #fcda00;
+}
+.Footer #footer_main #menu nav#main {
+    top: 50%;
+
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    position: relative;
+}
+
+.Footer #footer_main #menu nav#main span {
+    display: inline-block;
+    padding: 12px 4px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    color: #fff;
+    text-transform: uppercase;
+
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+
+.Footer #footer_main #menu1 nav#main {
+    float: right;
+    right: 15px;
+    /* -webkit-transform: translateY(-50%); */
+    /* transform: translateY(-50%); */
+    text-align: center;
+    position: relative;
+        top: 20px;
+}
+
+.Footer #footer_main #menu1 nav#main span {
+    display: inline-block;
+    padding: 0px 14px;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    color: #224ca4;
+
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+
+#contacto {
+  height: 800px;
+  background-color: #242f6b;
+}
+
+#contacto h3{
+color: #ffe500;
+}
+#contacto p{
+color: #fff;
+}
+
+#formul .form-control{
+   background-color:#dcdcdc52;
+   font-size: 18px;
+   height: 45px;color:#ffffff;
+}
+#formul .form-control3{
+   width: 100%!important;
+   height: 219px ;
+   background-color:#dcdcdc52;
+   font-size: 18px;
+   color:#ffffff;
+}
+
+#formul #boton{
+  height: 100px;
+font-size: 18px;
+width: 50%;
+   text-decoration: none;
+   margin: 0px;
+   background-color: #fcda00;
+   color: #242f6b;
+   text-align: center;
+   border: 0px solid #ffffff;
+   padding: 10px;
+}
+
+#formul {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.form-control::-webkit-input-placeholder {
+    color: #fff!important;
+}
+
+::-webkit-input-placeholder {
+    -webkit-text-security: none;
+      color: #fff!important;
+    pointer-events: none !important;
+}
+#btncontact {
+  text-align: left;
 }

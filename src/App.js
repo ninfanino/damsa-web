@@ -5,6 +5,8 @@ import './icomoon/style.css';
 import Header from "./components/Header";
 import Slider from "./components/Slider";
 import Home from "./Home";
+import Footer from "./Footer";
+
 
 
 class App extends Component {
@@ -14,6 +16,7 @@ class App extends Component {
           <Header/>
           <Slider/>
           <Home/>
+          <Footer/>
       </div>
     );
   }
