@@ -50,16 +50,25 @@
     padding: 5px 0px;
     padding-top: 0px;
 }
-.header #header_main #menu nav#main {
-    top: 50%;
-    left: 20%;
-    transform: translateY(-50%);
+.main {
+    top: 10px;
+    right: 0px;
+
+
+
+
     text-align: center;
-    position: relative;
+
+    position: absolute;
 }
-.header #header_main #menu nav#main span {
+
+.main span.icon-user {
+    border-right: none;
+    margin-right: 0px;
+}
+.main span {
     display: inline-block;
-  padding: 12px 14px;
+  padding: 12px 10px;
     cursor: pointer;
     -webkit-transition: all 200ms ease-in-out;
     -moz-transition: all 200ms ease-in-out;
@@ -69,13 +78,13 @@
     color: #224ca4;
     text-transform: uppercase;
     border-right: 2px solid #2a84c9;
-    font-size: 14px;
+    font-size: 13px;
 
     font-weight: 400;
     position: relative;
 }
 
-.header #header_main #menu nav#main span:hover {
+.header #header_main #menu nav.main span:hover {
 
     color: #ffcc0c;
     text-transform: uppercase;
@@ -94,14 +103,38 @@
   vertical-align:top;
 }
 .logodam {
-  padding-top: 10px;
+  top: 10px;
   position: absolute;
 width: 160px;
 margin: 0 auto;
 left: 30px;
 
 }
+.navbar-toggle .icon-bar {
+    background-color: #224ca4;
+    transition: transform .2s;
+}
 
+.navbar-toggle {
+    border-color: #8fa5d4;
+}
+
+.navbar-toggle.open .icon-bar:first-child {
+  transform: rotate(45deg);
+  position: absolute;
+
+  top: 15px;
+  
+}
+.navbar-toggle.open .icon-bar:nth-child(2) {
+  opacity: 0;
+}
+.navbar-toggle.open .icon-bar:nth-child(3) {
+  transform: rotate(135deg);
+  position: absolute;
+
+  top: 11px;
+}
 .header #header_main #menu1 {
     height: 40px;
     position: relative;
@@ -109,7 +142,7 @@ left: 30px;
     padding-top: 0px;
       background-color: #224ca4;
 }
-.header #header_main #menu1 nav#main {
+.header #header_main #menu1 nav.main {
     float: right;
     right: 15px;
     /* -webkit-transform: translateY(-50%); */
@@ -117,12 +150,11 @@ left: 30px;
     text-align: center;
     position: relative;
 }
-.header #header_main #menu1 nav#main span {
+.header #header_main #menu1 nav.main span {
     display: inline-block;
   padding: 0px 14px;
     height: 25px;
-    line-height: 25px;
-    margin-top: 5px;
+    line-height: 20px;
     cursor: pointer;
     -webkit-transition: all 200ms ease-in-out;
     -moz-transition: all 200ms ease-in-out;
@@ -137,7 +169,7 @@ left: 30px;
     position: relative;
 }
 
-.header #header_main #menu1 nav#main .border-none span {
+.header #header_main #menu1 nav.main .border-none span {
   border-right:none;
 }
 .slider {
@@ -723,4 +755,139 @@ width: 50%;
 }
 #btncontact {
   text-align: left;
+}
+.navbar-toggle {
+    position: absolute;
+    right: 0px;
+
+
+
+
+
+
+    top: 10px;
+
+
+
+    z-index: 1000;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    height: 34px;
+
+}
+.menu-mobile {
+  display: none;
+}
+@media (max-width: 930px) {
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .menu-mobile span {
+    margin-right: 0px;
+    display: block;
+    padding: 8px;
+
+
+    background: rgba(70, 97, 175, 0.8);
+    color: #fff;
+    border-bottom: 1px solid #5470b6;
+  }
+  .menu-mobile {
+
+
+
+
+
+
+
+
+
+
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 76px;
+    max-height: 0px;
+    overflow: hidden;
+    -webkit-transition: all 1s; /* Safari */
+    transition: all 1s;
+  }
+  .menu-mobile.open {
+    max-height: 500px;
+    overflow: auto;
+  }
+  #menu-complete {
+    display: none;
+  }
+}
+
+@media (max-width: 645px) {
+  .main .border-none {
+    display: none;
+  }
+  .main a:nth-child(3) span {
+    border-right: none !important;
+    padding-right: 0px !important;
+  }
+}
+@media (max-width: 495px) {
+  .header #header_main #menu1 nav.main span {
+    padding: 0px 9px;
+
+
+
+
+
+    font-size: 11px;
+
+
+  }
+
+
+
+
+
+
+
+
+
+}
+
+@media (max-width: 390px) {
+  .header #header_main #menu1 nav.main span {
+
+    padding: 0px 7px;
+
+
+
+
+
+
+
+    font-size: 10px;
+
+
+  }
+
+
+
+
 }
