@@ -124,7 +124,7 @@ left: 30px;
   position: absolute;
 
   top: 15px;
-  
+
 }
 .navbar-toggle.open .icon-bar:nth-child(2) {
   opacity: 0;
@@ -839,7 +839,36 @@ width: 50%;
   }
 }
 
+
+@media (max-width: 800px) {
+  #demo1 {
+    height: 2880px;
+
+  }
+  #contacto {
+
+    height: 900px;
+    background-color: #242f6b;
+}
+#formul #boton {
+    height: 100px;
+    font-size: 18px;
+    width: 100%;
+    text-decoration: none;
+    margin: 0px;
+    background-color: #fcda00;
+    color: #242f6b;
+    text-align: center;
+    border: 0px solid #ffffff;
+    padding: 10px;
+}
+
+}
+
 @media (max-width: 645px) {
+  #demo1 {
+      height: 2530px;
+}
   .main .border-none {
     display: none;
   }
@@ -847,6 +876,111 @@ width: 50%;
     border-right: none !important;
     padding-right: 0px !important;
   }
+  h1{
+    text-align: center;
+    font-size: 40px !important;
+  }
+  .slider {
+      object-fit: cover;
+      width: 100%;
+      height: 550px;
+  }
+.sliderP {
+  text-align: center;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0;
+    text-shadow: none;
+}
+
+  #sliserv {
+    padding: 40px;
+    padding-right: 0%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#serviciosh {
+    padding: 0px;
+    padding-right: 0%;
+    width: 100%;
+    height: 635px;
+    background-color: #06225cd4;
+}
+#serviciosh h3 {
+    text-align: center;
+    color: #ffe500;
+    font-size: 28px;
+    font-weight: 900;
+    margin: 0;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#serviciosh p {
+    text-align: center;
+    color: #ccc9c9;
+    font-size: 16px;
+    font-weight: 900;
+    margin: 0;
+    text-shadow: none;
+}
+.franjaServ div {
+    text-align: center;
+    width: 100px;
+    background-color: #ffe500;
+    height: 14px;
+    margin: 0 auto;
+}
+
+  .sliderP2 {
+      font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+    text-shadow: none;
+      text-align: center;
+}
+.sliderVacante {
+    object-fit: cover;
+    width: 100%;
+    height: 800px;
+}
+  .Footer .logodam {
+    top: 20px;
+    position: relative;
+    width: 100px;
+    margin: 0 auto;
+    left: 0px;
+}
+  .Footer #footer_main #menu1 nav#main span {
+    display: inline-block;
+    padding: 0px 6px;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    color: #224ca4;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+.Footer #footer_main #menu1 {
+    height: 100px;
+    position: relative;
+    padding: 5px 0px;
+    padding-top: 0px;
+    background-color: #fcda00;
+}
+.Footer #footer_main #menu1 nav#main {
+    float: initial;
+    right: 15px;
+    /* -webkit-transform: translateY(-50%); */
+    /* transform: translateY(-50%); */
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
 }
 @media (max-width: 495px) {
   .header #header_main #menu1 nav.main span {
