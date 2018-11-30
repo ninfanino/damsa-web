@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
+import { NavLink } from "react-router-dom";
 
 
 
@@ -23,7 +24,7 @@ export default class Header extends Component {
 								<a ><span>EN</span></a>
 								<a className="border-none"><span className="icon-facebook" ></span></a>
 			          			<a className="border-none" ><span className="icon-twitter" ></span></a>
-			          			<a className="border-none" ><span className="icon-linkedin" ></span></a>
+			          			<a className="border-none" ><span className="icon-aedin" ></span></a>
 							</nav>
 						</div>
 						
@@ -38,30 +39,31 @@ export default class Header extends Component {
 
       									<img className="logodam" src="../images/damsa.png"  />
 
+      									
       									<nav id="menu-complete" className="main">
-								          <a ><span>NOSOTROS</span></a>
-								          <a ><span>SERVICIOS</span></a>
-								          <a ><span>TALENTO</span></a>
-								          <a ><span>ESR</span></a>
-								          <a ><span>GALERIA</span></a>
-								          <a ><span>DAMSACLUB</span></a>
-								          <a ><span>BLOG</span></a>
-								          <a ><span>CONTACTO</span></a>
-								          <a ><span className="icon-user" ></span></a>
+								          <NavLink to="/nosotros"><span>NOSOTROS</span></NavLink>
+								          <NavLink to="/"><span>SERVICIOS</span></NavLink>
+								          <NavLink to="/"><span>TALENTO</span></NavLink>
+								          <NavLink to="/"><span>ESR</span></NavLink>
+								          <NavLink to="/"><span>GALERIA</span></NavLink>
+								          <NavLink to="/"><span>DAMSACLUB</span></NavLink>
+								          <NavLink to="/"><span>BLOG</span></NavLink>
+								          <NavLink to="/"><span>CONTACTO</span></NavLink>
+								          <NavLink to="/"><span className="icon-user" ></span></NavLink>
 								        </nav>
 
 								        <div className="menu-mobile">
-								          <a ><span>NOSOTROS</span></a>
-								          <a ><span>SERVICIOS</span></a>
-								          <a ><span>TALENTO</span></a>
-								          <a ><span>ESR</span></a>
-								          <a ><span>GALERIA</span></a>
-								          <a ><span>DAMSACLUB</span></a>
-								          <a ><span>BLOG</span></a>
-								          <a ><span>CONTACTO</span></a>
-								          <a ><span className="icon-user" ></span></a>
+								          <NavLink to="/nosotros"><span>NOSOTROS</span></NavLink>
+								          <NavLink to="/"><span>SERVICIOS</span></NavLink>
+								          <NavLink to="/"><span>TALENTO</span></NavLink>
+								          <NavLink to="/"><span>ESR</span></NavLink>
+								          <NavLink to="/"><span>GALERIA</span></NavLink>
+								          <NavLink to="/"><span>DAMSACLUB</span></NavLink>
+								          <NavLink to="/"><span>BLOG</span></NavLink>
+								          <NavLink to="/"><span>CONTACTO</span></NavLink>
+								          <NavLink to="/"><span className="icon-user" ></span></NavLink>
 					        			</div>
-    								
+    									
     							</div>
 					    	
 					    </div>

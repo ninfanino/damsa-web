@@ -1,21 +1,13 @@
-import React, { Component } from 'react';
+import React from "react";
 
-import './App.css';
+import Slider from "./Slider";
 
+const Home = () =>  {
+	return (
+		<div>
+		<Slider/>
 
-
-
-
-
-
-
-
-
-
-class Home extends Component {
-  render() {
-    return (
-      <div className="SliderI">
+		<div className="SliderI">
         <header className="Home-header">
           <div className="homed2" >
             <div id="valoresh"  className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -472,11 +464,9 @@ class Home extends Component {
 
 
 
-        </header>
-      </div>
-    );
-  }
+        </div>
+     
+	);
 }
-
 
 export default Home;

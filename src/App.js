@@ -1,33 +1,36 @@
 import React, { Component } from 'react';
+import {BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import './App.css';
 import './icomoon/style.css';
-import Header from "./components/Header";
-import Slider from "./components/Slider";
-import Home from "./Home";
+
+
+//import Home from "./Home";
 import Footer from "./Footer";
 
+import Navigation from "./components/Navigation";
+import Home from "./components/Home";
+import Nosotros from "./components/Nosotros";
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-          <Header/>
-          <Slider/>
-          <Home/>
+      <BrowserRouter>
+        <div>
+          <Navigation />
+
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/nosotros" component={Nosotros} />
+          </Switch>
+
           <Footer/>
-      </div>
+        </div>
+      </BrowserRouter>
     );
   }
 }
-
-
-
-
-
-
-
 
 
 
