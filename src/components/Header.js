@@ -24,7 +24,7 @@ export default class Header extends Component {
 								<a ><span>EN</span></a>
 								<a className="border-none"><span className="icon-facebook" ></span></a>
 			          			<a className="border-none" ><span className="icon-twitter" ></span></a>
-			          			<a className="border-none" ><span className="icon-aedin" ></span></a>
+			          			<a className="border-none" ><span className="icon-linkedin" ></span></a>
 							</nav>
 						</div>
 						
@@ -37,7 +37,7 @@ export default class Header extends Component {
         									<span class="icon-bar"></span>
       									</button>
 
-      									<img className="logodam" src="../images/damsa.png"  />
+      									<NavLink to="/"><img className="logodam" src="../images/damsa.png"  /></NavLink>
 
       									
       									<nav id="menu-complete" className="main">

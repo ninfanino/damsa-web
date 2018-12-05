@@ -204,7 +204,7 @@ left: 30px;
 text-decoration: none;
  margin: 0px;
  background-color: #e0b905;
-  color: #4d4d4d;
+  color: #fff;
        padding: 20px;
     text-align: center;
     border:0px solid #ffffff;
@@ -213,9 +213,12 @@ margin-top: 30px;
      cursor: pointer;
      text-shadow: none;
 }
+.tuto {
+  text-decoration: none !important;
+}
 .texto_redes:hover{
   background: #daad28;
-
+  text-decoration: none;
 }
 .decoration-none {
   text-decoration: none !important;
@@ -232,6 +235,21 @@ margin-top: 30px;
 #valoresh h3{
   color: #224ca4;
 }
+.title {
+  color: #224ca4;
+  font-size: 32px;
+  margin-top: 50px;
+  font-weight: 700;
+}
+.title.yellow {
+  color: #f0c23c;
+}
+.subtitle {
+  color: #5c5c5c;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
 #valoresh p{
   color: #224ca4;
 }
@@ -241,14 +259,17 @@ margin-top: 30px;
     margin-right: 15px;
 
 }
-.dark div{
-      width: 100px;
-      background-color: #ffe500;
-      height: 14px;
+.dark {
+  width: 100px;
+      background-color: #f0c23c;
+      height: 12px;
       margin: 0 auto;
-      text-align: center;;
+      text-align: center;
+      margin-top: 18px;
 }
-
+.dark.left {
+  margin-left: 0px;
+}
 
 #serviciosh{
   padding: 40px;
@@ -258,23 +279,13 @@ margin-top: 30px;
     background-color: #06225cd4;
 
 }
-#serviciosh h3{
-  text-align: left;
-  color: #ffe500;
-  font-size: 28px;
-  font-weight: 900;
-  margin: 0;
-  text-shadow: none;
+#serviciosh .title {
+  margin-top: 40px;
 }
-#serviciosh p{
-  color: #ccc9c9;
-
-
-  font-size: 16px;
-  font-weight: 900;
-  margin: 0;
-  text-shadow: none;
+.subtitle.white {
+  color: #e1dddd
 }
+
 #serviciosub{
   color: #ccc9c9;
   text-align: left;
@@ -283,6 +294,50 @@ margin-top: 30px;
   font-weight: 900;
   margin: 0;
   text-shadow: none;
+}
+.icono-home {
+  color: #f0c23c;
+  margin-top:70px;
+  font-size: 70px;
+}
+.service-title {
+  font-size: 28px;
+  line-height: 32px;
+  color: #25559b;
+  max-width: 305px;
+  margin: 0 auto;
+}
+.carousel-indicators {
+      bottom: -20px;
+}
+.carousel-indicators li {
+  border:none;
+  background: #375a8c;
+  margin: 0px 8px;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+}
+#ds {
+    position: absolute;
+    height: 220px;
+}
+#sliserv span {
+    font-size: 50px;
+}
+#indicads .active {
+  width: 16px !important;
+  height: 16px !important;
+  background-color: #f0c23c !important;
+}
+.service-p {
+  color: #5c5c5c;
+  font-weight: 300;
+  max-width: 305px;
+  margin: 0 auto;
+}
+.homed2 {
+  margin-top: 50px;
 }
 .franjaServ div{
       width: 100px;
@@ -295,13 +350,15 @@ margin-top: 30px;
   height: 535px;
   padding-right: 1px;
   padding-left: 1px;
+  background:url('/images/bg-index2.png') no-repeat;
+  background-size: cover;
 }
 .imgServ {
     height: 535px;
     width: 100%;
 }
 #ds{
-      margin-top: 80px;
+      margin-top: 50px;
 }
 
 #sliserv{
@@ -317,6 +374,10 @@ margin-top: 30px;
 }
 #sliserv p{
   color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 10px;
 }
 
 #indicads .active {
@@ -335,7 +396,12 @@ margin-top: 30px;
     text-shadow: none;
 }
 
-
+.porque-trabajar {
+  background:url('/images/bg-index3.png') no-repeat;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
 .sliderVacante {
   width: 100%;
   height: 800px;
@@ -344,14 +410,31 @@ margin-top: 30px;
   color:#224ca4;
 }
 .sliderVacanteh1 {
-  color:#224ca4;
+  color:#fff;
   font-size: 70px;
-  font-weight: bold;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.sliderVacanteh2 {
+  color:#fff;
+  font-size: 58px;
+  font-weight: 700;
+  margin-top: 0px;
 }
 .sliderVacanteP2 {
     color:#224ca4;
     font-weight: bold;
 }
+#tuto {
+  text-decoration: none !important;
+}
+#tuto .texto_vacantes {
+  margin-top: 30px;
+}
+.texto_vacantes:hover {
+    background: #daad28;
+}
+
 #textoEncima1{
   top: 50%;
 transform: translateY(-50%);
@@ -401,44 +484,39 @@ z-index: 300;
       margin: 0 auto;
 
 }
-#mejoracuadros1 {
+.mejoracuadros1 {
     padding: 40px;
     padding-right: 2%;
     width: 100%;
-    height: 400px;
+    height: 320px;
 background-color: #224ca4;
     text-align: center;
 }
 
-#mejoracuadros1 h3{
-  margin-top: 100px;
+.mejoracuadros1 h3{
   color: #fff;
   font-size: 40px
 }
-#mejoracuadros1 h2{
+.mejoracuadros1 h2{
 
   color: #fff;
   font-size: 22px
 }
 
-#mejoracuadros2 {
+.mejoracuadros2 {
     padding: 40px;
     padding-right: 2%;
     width: 100%;
-    height: 400px;
+    height: 320px;
 background-color: #e0b905;
     text-align: center;
 }
 
-#mejoracuadros2 h3{
-  margin-top: 100px;
-}
-#mejoracuadros2 h3{
-  margin-top: 100px;
+.mejoracuadros2 h3{
   color: #fff;
   font-size: 40px
 }
-#mejoracuadros2 h2{
+.mejoracuadros2 h2{
 
   color: #fff;
   font-size: 22px
@@ -985,43 +1063,13 @@ width: 50%;
 @media (max-width: 495px) {
   .header #header_main #menu1 nav.main span {
     padding: 0px 9px;
-
-
-
-
-
     font-size: 11px;
-
-
   }
-
-
-
-
-
-
-
-
-
 }
 
 @media (max-width: 390px) {
   .header #header_main #menu1 nav.main span {
-
     padding: 0px 7px;
-
-
-
-
-
-
-
     font-size: 10px;
-
-
   }
-
-
-
-
 }

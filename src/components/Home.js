@@ -5,247 +5,161 @@ import Slider from "./Slider";
 const Home = () =>  {
 	return (
 		<div>
-		<Slider/>
-
-		<div className="SliderI">
-        <header className="Home-header">
-          <div className="homed2" >
-            <div id="valoresh"  className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <h3 ><b> CONÓCENOS</b></h3>
-              <p > te vas a querer quedar con nosotros </p>
-              <div className="dark">
-                <div></div>
-              </div>
-            </div>
-
-            <div id="valoresh"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-              <h3 > icon</h3>
-              <h3 > MISIÓN</h3>
-              <p > Conoce nuestra Misión </p>
-            </div>
-
-            <div id="valoresh" className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-              <h3 > icon</h3>
-              <h3 > VISIÓN</h3>
-              <p > Conoce nuestra Visión </p>
-            </div>
-
-            <div id="valoresh" className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-              <h3 > icon</h3>
-              <h3> VALORES</h3>
-              <p >Conoces nuestros Valores</p>
-            </div>
-
-            <div id="valoresh"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-              <h3 > icon</h3>
-              <h3 >RESPONSABILIDAD SOCIAL</h3>
-              <p > Conoce nuestro compromiso con la Resposabilidad Social </p>
-            </div>
-
-            <div id="valoresh" className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-              <h3 > icon</h3>
-              <h3 > POLÍTICAS INSTITUCIONALES</h3>
-              <p > Resposabbilidad social, calidad, código de conducta de la industria electrónica </p>
-            </div>
-
-            <div id="valoresh" className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-              <h3 > icon</h3>
-              <h3> SEMBLANZA</h3>
-              <p >conoces nuestra Semblanza</p>
-            </div>
-          </div>
-        </header>
-  </div>
-
-
-
-
-
-
-  <div className="homed2" >
-
-
-<div id="serviciosh1"  className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-
-  <img className="imgServ" src="../images/bg-index1.png" />
-
-</div>
-
-<div id="serviciosh" className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-<h3 ><b>SERVICIOS</b></h3>
-
-  <p id="serviciosub" > te vas a querer quedar con nosotros </p>
-  <br></br>
-  <div className="franjaServ">
-  <div>
-
-  </div>
-  </div>
-
-  <div id="ds" className="carousel slide" data-ride="carousel">
-
-
-  <ol className="carousel-indicators" id="indicads">
-          <li data-target="#ds" data-slide-to="0" className="active"></li>
-          <li data-target="#ds" data-slide-to="1"></li>
-          <li data-target="#ds" data-slide-to="2"></li>
-        </ol>
-
-
-    <div className="carousel-inner">
-      <div className="carousel-item active">
-
-      <div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-      <p className="sliderP">icon</p>
-        <p className="sliderP3">Administración integral de personal</p>
-      </div>
-
-      <div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-      <p className="sliderP">icon</p>
-        <p className="sliderP3">Búsqueda de talento ejecutivo</p>
-      </div>
-
-      <div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-      <p className="sliderP">icon</p>
-        <p className="sliderP3">Aplicación e implementación, prueba de confianza</p>
-      </div>
-
-      </div>
-      <div className="carousel-item">
-
-      <div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-      <p className="sliderP">icon</p>
-        <p className="sliderP3">Administración integral de personal</p>
-      </div>
-
-      <div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-      <p className="sliderP">icon</p>
-        <p className="sliderP3">Búsqueda de talento ejecutivo</p>
-      </div>
-
-      <div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-      <p className="sliderP">icon</p>
-        <p className="sliderP3">Aplicación e implementación, prueba de confianza</p>
-      </div>
-
-      </div>
-      <div className="carousel-item">
-      <div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-      <p className="sliderP">icon</p>
-        <p className="sliderP3">Administración integral de personal</p>
-      </div>
-
-      <div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-      <p className="sliderP">icon</p>
-        <p className="sliderP3">Búsqueda de talento ejecutivo</p>
-      </div>
-
-      <div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-      <p className="sliderP">icon</p>
-        <p className="sliderP3">Aplicación e implementación, prueba de confianza</p>
-      </div>
-
-      </div>
-    </div>
-
-
-
-  </div>
-</div>
-
-
-<div id="demo" className="carousel slide" data-ride="carousel">
-
-
-
-
-
-  <div className="carousel-inner">
-
-    <div className="carousel-item active">
-  <div className="filtroimg">
-      <img className="sliderVacante" src="../images/bg-index1.png" />
-
-      <div className="carousel-caption  d-md-block" id="textoEncima" >
-
-      <h1  className="sliderVacanteh1">¿POR QUE TRAAJAR </h1>
-        <h1 className="sliderVacanteh1" >CON NOSOTROS? </h1>
-
-
-
-
-        <div className="row justify-content-center">
-            <div className="col-sm-12" >
-              <br/><br/>
-                <a  href="#" >  <h4 className="texto texto_vacantes" id="tuto" > Vacantes</h4> </a>
-            </div>
-        </div>
-
-      </div>
-    </div>
-
-
-  </div>
-
-
-</div>
- </div>
-
-
-<div id="mejoracontinua" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-<h3 ><b>MEJORA CONTINUA</b></h3>
-
-  <p > te vas a querer quedar con nosotros </p>
-  <div className="franjaServ1">
-  <div>
-
-  </div>
-  </div>
-
-
-
-</div>
-
-<div id="mejoracuadros1"  className="col-xs-12 col-sm-12 col-md-12 col-lg-3">
-
-  <h3 > ISO</h3>
-
-    <h2 >CERTIFICACIÓN</h2>
-
-
-
-</div>
-
-<div id="mejoracuadros2" className="col-xs-12 col-sm-12 col-md-12 col-lg-3">
-  <h3 > C-TPAT</h3>
-    <h2 > ALINEADOS A SUS ESTÁNDARES</h2>
-
-
-
-
-</div>
-
-
-<div id="mejoracuadros1" className="col-xs-12 col-sm-12 col-md-12 col-lg-3">
-  <h3 > ESR</h3>
-
-
-    <h2>DISTINTIVO</h2>
-
-
-
-
-</div>
-<div id="mejoracuadros2" className="col-xs-12 col-sm-12 col-md-12 col-lg-3">
-  <h3 >CADELEC</h3>
-
-
-    <h2> CERTIFICACIÓN</h2>
-
-
-
-
-</div>
+			<Slider/>
+
+			<div>
+		        <div className="Home-header container-fluid">
+		          <div className="row homed2" >
+		            <div className="col-12 text-center">
+		              <h3 className="title"><b> CONÓCENOS</b></h3>
+		              <p className="subtitle"> te vas a querer quedar con nosotros </p>
+		              <div className="dark"></div>
+		            </div>
+
+		            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+		              <div className="icono-home"> <span className="icon-mision" ></span></div>
+		              <div className="service-title" > MISIÓN</div>
+		              <p className="service-p"> Conoce nuestra Misión </p>
+		            </div>
+
+		            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+		              <div className="icono-home"> <span className="icon-vision" ></span></div>
+		              <div className="service-title" >VISIÓN</div>
+		              <p className="service-p"> Conoce nuestra Visión </p>
+		            </div>
+
+		            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+		              <div className="icono-home"> <span className="icon-valores" ></span></div>
+		              <div className="service-title" > VALORES</div>
+		              <p className="service-p">Conoces nuestros Valores</p>
+		            </div>
+
+		            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+		              <div className="icono-home"> <span className="icon-responsabilidad" ></span></div>
+		              <div className="service-title" >RESPONSABILIDAD SOCIAL</div>
+		              <p className="service-p"> Conoce nuestro compromiso con la Resposabilidad Social </p>
+		            </div>
+
+		            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+		              <div className="icono-home"> <span className="icon-politicas" ></span></div>
+		              <div className="service-title" > POLÍTICAS INSTITUCIONALES</div>
+		              <p className="service-p"> Resposabbilidad social, calidad, código de conducta de la industria electrónica </p>
+		            </div>
+
+		            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+		              <div className="icono-home"> <span className="icon-semblanza" ></span></div>
+		              <div className="service-title" > SEMBLANZA</div>
+		              <p className="service-p">conoces nuestra Semblanza</p>
+		            </div>
+		          </div>
+		        </div>
+		  	</div>
+
+  			<div className="homed2 container-fluid" >
+  				<div className="row">
+					<div id="serviciosh1"  className="col-xs-12 col-sm-12 col-md-12 col-lg-6"></div>
+
+					<div id="serviciosh" className="col-xs-12 col-sm-12 col-md-12 col-lg-6 text-left">
+						<h3 className="title yellow" ><b>SERVICIOS</b></h3>
+	  					<p className="subtitle white" > te vas a querer quedar con nosotros </p>					
+	  					<div className="dark left"></div>
+
+	  					<div id="ds" className="carousel slide" data-ride="carousel">
+					  		<ol className="carousel-indicators" id="indicads">
+					          <li data-target="#ds" data-slide-to="0" className="active"></li>
+					          <li data-target="#ds" data-slide-to="1"></li>
+					        </ol>
+
+						    <div className="carousel-inner row">
+						      	<div className="carousel-item active">
+							      	<div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+							      		<p className="sliderP"><span className="icon-administracion-personal" ></span></p>
+							        	<p className="sliderP3">Administración integral de personal</p>
+							      	</div>
+
+							      	<div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+							      		<p className="sliderP"><span className="icon-busqueda-talento" ></span></p>
+							        	<p className="sliderP3">Búsqueda de talento ejecutivo</p>
+							      	</div>
+
+							      	<div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+							      		<p className="sliderP"><span className="icon-pruebas-confianza" ></span></p>
+							        	<p className="sliderP3">Aplicación e implementación, prueba de confianza</p>
+							      	</div>
+					      	  	</div>
+
+		      					<div className="carousel-item">
+		      						<div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+		      							<p className="sliderP"><span className="icon-investigaciones" ></span></p>
+		        						<p className="sliderP3">Investigaciones socioeconómico laborales</p>
+		      						</div>
+
+								    <div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+								      	<p className="sliderP"><span className="icon-programas-capacitacion" ></span></p>
+								        <p className="sliderP3">Programas de capacitación</p>
+								    </div>
+
+		      						<div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+		      							<p className="sliderP"><span className="icon-asesoria-capital" ></span></p>
+		        						<p className="sliderP3">Asesoría en capital humano</p>
+		      						</div>
+		      					</div>
+	    					</div>
+	    				</div>
+	  				</div>
+	  			</div>
+			</div>
+
+			<div className="porque-trabajar container-fluid" >
+				<div className="valign">
+					<div className="row justify-content-center text-center" >
+						<div className="col-sm-12">
+      						<h1  className="sliderVacanteh1">¿POR QUE TRABAJAR </h1>
+        					<h2 className="sliderVacanteh2" >CON NOSOTROS? </h2>
+
+                			<a  href="#" className="tuto" >  <h4 className="texto texto_vacantes" > Vacantes</h4> </a>
+            			</div>
+            		</div>
+        		</div>
+      		</div>
+    
+			<div id="mejoracontinua" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h3 className="title"><b>MEJORA CONTINUA</b></h3>
+  				<p className="subtitle"> te vas a querer quedar con nosotros </p>
+  				<div className="dark"></div>
+			</div>
+
+			<div className="mejoracuadros1 col-xs-12 col-sm-12 col-md-12 col-lg-3">
+				<div className="num-mejora">1</div>
+				<div className="valign">
+  					<h3 > ISO</h3>
+    				<h2 >CERTIFICACIÓN</h2>
+    			</div>
+			</div>
+
+			<div className="mejoracuadros2 col-xs-12 col-sm-12 col-md-12 col-lg-3">
+				<div className="num-mejora">2</div>
+				<div className="valign">
+  					<h3 > C-TPAT</h3>
+    				<h2 > ALINEADOS A SUS ESTÁNDARES</h2>
+    			</div>
+			</div>
+
+			<div className="mejoracuadros1 col-xs-12 col-sm-12 col-md-12 col-lg-3">
+				<div className="num-mejora">3</div>
+				<div className="valign">
+  					<h3 > ESR</h3>
+    				<h2>DISTINTIVO</h2>
+    			</div>
+			</div>
+
+			<div className="mejoracuadros2 col-xs-12 col-sm-12 col-md-12 col-lg-3">
+				<div className="num-mejora">4</div>
+				<div className="valign">
+  					<h3 >CADELEC</h3>
+    				<h2> CERTIFICACIÓN</h2>
+    			</div>
+			</div>
 
 
 <div id="demo" className="carousel slide" data-ride="carousel">
@@ -271,7 +185,7 @@ const Home = () =>  {
         <div className="row justify-content-center">
             <div className="col-sm-12" >
               <br/><br/>
-                <a  href="#" >  <h4 className="texto texto_redes" id="tuto" > Contàctanos</h4> </a>
+                <a  href="#" className="tuto" >  <h4 className="texto texto_redes" > Contàctanos</h4> </a>
             </div>
         </div>
 
@@ -300,7 +214,6 @@ const Home = () =>  {
  </div>
 
 
-</div>
 
 
 
@@ -325,7 +238,7 @@ const Home = () =>  {
           <div className="row justify-content-center">
               <div className="col-sm-12" >
                 <br/><br/>
-                 <a  href="#" >  <h4 className="texto texto_vacantes" id="tuto" > Conoce què es ESR</h4> </a>
+                 <a  href="#" className="tuto" >  <h4 className="texto texto_vacantes" > Conoce què es ESR</h4> </a>
               </div>
           </div>
 
@@ -339,7 +252,7 @@ const Home = () =>  {
           <div className="row justify-content-center">
               <div className="col-sm-12" >
                 <br/><br/>
-                   <a  href="#" >  <h4 className="texto texto_vacantes" id="tuto" > Conoce què es ESR</h4> </a>
+                   <a  href="#" className="tuto" >  <h4 className="texto texto_vacantes" > Conoce què es ESR</h4> </a>
               </div>
           </div>
 
@@ -354,7 +267,7 @@ const Home = () =>  {
           <div className="row justify-content-center">
               <div className="col-sm-12" >
                 <br/><br/>
-                 <a  href="#" >  <h4 className="texto texto_vacantes" id="tuto" > Conoce què es ESR</h4> </a>
+                 <a  href="#" className="tuto" >  <h4 className="texto texto_vacantes"  > Conoce què es ESR</h4> </a>
               </div>
           </div>
 

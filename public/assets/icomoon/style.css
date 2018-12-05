@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?wcn0pn');
-  src:  url('fonts/icomoon.eot?wcn0pn#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?wcn0pn') format('truetype'),
-    url('fonts/icomoon.woff?wcn0pn') format('woff'),
-    url('fonts/icomoon.svg?wcn0pn#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?2aa4ff');
+  src:  url('fonts/icomoon.eot?2aa4ff#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2aa4ff') format('truetype'),
+    url('fonts/icomoon.woff?2aa4ff') format('woff'),
+    url('fonts/icomoon.svg?2aa4ff#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-investigaciones:before {
+  content: "\e90a";
+}
+.icon-aplicacion-pruebas:before {
+  content: "\e90b";
+}
+.icon-asesoria-capital:before {
+  content: "\e90c";
+}
+.icon-administracion-personal:before {
+  content: "\e90d";
+}
+.icon-programas-capacitacion:before {
+  content: "\e90e";
+}
+.icon-pruebas-confianza:before {
+  content: "\e90f";
+}
+.icon-busqueda-talento:before {
+  content: "\e910";
+}
 .icon-politicas:before {
   content: "\e900";
 }
