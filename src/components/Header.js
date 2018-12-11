@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 
 export default class Header extends Component {
-	
+
 	openMenu(){
 		$('.menu-mobile').toggleClass('open');
 		$('.navbar-toggle').toggleClass('open');
@@ -27,9 +27,9 @@ export default class Header extends Component {
 			          			<a className="border-none" ><span className="icon-aedin" ></span></a>
 							</nav>
 						</div>
-						
+
 						<div className="col-md-12">
-							
+
   								<div class="container-fluid">
 					        			<button type="button" className="navbar-toggle" onClick={this.openMenu}>
         									<span class="icon-bar"></span>
@@ -37,35 +37,35 @@ export default class Header extends Component {
         									<span class="icon-bar"></span>
       									</button>
 
-      									<img className="logodam" src="../images/damsa.png"  />
+      									<NavLink to="/"><img className="logodam" src="../images/damsa.png"  /></NavLink>
 
-      									
+
       									<nav id="menu-complete" className="main">
 								          <NavLink to="/nosotros"><span>NOSOTROS</span></NavLink>
-								          <NavLink to="/"><span>SERVICIOS</span></NavLink>
+								          <NavLink to="/servicios"><span>SERVICIOS</span></NavLink>
 								          <NavLink to="/"><span>TALENTO</span></NavLink>
-								          <NavLink to="/"><span>ESR</span></NavLink>
-								          <NavLink to="/"><span>GALERIA</span></NavLink>
+								          <NavLink to="/esr"><span>ESR</span></NavLink>
+								          <NavLink to="/galeria"><span>GALERIA</span></NavLink>
 								          <NavLink to="/"><span>DAMSACLUB</span></NavLink>
 								          <NavLink to="/"><span>BLOG</span></NavLink>
-								          <NavLink to="/"><span>CONTACTO</span></NavLink>
+								          <NavLink to="/contacto"><span>CONTACTO</span></NavLink>
 								          <NavLink to="/"><span className="icon-user" ></span></NavLink>
 								        </nav>
 
 								        <div className="menu-mobile">
 								          <NavLink to="/nosotros"><span>NOSOTROS</span></NavLink>
-								          <NavLink to="/"><span>SERVICIOS</span></NavLink>
+								          <NavLink to="/servicios"><span>SERVICIOS</span></NavLink>
 								          <NavLink to="/"><span>TALENTO</span></NavLink>
-								          <NavLink to="/"><span>ESR</span></NavLink>
-								          <NavLink to="/"><span>GALERIA</span></NavLink>
+								          <NavLink to="/esr"><span>ESR</span></NavLink>
+								          <NavLink to="/galeria"><span>GALERIA</span></NavLink>
 								          <NavLink to="/"><span>DAMSACLUB</span></NavLink>
 								          <NavLink to="/"><span>BLOG</span></NavLink>
 								          <NavLink to="/"><span>CONTACTO</span></NavLink>
-								          <NavLink to="/"><span className="icon-user" ></span></NavLink>
+								          <NavLink to="/contacto"><span className="icon-user" ></span></NavLink>
 					        			</div>
-    									
+
     							</div>
-					    	
+
 					    </div>
 					</div>
 		    	</div>

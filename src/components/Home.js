@@ -406,33 +406,33 @@ const Home = () =>  {
     <form id="formul" action="/qualtra/contacto/enviar" method="POST" accept-charset="utf-8" role="form" >
 										<div id="linearoja" className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div className="form-group" >
-                      <input type="text" name="nombre" value="" placeholder="Nombre" className="form-control" required="" />
+                      <input type="text" name="nombre" placeholder="Nombre" className="form-control" required="" />
                     </div>
 									</div>
                   <div id="linearoja"  className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                   <div className="form-group" >
-                    <input type="text" name="empresa" value="" placeholder="Empresa" className="form-control" required=""/>
+                    <input type="text" name="empresa" placeholder="Empresa" className="form-control" required=""/>
                   </div>
                 </div>
 									<div id="linearoja" className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 									<div className="form-group" >
-										<input type="text" name="telefono" value="" placeholder="Teléfono" className="form-control" required="" />
+										<input type="text" name="telefono"  placeholder="Teléfono" className="form-control" required="" />
 									</div>
 								</div>
 									<div id="linearoja"  className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div className="form-group" >
-                      <input type="text" name="correo" value="" placeholder="Email" className="form-control" required="" />
+                      <input type="text" name="correo"  placeholder="Email" className="form-control" required="" />
                     </div>
 									</div>
 
                 <div id="linearoja"  className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <div className="form-group" >
-                  <input type="text" name="area" value="" placeholder="Area" className="form-control" required=""/>
+                  <input type="text" name="area" placeholder="Area" className="form-control" required=""/>
                 </div>
               </div>
               <div id="linearoja"  className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <div className="form-group" >
-                <input type="text" name="ciudad" value="" placeholder="Ciudad" className="form-control" required=""/>
+                <input type="text" name="ciudad"  placeholder="Ciudad" className="form-control" required=""/>
               </div>
             </div>
 									<div id="linearoja"  className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -465,7 +465,7 @@ const Home = () =>  {
 
 
         </div>
-     
+
 	);
 }
 
