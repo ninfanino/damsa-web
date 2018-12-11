@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import {BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import './App.css';
+
 import './icomoon/style.css';
 import Gallery from 'react-grid-gallery';
 
-
+import './icomoon/style2.css';
 
 
 
