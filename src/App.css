@@ -787,6 +787,7 @@ box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.25);
 .Nosotros .seccion2 #sembla #semblaIcon{
   float: left;
  margin-top: 120px;
+ padding: 30px;
 }
 
 .Nosotros .contenedor2{
@@ -800,9 +801,17 @@ text-align: center;
 .Nosotros .seccion2 .row{
 
 }
+
+.Nosotros .seccion6 .row {
+    margin-right: 0;
+    margin-left: 0;
+}
 .Nosotros .seccion2{
   height: 890px;
-  background-color: #224ca4;
+
+  background: url(/images/bg-nosotros1.png) no-repeat;
+    background-size: cover;
+
 }
 .Nosotros #sembla2 {
     background-color: #05053626;
@@ -876,7 +885,10 @@ text-align: center;
 
 .Nosotros .seccion4{
   height: 890px;
-  background-color: #224ca4;
+  background: url(/images/bg-nosotros2.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+
 }
 
 .Nosotros .seccion5 .contenedor1 {
@@ -888,15 +900,17 @@ text-align: center;
   height: 900px;
 }
 
-.Nosotros .seccion5 .logoesr {
-    width: 300px;
-    padding-top: 40px;
-    padding-bottom: 80px;
+.Nosotros .seccion5 .logosr {
+
+    padding-top: 0px;
+    padding-bottom: 20px;
 }
 
 .Nosotros .seccion6{
 
-  background-color: #224ca4;
+  background: url(/images/bg-nosotros3.png) no-repeat;
+    background-size: cover;
+    text-align: center;
 }
 
 .Nosotros .seccion6 .contenedor1 {
@@ -989,7 +1003,10 @@ text-align: center;
 }
 .Servicios .seccion4 {
     height: 400px;
-    background-color: #224ca4;
+
+    background: url(/images/bg-servicios1.png) no-repeat;
+      background-size: cover;
+      text-align: center;
 }
 .Servicios .seccion4 .row {
     margin-right: 0;
@@ -1195,8 +1212,14 @@ text-align: center;
 }
 
 .Ers .seccion3 {
-    height: 690px;
-    background-color: #2c4578d1;
+
+
+    background: url(/images/bg-index3.png) no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+
+
 }
 .Ers  #sembla #culturaTitulo {
     color: #fff;
@@ -1207,6 +1230,7 @@ text-align: center;
     font-size: 30px;
 }
 .Ers  .seccion6 img {
+  object-fit: contain;
     position: absolute;
     top: 0;
     left: 0;
@@ -1338,10 +1362,326 @@ z-index: 1;
 
 
 
+.react-photo-gallery--gallery img{
+  object-fit: cover;
+
+}
+
+.react-photo-gallery--gallery {
+  padding-top: 110px;
+
+}
+.menu-map span {
+  font-size: 30px;
+    text-align: center;
+    margin-right: 0px;
+    display: block;
+    padding: 8px;
+
+    color: #fff;
+    border-bottom: 1px solid #5470b6;
+}
+
+.menu-map p {
+  font-size: 20px;
+    text-align: center;
+    margin-right: 0px;
+    display: block;
+    padding: 8px;
+
+    color: #fff;
+
+}
+.menu-map.open {
+    background: rgba(70, 97, 175, 0.8);
+    max-height: 500px;
+    height: 350px;
+    width: 500px;
+    max-width: 500px;
+    overflow: auto;
+    margin: 0 auto;
+        z-index: 1;
+}
+.menu-map {
+  width: 500px;
+margin: 0 auto;
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 76px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 1s;
+}
 
 
 
 
+
+
+.menu-map2 span {
+  font-size: 30px;
+    text-align: center;
+    margin-right: 0px;
+    display: block;
+    padding: 8px;
+
+    color: #fff;
+    border-bottom: 1px solid #5470b6;
+}
+
+.menu-map2 p {
+  font-size: 20px;
+    text-align: center;
+    margin-right: 0px;
+    display: block;
+    padding: 8px;
+
+    color: #fff;
+
+}
+.menu-map2.open {
+    background: rgba(70, 97, 175, 0.8);
+    max-height: 500px;
+    height: 350px;
+    width: 500px;
+    max-width: 500px;
+    overflow: auto;
+    margin: 0 auto;
+        z-index: 1;
+}
+.menu-map2 {
+  width: 500px;
+margin: 0 auto;
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 76px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+
+
+
+.menu-map3 span {
+  font-size: 30px;
+    text-align: center;
+    margin-right: 0px;
+    display: block;
+    padding: 8px;
+
+    color: #fff;
+    border-bottom: 1px solid #5470b6;
+}
+
+.menu-map3 p {
+  font-size: 20px;
+    text-align: center;
+    margin-right: 0px;
+    display: block;
+    padding: 8px;
+
+    color: #fff;
+
+}
+.menu-map3.open {
+    background: rgba(70, 97, 175, 0.8);
+    max-height: 500px;
+    height: 350px;
+    width: 500px;
+    max-width: 500px;
+    overflow: auto;
+    margin: 0 auto;
+        z-index: 1;
+}
+.menu-map3 {
+  width: 500px;
+margin: 0 auto;
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 76px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.menu-map4 span {
+  font-size: 30px;
+    text-align: center;
+    margin-right: 0px;
+    display: block;
+    padding: 8px;
+
+    color: #fff;
+    border-bottom: 1px solid #5470b6;
+}
+
+.menu-map4 p {
+  font-size: 20px;
+    text-align: center;
+    margin-right: 0px;
+    display: block;
+    padding: 8px;
+
+    color: #fff;
+
+}
+.menu-map4.open {
+    background: rgba(70, 97, 175, 0.8);
+    max-height: 500px;
+    height: 350px;
+    width: 500px;
+    max-width: 500px;
+    overflow: auto;
+    margin: 0 auto;
+        z-index: 1;
+}
+.menu-map4 {
+  width: 500px;
+margin: 0 auto;
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 76px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.menu-map5 span {
+  font-size: 30px;
+    text-align: center;
+    margin-right: 0px;
+    display: block;
+    padding: 8px;
+
+    color: #fff;
+    border-bottom: 1px solid #5470b6;
+}
+
+.menu-map5 p {
+  font-size: 20px;
+    text-align: center;
+    margin-right: 0px;
+    display: block;
+    padding: 8px;
+
+    color: #fff;
+
+}
+.menu-map5.open {
+    background: rgba(70, 97, 175, 0.8);
+    max-height: 500px;
+    height: 350px;
+    width: 500px;
+    max-width: 500px;
+    overflow: auto;
+    margin: 0 auto;
+        z-index: 1;
+}
+.menu-map5 {
+  width: 500px;
+margin: 0 auto;
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 76px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 1s;
+}
+#mapa .navbar-toggle {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    z-index: 1000;
+    height: 34px;
+}
+#mapa .navbar-toggle {
+    border-color: #8fa5d4;
+}
+#mapa .navbar-toggle {
+    display: block;
+}
+
+.navb {
+    position: absolute;
+    right: 0px;
+    top: 3px;
+    z-index: 1000;
+    height: 44px;
+    border: 0;
+    border-color: #8fa5d4;
+    background-color: #ffffff00;
+
+}
+.navb .icon-bar {
+    background-color: #224ca4;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+#mapa iframe{
+  width: 100%;
+max-width: 800px;
+border: none;
+margin: 0 auto;
+display: -webkit-box;
+}
+#mapa #sucursal1{
+  bottom: 75%;
+  position: absolute;
+  left: 42%;
+  font-size: 30px;
+  color: #fff;
+  width: 70px;
+}
+#mapa #sucursal2 {
+    margin-top: -440px;
+    position: absolute;
+    left: 54%;
+    font-size: 30px;
+    color: #fff;
+    width: 70px;
+}
+#mapa #sucursal3 {
+  margin-top: -290px;
+position: absolute;
+left: 47%;
+font-size: 24px;
+color: #fff;
+width: 70px;
+}
+
+#mapa #sucursal4 {
+    margin-top: -270px;
+    position: absolute;
+    left: 54%;
+    font-size: 24px;
+    color: #fff;
+    width: 70px;
+}
+
+#mapa #sucursal5 {
+  margin-top: -264px;
+position: absolute;
+left: 74%;
+font-size: 24px;
+color: #fff;
+width: 70px;
+}
 
 
 .row > .column {
@@ -1537,8 +1877,12 @@ img.hover-shadow {
 
 #contacto {
   text-align: center;
-  height: 800px;
-  background-color: #242f6b;
+
+
+  background: url(/images/bg-index5.png) no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
 }
 
 #contacto h3{
@@ -1577,6 +1921,16 @@ width: 50%;
    padding: 10px;
 }
 
+#nCuenta{
+  display: none;
+}
+#nTargeta{
+  display:none;
+}
+
+#pax{
+  display: none;
+}
 #formul {
   max-width: 1100px;
   margin: 0 auto;
@@ -1959,6 +2313,7 @@ height: auto !important;
   .Nosotros .seccion2 #sembla #semblaIcon {
     float: inherit;
     margin-top: 120px;
+
 }
 
   .Nosotros .seccion1 {
@@ -2091,6 +2446,7 @@ height: auto;
 
 
 
+
   .Footer .logodam {
     top: 20px;
     position: relative;
@@ -2151,4 +2507,632 @@ height: auto;
     padding: 0px 7px;
     font-size: 10px;
   }
+}
+
+@media (max-width: 2990px) {
+  #mapa #sucursal1 {
+  bottom: 75%;
+  position: absolute;
+  left: 46%;
+  font-size: 30px;
+  color: #fff;
+  }
+  #mapa #sucursal2 {
+    margin-top: -440px;
+    position: absolute;
+    left: 52%;
+    font-size: 30px;
+    color: #fff;
+
+}
+#mapa #sucursal3 {
+    margin-top: -290px;
+    position: absolute;
+    left: 48%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal4 {
+    margin-top: -270px;
+    position: absolute;
+    left: 52%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal5 {
+    margin-top: -264px;
+    position: absolute;
+    left: 63%;
+    font-size: 24px;
+    color: #fff;
+}
+}
+@media (max-width: 2590px) {
+  #mapa #sucursal1 {
+  bottom: 75%;
+  position: absolute;
+  left: 46%;
+  font-size: 30px;
+  color: #fff;
+  }
+  #mapa #sucursal2 {
+    margin-top: -440px;
+    position: absolute;
+    left: 52%;
+    font-size: 30px;
+    color: #fff;
+
+}
+#mapa #sucursal3 {
+    margin-top: -290px;
+    position: absolute;
+    left: 48%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal4 {
+    margin-top: -270px;
+    position: absolute;
+    left: 52%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal5 {
+    margin-top: -264px;
+    position: absolute;
+    left: 64%;
+    font-size: 24px;
+    color: #fff;
+}
+}
+@media (max-width: 2290px) {
+  #mapa #sucursal1 {
+  bottom: 75%;
+  position: absolute;
+  left: 46%;
+  font-size: 30px;
+  color: #fff;
+  }
+  #mapa #sucursal2 {
+    margin-top: -440px;
+    position: absolute;
+    left: 52%;
+    font-size: 30px;
+    color: #fff;
+
+}
+#mapa #sucursal3 {
+    margin-top: -290px;
+    position: absolute;
+    left: 48%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal4 {
+    margin-top: -270px;
+    position: absolute;
+    left: 53%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal5 {
+    margin-top: -264px;
+    position: absolute;
+    left: 65%;
+    font-size: 24px;
+    color: #fff;
+}
+}
+
+@media (max-width: 2190px) {
+
+#mapa #sucursal5 {
+    margin-top: -264px;
+    position: absolute;
+    left: 66%;
+    font-size: 24px;
+    color: #fff;
+}
+}
+@media (max-width: 1990px) {
+  #mapa #sucursal1 {
+  bottom: 75%;
+  position: absolute;
+  left: 45%;
+  font-size: 30px;
+  color: #fff;
+  }
+  #mapa #sucursal2 {
+    margin-top: -440px;
+    position: absolute;
+    left: 52%;
+    font-size: 30px;
+    color: #fff;
+
+}
+#mapa #sucursal3 {
+    margin-top: -290px;
+    position: absolute;
+    left: 48%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal4 {
+    margin-top: -270px;
+    position: absolute;
+    left: 53%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal5 {
+    margin-top: -264px;
+    position: absolute;
+    left: 68%;
+    font-size: 24px;
+    color: #fff;
+}
+}
+@media (max-width: 1790px) {
+  #mapa #sucursal1 {
+  bottom: 75%;
+  position: absolute;
+  left: 45%;
+  font-size: 30px;
+  color: #fff;
+  }
+  #mapa #sucursal2 {
+    margin-top: -440px;
+    position: absolute;
+    left: 53%;
+    font-size: 30px;
+    color: #fff;
+
+}
+#mapa #sucursal3 {
+    margin-top: -290px;
+    position: absolute;
+    left: 48%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal4 {
+    margin-top: -270px;
+    position: absolute;
+    left: 53%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal5 {
+    margin-top: -264px;
+    position: absolute;
+    left: 70%;
+    font-size: 24px;
+    color: #fff;
+}
+}
+
+@media (max-width: 1590px) {
+  #mapa #sucursal1 {
+  bottom: 75%;
+  position: absolute;
+  left: 45%;
+  font-size: 30px;
+  color: #fff;
+  }
+  #mapa #sucursal2 {
+    margin-top: -440px;
+    position: absolute;
+    left: 53%;
+    font-size: 30px;
+    color: #fff;
+
+}
+#mapa #sucursal3 {
+    margin-top: -290px;
+    position: absolute;
+    left: 48%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal4 {
+    margin-top: -270px;
+    position: absolute;
+    left: 53%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal5 {
+    margin-top: -264px;
+    position: absolute;
+    left: 72%;
+    font-size: 24px;
+    color: #fff;
+}
+}
+@media (max-width: 1490px) {
+  #mapa #sucursal1 {
+  bottom: 75%;
+  position: absolute;
+  left: 44%;
+  font-size: 30px;
+  color: #fff;
+  }
+  #mapa #sucursal2 {
+    margin-top: -440px;
+    position: absolute;
+    left: 53%;
+    font-size: 30px;
+    color: #fff;
+
+}
+#mapa #sucursal3 {
+    margin-top: -290px;
+    position: absolute;
+    left: 47%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal4 {
+    margin-top: -270px;
+    position: absolute;
+    left: 54%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal5 {
+    margin-top: -264px;
+    position: absolute;
+    left: 74%;
+    font-size: 24px;
+    color: #fff;
+}
+}
+@media (max-width: 1390px) {
+  #mapa #sucursal1 {
+  bottom: 75%;
+  position: absolute;
+  left: 43%;
+  font-size: 30px;
+  color: #fff;
+  }
+  #mapa #sucursal2 {
+    margin-top: -440px;
+    position: absolute;
+    left: 53%;
+    font-size: 30px;
+    color: #fff;
+
+}
+#mapa #sucursal3 {
+    margin-top: -290px;
+    position: absolute;
+    left: 47%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal4 {
+    margin-top: -270px;
+    position: absolute;
+    left: 54%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal5 {
+    margin-top: -264px;
+    position: absolute;
+    left: 76%;
+    font-size: 24px;
+    color: #fff;
+}
+}
+@media (max-width: 1290px) {
+  #mapa #sucursal1 {
+  bottom: 75%;
+  position: absolute;
+  left: 42%;
+  font-size: 30px;
+  color: #fff;
+  }
+  #mapa #sucursal2 {
+    margin-top: -440px;
+    position: absolute;
+    left: 53%;
+    font-size: 30px;
+    color: #fff;
+
+}
+#mapa #sucursal3 {
+    margin-top: -290px;
+    position: absolute;
+    left: 47%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal4 {
+    margin-top: -270px;
+    position: absolute;
+    left: 54%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal5 {
+    margin-top: -264px;
+    position: absolute;
+    left: 77%;
+    font-size: 24px;
+    color: #fff;
+}
+}
+
+@media (max-width: 1190px) {
+  #mapa #sucursal1 {
+  bottom: 75%;
+  position: absolute;
+  left: 42%;
+  font-size: 30px;
+  color: #fff;
+  }
+  #mapa #sucursal2 {
+    margin-top: -440px;
+    position: absolute;
+    left: 54%;
+    font-size: 30px;
+    color: #fff;
+
+}
+#mapa #sucursal3 {
+    margin-top: -290px;
+    position: absolute;
+    left: 47%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal4 {
+    margin-top: -270px;
+    position: absolute;
+    left: 55%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal5 {
+    margin-top: -264px;
+    position: absolute;
+    left: 79%;
+    font-size: 24px;
+    color: #fff;
+}
+}
+@media (max-width: 1090px) {
+  #mapa #sucursal1 {
+  bottom: 75%;
+  position: absolute;
+  left: 41%;
+  font-size: 30px;
+  color: #fff;
+  }
+  #mapa #sucursal2 {
+    margin-top: -440px;
+    position: absolute;
+    left: 54%;
+    font-size: 30px;
+    color: #fff;
+
+}
+#mapa #sucursal3 {
+    margin-top: -290px;
+    position: absolute;
+    left: 47%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal4 {
+    margin-top: -270px;
+    position: absolute;
+    left: 55%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal5 {
+    margin-top: -264px;
+    position: absolute;
+    left: 83%;
+    font-size: 24px;
+    color: #fff;
+}
+}
+@media (max-width: 990px) {
+  #mapa #sucursal1 {
+  bottom: 75%;
+  position: absolute;
+  left: 40%;
+  font-size: 30px;
+  color: #fff;
+  }
+  #mapa #sucursal2 {
+    margin-top: -440px;
+    position: absolute;
+    left: 55%;
+    font-size: 30px;
+    color: #fff;
+
+}
+#mapa #sucursal3 {
+    margin-top: -290px;
+    position: absolute;
+    left: 46%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal4 {
+    margin-top: -270px;
+    position: absolute;
+    left: 56%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal5 {
+    margin-top: -264px;
+    position: absolute;
+    left: 86%;
+    font-size: 24px;
+    color: #fff;
+}
+}
+.select-map{
+  text-align: center;
+width: 100%;
+height: 50px;
+background-color: #f2e93c;
+border-color: #3649ac57;
+}
+
+#mapa2{
+  display: none;
+
+    height: 480px;
+
+}
+#mapa{
+  display: block;
+}
+
+.mov-map {
+      background: rgb(34, 76, 164);
+    max-height: 100%;
+    height: 250px;
+    width: 100%;
+    /* max-width: 500px; */
+    overflow: auto;
+    margin: 0 auto;
+    z-index: 1;
+    border: 1px solid;
+    border-color: #0c4d86;
+}
+.mov-map span {
+    font-size: 30px;
+    text-align: center;
+    margin-right: 0px;
+    display: block;
+    padding: 8px;
+    color: #fff;
+    border-bottom: 1px solid #5470b6;
+}
+.mov-map p {
+    font-size: 20px;
+    text-align: center;
+    margin-right: 0px;
+    display: block;
+    padding: 8px;
+    color: #fff;
+}
+@media (max-width: 890px) {
+  #mapa{
+    display: none;
+  }
+  #mapa2{
+    display: block;
+  }
+  #mapa #sucursal1 {
+  bottom: 75%;
+  position: absolute;
+  left: 39%;
+  font-size: 30px;
+  color: #fff;
+  }
+  #mapa #sucursal2 {
+    margin-top: -440px;
+    position: absolute;
+    left: 55%;
+    font-size: 30px;
+    color: #fff;
+
+}
+#mapa #sucursal3 {
+    margin-top: -290px;
+    position: absolute;
+    left: 45%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal4 {
+    margin-top: -270px;
+    position: absolute;
+    left: 56%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal5 {
+    margin-top: -264px;
+    position: absolute;
+    left: 90%;
+    font-size: 24px;
+    color: #fff;
+}
+}
+
+@media (max-width: 790px) {
+  #mapa #sucursal1 {
+  bottom: 75%;
+  position: absolute;
+  left: 42%;
+  font-size: 30px;
+  color: #fff;
+  }
+  #mapa #sucursal2 {
+    margin-top: -440px;
+    position: absolute;
+    left: 59%;
+    font-size: 30px;
+    color: #fff;
+
+}
+#mapa #sucursal3 {
+    margin-top: -290px;
+    position: absolute;
+    left: 47%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal4 {
+    margin-top: -270px;
+    position: absolute;
+    left: 60%;
+    font-size: 24px;
+    color: #fff;
+
+}
+#mapa #sucursal5 {
+    margin-top: -264px;
+    position: absolute;
+    left: 97%;
+    font-size: 24px;
+    color: #fff;
+}
 }

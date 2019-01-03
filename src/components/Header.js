@@ -43,11 +43,11 @@ export default class Header extends Component {
       									<nav id="menu-complete" className="main">
 								          <NavLink to="/nosotros"><span>NOSOTROS</span></NavLink>
 								          <NavLink to="/servicios"><span>SERVICIOS</span></NavLink>
-								          <NavLink to="/"><span>TALENTO</span></NavLink>
+								          <a href="https://bolsa.damsa.com.mx/" target="_blank"><span>TALENTO</span></a>
 								          <NavLink to="/esr"><span>ESR</span></NavLink>
 								          <NavLink to="/galeria"><span>GALERIA</span></NavLink>
-								          <NavLink to="/"><span>DAMSACLUB</span></NavLink>
-								          <NavLink to="/"><span>BLOG</span></NavLink>
+								          <a href="https://www.damsa.com.mx/club/listadoDC.aspx" target="_blank"><span>DAMSACLUB</span></a>
+								          <a href="https://damsablog.com/" target="_blank"><span>BLOG</span></a>
 								          <NavLink to="/contacto"><span>CONTACTO</span></NavLink>
 								          <NavLink to="/"><span className="icon-user" ></span></NavLink>
 								        </nav>
@@ -60,7 +60,7 @@ export default class Header extends Component {
 								          <NavLink to="/galeria"><span>GALERIA</span></NavLink>
 								          <NavLink to="/"><span>DAMSACLUB</span></NavLink>
 								          <NavLink to="/"><span>BLOG</span></NavLink>
-								          <NavLink to="/"><span>CONTACTO</span></NavLink>
+								          <NavLink to="/contacto"><span>CONTACTO</span></NavLink>
 								          <NavLink to="/contacto"><span className="icon-user" ></span></NavLink>
 					        			</div>
 

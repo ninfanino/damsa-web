@@ -35,7 +35,7 @@ const Servicios = () =>  {
 
 									<div className="row">
 						              <div id="valoresh"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-							              <a className="border-none"><span className="icon-user" ></span></a>
+							              <a className="border-none"><span className="icon-mision" ></span></a>
 							              <h3 >APLICACIÓN E INTERPRETACIÓN DE PRUEBA DE CONFIANZA</h3>
 														<div className="contenedor1">
 							              <p id="cont1" >Contar con colaboradores confiables es un factor clave de éxito. Con esta herramienta evaluará aspectos de gran relevancia como honestidad, ética, tendencias y comportamientos negativos, apego a normas, lealtad, nivel de compromiso, conciencia de seguridad, entre otros.
@@ -47,7 +47,7 @@ La interpretación de los resultados es elaborada por especialistas en el área 
 												  </div>
 
 						              <div id="valoresh" className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-							              <a className="border-none"><span className="icon-user" ></span></a>
+							              <a className="border-none"><span className="icon-vision" ></span></a>
 							              <h3 >ASESORÍA INTEGRAL EN CAPITAL HUMANO</h3>
 															<div className="contenedor1">
 							              <p id="cont1"> Debido a los cambios y los nuevos retos que la economía y los mercados experimentan, la rápida adaptabilidad y clientes más exigentes, es una necesidad cada vez más importante de las empresas contar con estrategias de administración del talento bien definidas, tener una filosofía organizacional alineada, compartida por todo el personal, lineamientos y políticas claros que regulen el actuar del personal, garanticen el logro de los objetivos y promuevan un clima laboral sano. </p>
@@ -55,7 +55,7 @@ La interpretación de los resultados es elaborada por especialistas en el área 
 													</div>
 
 													<div id="valoresh" className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-							              <a className="border-none"><span className="icon-user" ></span></a>
+							              <a className="border-none"><span className="icon-valores" ></span></a>
 							              <h3 >ASESORÍA INTEGRAL EN CAPITAL HUMANO</h3>
 															<div className="contenedor1">
 							              <p id="cont1"> Debido a los cambios y los nuevos retos que la economía y los mercados experimentan, la rápida adaptabilidad y clientes más exigentes, es una necesidad cada vez más importante de las empresas contar con estrategias de administración del talento bien definidas, tener una filosofía organizacional alineada, compartida por todo el personal, lineamientos y políticas claros que regulen el actuar del personal, garanticen el logro de los objetivos y promuevan un clima laboral sano. </p>
@@ -64,7 +64,7 @@ La interpretación de los resultados es elaborada por especialistas en el área 
 
 
 													<div id="valoresh"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-							              <a className="border-none"><span className="icon-user" ></span></a>
+							              <a className="border-none"><span className="icon-responsabilidad" ></span></a>
 							              <h3 >APLICACIÓN E INTERPRETACIÓN DE PRUEBA DE CONFIANZA</h3>
 														<div className="contenedor1">
 							              <p id="cont1" >Contar con colaboradores confiables es un factor clave de éxito. Con esta herramienta evaluará aspectos de gran relevancia como honestidad, ética, tendencias y comportamientos negativos, apego a normas, lealtad, nivel de compromiso, conciencia de seguridad, entre otros.</p>
@@ -74,7 +74,7 @@ La interpretación de los resultados es elaborada por especialistas en el área 
 												  </div>
 
 													<div id="valoresh"  className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
-														<a className="border-none"><span className="icon-user" ></span></a>
+														<a className="border-none"><span className="icon-politicas" ></span></a>
 														<h3 >ASESORÍA INTEGRAL EN CAPITAL HUMANO</h3>
 														<div className="contenedor1">
 														<p id="cont1" >Debido a los cambios y los nuevos retos que la economía y los mercados experimentan, la rápida adaptabilidad y clientes más exigentes, es una necesidad cada vez más importante de las empresas contar con estrategias de administración del talento bien definidas, tener una filosofía organizacional alineada, compartida por todo el personal, lineamientos y políticas claros que regulen el actuar del personal, garanticen el logro de los objetivos y promuevan un clima laboral sano.</p>
@@ -84,7 +84,7 @@ La interpretación de los resultados es elaborada por especialistas en el área 
 													</div>
 
 													<div id="valoresh"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-														<a className="border-none"><span className="icon-user" ></span></a>
+														<a className="border-none"><span className="icon-semblanza" ></span></a>
 														<h3 >INVESTIGACIONES SOCIOECONÓMICO-LABORALES</h3>
 														<div className="contenedor1">
 														<p id="cont1" >Conocer al equipo con el que se cuenta y tener la mayor información de los colaboradores que se integrarán a una empresa, es una de las claves para proyectar a una organización a los más altos niveles de calidad y confiabilidad. Así mismo es una herramienta que brinda el conocimiento del entorno del personal, familiar y social de la persona evaluada de forma confiable, segura y certera, para la autodeterminación y evaluación del medio ambiente en el cual se desempeña. </p>
@@ -101,7 +101,7 @@ La interpretación de los resultados es elaborada por especialistas en el área 
 													</div>
 
 													<div id="valoresh"  className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
-														<a className="border-none"><span className="icon-user" ></span></a>
+														<a className="border-none"><span className="icon-valores" ></span></a>
 														<h3 >PROGRAMAS DE CAPACITACIÓN</h3>
 														<div className="contenedor1">
 														<p id="cont1" >Los planes de capacitación de los empleados y trabajadores son el recurso más valioso de toda la actividad de recursos humanos; de allí la necesidad de invertir en tales planes al proporcionarlos de manera continua y sistemática, con el objeto de mejorar el conocimiento y las habilidades del personal que labora en una empresa. </p>
