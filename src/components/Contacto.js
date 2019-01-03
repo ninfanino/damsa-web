@@ -11,7 +11,7 @@ const Contacto = () =>  {
 				<div id="demo" className="carousel slide" data-ride="carousel">
 					<div className="carousel-inner">
 						<div className="carousel-item active">
-									<img className="imgNosotros" src="../images/bg-responsabilidad.png" />
+									<img className="imgNosotros" src="../images/bg-contacto.png" />
 
 										<div className="carousel-caption  d-md-block" >
 

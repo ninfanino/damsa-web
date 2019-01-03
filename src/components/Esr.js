@@ -53,7 +53,16 @@ const Servicios = () =>  {
 							</div>
 							<br></br>
 							<p id="cont2"> En DAMSA entendemos que la Responsabilidad Social es la integración voluntaria de los intereses de la empresa con las preocupaciones sociales, laborales, medio ambientales y de respeto a los derechos humanos que surgen de la relación y el diálogo transparente con sus grupos de interés.</p>
+								<br></br>
+							<div className="row justify-content-center">
+								<div className="col-sm-12" >
+									<a  href="#" className="decoration-none">  <h4 className="texto ers2" id="tuto" > Reporte de Responsabilidad Social</h4> </a>
+								</div>
+							</div>
+
 						</div>
+
+
 
 
 
@@ -80,7 +89,7 @@ const Servicios = () =>  {
 
 									<div className="row justify-content-center">
 										<div className="col-sm-12" >
-											<a  href="#" className="decoration-none">  <h4 className="texto ers2" id="tuto" > Reporte de Responsabilidad Social</h4> </a>
+											<a  href="#" className="decoration-none">  <h4 className="texto ers2" id="tuto" > Reporte de identidad DAMSA</h4> </a>
 										</div>
 									</div>
 
@@ -116,7 +125,7 @@ const Servicios = () =>  {
 										</div>
 										<div id="sembla" className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 												<div id="contenedorGaleria">
-														<img className="logoesr" src="../images/bg-nosotros.png"  />
+														<img className="logoesr" src="../images/reforestacion1.png"  />
 														<div class="filtro"></div>
 														<div class="texto">
                                 <h3>Reforestación 2018</h3>
@@ -126,50 +135,50 @@ const Servicios = () =>  {
 										</div>
 										<div id="sembla" className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 												<div id="contenedorGaleria">
-														<img className="logoesr" src="../images/bg-nosotros.png"  />
+														<img className="logoesr" src="../images/diapadre1.png"  />
 															<div class="filtro"></div>
 														<div class="texto">
-                                <h3>Reforestación 2018</h3>
+                                <h3>Día del padre 2018</h3>
                                 <label> <i class="fa fa-plus" aria-hidden="true"></i></label>
                             </div>
 													</div>
 										</div>
 										<div id="sembla" className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 												<div id="contenedorGaleria">
-														<img className="logoesr" src="../images/bg-nosotros.png"  />
+														<img className="logoesr" src="../images/diaabuelo1.png"  />
 															<div class="filtro"></div>
 														<div class="texto">
-                                <h3>Reforestación 2018</h3>
+                                <h3>Día del abuelo 2018</h3>
                                 <label> <i class="fa fa-plus" aria-hidden="true"></i></label>
                             </div>
 													</div>
 										</div>
 										<div id="sembla" className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 												<div id="contenedorGaleria">
-														<img className="logoesr" src="../images/bg-nosotros.png"  />
+														<img className="logoesr" src="../images/5-Expo.png"  />
 															<div class="filtro"></div>
 														<div class="texto">
-																<h3>Reforestación 2018</h3>
+																<h3>Expo 2018</h3>
 																<label> <i class="fa fa-plus" aria-hidden="true"></i></label>
 														</div>
 													</div>
 										</div>
 										<div id="sembla" className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 												<div id="contenedorGaleria">
-														<img className="logoesr" src="../images/bg-nosotros.png"  />
+														<img className="logoesr" src="../images/4-Posada.png"  />
 															<div class="filtro"></div>
 														<div class="texto">
-																<h3>Reforestación 2018</h3>
+																<h3>Posada 2017</h3>
 																<label> <i class="fa fa-plus" aria-hidden="true"></i></label>
 														</div>
 													</div>
 										</div>
 										<div id="sembla" className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 												<div id="contenedorGaleria">
-														<img className="logoesr" src="../images/bg-nosotros.png"  />
+														<img className="logoesr" src="../images/6-Cumbre.png"  />
 															<div class="filtro"></div>
 														<div class="texto">
-																<h3>Reforestación 2018</h3>
+																<h3>Cumbre 2017</h3>
 																<label> <i class="fa fa-plus" aria-hidden="true"></i></label>
 														</div>
 													</div>

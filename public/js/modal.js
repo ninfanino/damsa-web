@@ -38,3 +38,22 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+
+function pagoOnChange(sel) {
+      if (sel.value=="transferencia"){
+           divC = document.getElementById("nCuenta");
+           divC.style.display = "block";
+
+           divT = document.getElementById("nTargeta");
+           divT.style.display = "none";
+
+      }else{
+
+           divC = document.getElementById("nCuenta");
+           divC.style.display="none";
+
+           divT = document.getElementById("nTargeta");
+           divT.style.display = "block";
+      }
+}

@@ -35,7 +35,7 @@ const Nosotros = () =>  {
 
 									<div className="row">
 						              <div id="valoresh"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-							              <a className="border-none"><span className="icon-user" ></span></a>
+							              <a className="border-none"><span className="icon-mision" ></span></a>
 							              <h3 > MISIÓN</h3>
 														<div className="contenedor1">
 							              <p id="cont1" >Ofrecer soluciones integrales de tercerización de recursos humanos adaptadas a las necesidades de nuestros
@@ -46,7 +46,7 @@ const Nosotros = () =>  {
 												  </div>
 
 						              <div id="valoresh" className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-							              <a className="border-none"><span className="icon-user" ></span></a>
+							              <a className="border-none"><span className="icon-vision" ></span></a>
 							              <h3 > VISIÓN</h3>
 															<div className="contenedor1">
 							              <p id="cont1"> Ser reconocidos por nuestros socios comerciales como los mejores por la flexibbilidad y calidad
@@ -55,7 +55,7 @@ const Nosotros = () =>  {
 													</div>
 
 						              <div id="valoresh" className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-							              <a className="border-none"><span className="icon-user" ></span></a>
+							              <a className="border-none"><span className="icon-valores" ></span></a>
 							              <h3> VALORES</h3>
 															<div className="contenedor1">
 							              <ul id="cont1">
@@ -92,7 +92,7 @@ const Nosotros = () =>  {
 															</div>
 
 															<div id="sembla" className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-																<a className="border-none"><span className="icon-user" id="semblaIcon" ></span></a>
+																<a className="border-none"><span className="icon-semblanza" id="semblaIcon" ></span></a>
 																	<h1 > 200,000</h1>
 																<h3 > EMPLEADOS</h3>
 																	<div className="contenedor1">
@@ -103,7 +103,7 @@ const Nosotros = () =>  {
 															</div>
 
 															<div id="sembla" className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-																<a className="border-none"><span className="icon-user" id="semblaIcon"></span></a>
+																<a className="border-none"><span className="icon-politicas" id="semblaIcon"></span></a>
 																	<h1> +500</h1>
 																<h3>CLIENTES SATISFECHOS</h3>
 																	<div className="contenedor1">
@@ -119,7 +119,7 @@ const Nosotros = () =>  {
 																	<p id="cont2"> Cada proyecteo es evaluado por nuestro equipo de trabajo, conformando por expertos en diferentes
 																	áreas como Atención a Clientes, Compensaciones, Operaciones, Jurídico y Fiscal.</p>
 
-																	<p id="cont2"> Gracias a nuestra flexibilidad yy a un enfoque interdisciplinario, cada solución en especifico para cada uno de nuestros clientes
+																	<p id="cont2"> Gracias a nuestra flexibilidad y a un enfoque interdisciplinario, cada solución en especifico para cada uno de nuestros clientes
 																	representa la conbinación exacta de metodologías, procesos, herramientas tecnológicas y procedimientos. </p>
 
 																</div>
@@ -245,7 +245,7 @@ const Nosotros = () =>  {
 																			</div>
 
 																			<div id="sembla" className="col-xs-12 col-sm-12 col-md-12 col-lg-3">
-																					<img className="logoesr" src="../images/logo_esrXL.png"  />
+																					<img className="logoesr" src="../images/logoesr.png"  />
 
 																			</div>
 
@@ -277,7 +277,7 @@ const Nosotros = () =>  {
 
 																					<div id="sembla" className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 
-																							<img className="logoesr" src="../images/logo_esrXL.png"  />
+																							<img className="logosr" src="../images/logoiso.png"  />
 
 																							<div className="contenedor1">
 																							<p id="cont1"> Estamos certificados en ISO 9001:2015, fortaleciendo así nuestros procesos para cumplir y satisfacer las necesidades de nuestros clientes.
@@ -286,7 +286,7 @@ const Nosotros = () =>  {
 																					</div>
 																					<div id="sembla" className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 
-																							<img className="logoesr" src="../images/logo_esrXL.png"  />
+																							<img className="logosr" src="../images/logoctpat.png"  />
 
 																							<div className="contenedor1">
 																							<p id="cont1"> Estamos alineados a los estándares de C-TPAT con la finalidad de dar seguridad dentro de la cadena de valor.
@@ -295,7 +295,7 @@ const Nosotros = () =>  {
 																					</div>
 																					<div id="sembla" className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 
-																							<img className="logoesr" src="../images/logo_esrXL.png"  />
+																							<img className="logosr" src="../images/logocadelec.png"  />
 
 																							<div className="contenedor1">
 																							<p id="cont1"> Somos el primer proveedor de recursos humanos certificado por la Cadena Productiva de la Electrónica (por sus siglas CADELEC) como proveedor de clase mundial; nuestros procesos operativos, contables y de Responsabilidad Social son auditados por esta institución.
@@ -306,7 +306,7 @@ const Nosotros = () =>  {
 																					</div>
 																					<div id="sembla" className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 
-																							<img className="logoesr" src="../images/logo_esrXL.png"  />
+																							<img className="logosr" src="../images/logoinm.png"  />
 
 																							<div className="contenedor1">
 																							<p id="cont1"> El Instituto Nacional de las Mujeres nos certificó por la implementación del Modelo de Equidad de Género. Con esto manifestamos nuestro compromiso hacia una sociedad con igualdad de oportunidades laborales, sin distinciones por edad, género, estado civil, creencias religiosas o por alguna discapacidad.

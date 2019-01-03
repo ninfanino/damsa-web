@@ -1,8 +1,60 @@
-import React from "react";
+
 
 import Slider from "./Slider";
+import React, { Component } from 'react';
+import $ from 'jquery';
+import { NavLink } from "react-router-dom";
 
-const Home = () =>  {
+
+$(document).ready
+(
+	function()
+	{
+		$("div.box").hide();
+		$("#dropdown").change
+		(
+			function()
+			{
+				var selectedValue = $(this).val();
+				if(selectedValue !== "0")
+				{
+					$("div.box").hide();
+					$("#div" + selectedValue).show();
+				}
+			}
+		);
+	}
+);
+export default class Home extends Component {
+
+
+
+	openMenu(){
+		$('.menu-map').toggleClass('open');
+
+		$('.navb').toggleClass('open');
+	}
+	openMenu2(){
+			$('.menu-map2').toggleClass('open');
+
+		$('.navb').toggleClass('open');
+	}
+	openMenu3(){
+			$('.menu-map3').toggleClass('open');
+
+		$('.navb').toggleClass('open');
+	}
+	openMenu4(){
+			$('.menu-map4').toggleClass('open');
+
+		$('.navb').toggleClass('open');
+	}
+	openMenu5(){
+			$('.menu-map5').toggleClass('open');
+
+		$('.navb').toggleClass('open');
+	}
+	render () {
 	return (
 		<div>
 			<Slider/>
@@ -61,7 +113,7 @@ const Home = () =>  {
 
 					<div id="serviciosh" className="col-xs-12 col-sm-12 col-md-12 col-lg-6 text-left">
 						<h3 className="title yellow" ><b>SERVICIOS</b></h3>
-	  					<p className="subtitle white" > te vas a querer quedar con nosotros </p>					
+	  					<p className="subtitle white" > te vas a querer quedar con nosotros </p>
 	  					<div className="dark left"></div>
 
 	  					<div id="ds" className="carousel slide" data-ride="carousel">
@@ -122,7 +174,7 @@ const Home = () =>  {
             		</div>
         		</div>
       		</div>
-    
+
 			<div id="mejoracontinua" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<h3 className="title"><b>MEJORA CONTINUA</b></h3>
   				<p className="subtitle"> te vas a querer quedar con nosotros </p>
@@ -172,7 +224,7 @@ const Home = () =>  {
 
     <div className="carousel-item active">
   <div className="filtroimg">
-      <img className="sliderVacante" src="../images/bg-index1.png" />
+      <img className="sliderVacante" src="../images/bg-contacto.png" />
 
       <div className="carousel-caption  d-md-block" id="textoEncima1" >
 
@@ -226,7 +278,7 @@ const Home = () =>  {
 
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img className="slider" src="../images/bg-index1.png" />
+        <img className="slider" src="../images/bg-index4.png" />
         <div className="carousel-caption  d-md-block" id="textoEncima" >
 
          <h1  className="sliderVacanteh1">DAMSA </h1>
@@ -245,7 +297,7 @@ const Home = () =>  {
         </div>
       </div>
       <div className="carousel-item">
-        <img className="slider" src="../images/bg-index1.png" />
+        <img className="slider" src="../images/bg-index4.png" />
         <div className="carousel-caption  d-md-block" id="textoEncima" >
           <h1  className="sliderVacanteh1">DAMSA </h1>
 
@@ -260,7 +312,7 @@ const Home = () =>  {
 
       </div>
       <div className="carousel-item">
-        <img className="slider" src="../images/bg-index1.png" />
+        <img className="slider" src="../images/bg-index4.png" />
         <div className="carousel-caption  d-md-block" id="textoEncima" >
        <h1  className="sliderVacanteh1">DAMSA </h1>
 
@@ -295,14 +347,239 @@ const Home = () =>  {
       <br></br>
 
 
+
     </div>
 
     <div id="mapa" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=14U8-7qFwj4gYivRQRLbWCLysKBDkt70F" width="100%" height="680"></iframe>
+
+		<div className="col-md-12">
+
+					<div class="container-fluid">
+
+								<div className="menu-map">
+										<span>CD JUÁREZ </span>
+											<br></br>
+												<p> Av. Paseo Triunfo de la República #2408 Int 7A Col. Partido Escobedo</p>
+												<p> 65) 6639 - 1144</p>
+													<button type="button" className="navb" onClick={this.openMenu}>
+														<span class="icon-administracion-personal"></span>
+													</button>
+								</div>
+								<div className="menu-map2">
+										<span>MONTERREY </span>
+											<br></br>
+												<p> Av. Vasconcelos #209 ote Local 2, Col. San Agustín, San Pedro García NL.</p>
+												<p> (81) 8335 - 0172 ext 73</p>
+													<button type="button" className="navb" onClick={this.openMenu2}>
+														<span class="icon-administracion-personal"></span>
+													</button>
+								</div>
+								<div className="menu-map3">
+										<span>GUADALAJARA </span>
+											<br></br>
+												<p>Av. Terranova ·#295 Int. 300 Fracc. Terranova Guadalajara, Jalisco</p>
+												<p> (33) 1202 - 1000</p>
+													<button type="button" className="navb" onClick={this.openMenu3}>
+														<span class="icon-administracion-personal"></span>
+													</button>
+								</div>
+								<div className="menu-map4">
+										<span>MÉXICO </span>
+											<br></br>
+												<p>Av. Ejército Nacional #425 Int 7A. Col. Granada del Miguel Hidalgo</p>
+												<p> (55) 5531 1831</p>
+													<button type="button" className="navb" onClick={this.openMenu4}>
+														<span class="icon-administracion-personal"></span>
+													</button>
+								</div>
+								<div className="menu-map5">
+										<span>QUERÉTARO </span>
+											<br></br>
+												<p>Av. Universidad #50bis Local 22. Col. Centro Plaza Rivera</p>
+												<p> (44) 2214 - 0613</p>
+													<button type="button" className="navb" onClick={this.openMenu5}>
+														<span class="icon-administracion-personal"></span>
+													</button>
+								</div>
+
+					</div>
+
+			</div>
+
+
+
+  <iframe src="../images/mexicoHigh.svg" width="100%" height="680"></iframe>
+
+<span id="sucursal1" className="icon-busqueda-talento" onClick={this.openMenu}></span>
+<span id="sucursal2" className="icon-busqueda-talento" onClick={this.openMenu2}></span>
+<span id="sucursal3" className="icon-busqueda-talento" onClick={this.openMenu3}></span>
+<span id="sucursal4" className="icon-busqueda-talento" onClick={this.openMenu4}></span>
+<span id="sucursal5" className="icon-busqueda-talento" onClick={this.openMenu5}></span>
+
 
     </div>
   </div>
+
+	<div id="mapa2" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+
+	<div className="col-md-12">
+
+
+	<div class="select-location">
+                        <div class="styled-select slate">
+                            <select id="dropdown" name="dropdown" class="select-map">
+																				<option value="0">Sucursales</option>
+                                        <optgroup label="Chihuahua">
+
+                                              <option className="icon-busqueda-talento" value="area1">CD Juárez</option>
+
+                                        </optgroup>
+                                        <optgroup label="Ciudad de México">
+
+                                                <option value="area2">México</option>
+                                        </optgroup>
+                                        <optgroup label="Jalisco">
+																								<option value="area4">Minerva</option>
+                                                <option value="area5">8 de Julio</option>
+                                                <option value="area3">Terranova</option>
+                                                <option value="area6">Juárez</option>
+                                                <option value="area7">La Cima</option>
+                                        </optgroup>
+                                        <optgroup label="México">
+
+                                                <option value="area8">Cuautitlán</option>
+                                        </optgroup>
+                                        <optgroup label="Nuevo León">
+
+                                                <option value="area9">Monterrey</option>
+                                                <option value="area10">Apodaca</option>
+                                        </optgroup>
+                                        <optgroup label="Querétaro">
+
+                                                <option value="area11">Querétaro</option>
+                                        </optgroup>
+
+                            </select>
+                        </div>
+
+										</div>
+								</div>
+
+	    <div  className="col-md-12">
+					<div class="container-fluid"  id="divarea1" class="box">
+							<div className="mov-map">
+								<span>CD JUÁREZ </span>
+									<br></br>
+									<p> Av. Paseo Triunfo de la República #2408 Int 7A Col. Partido Escobedo</p>
+									<p> 65) 6639 - 1144</p>
+							</div>
+				 </div>
+     </div>
+		 <div  className="col-md-12">
+				 <div class="container-fluid"  id="divarea9" class="box">
+						 <div className="mov-map">
+						 <span>MONTERREY </span>
+							 <br></br>
+								 <p> Av. Vasconcelos #209 ote Local 2, Col. San Agustín, San Pedro García NL.</p>
+								 <p> (81) 8335 - 0172 ext 73</p>
+						 </div>
+				</div>
+		</div>
+		<div  className="col-md-12">
+				<div class="container-fluid"  id="divarea10" class="box">
+						<div className="mov-map">
+						<span>APODACA </span>
+							<br></br>
+								<p>  Carlos Salinas de Gortari (#101) Centro </p>
+								<p> (81)1442-0170</p>
+						</div>
+			 </div>
+	 </div>
+		<div   className="col-md-12">
+				<div class="container-fluid"  id="divarea3" class="box">
+						<div className="mov-map">
+						<span>TERRANOVA </span>
+							<br></br>
+								<p>Av. Terranova ·#295 Int. 300 Fracc. Terranova Guadalajara, Jalisco</p>
+								<p> (33) 1202 - 1000</p>
+						</div>
+			 </div>
+	 </div>
+	 <div   className="col-md-12">
+			 <div class="container-fluid"  id="divarea4" class="box">
+					 <div className="mov-map">
+					 <span>MINERVA </span>
+						 <br></br>
+							 <p>Av. Vallarta ·#2828 Int. 4 Fracc. Vallarta Nte, Guadalajara, Jalisco</p>
+							 <p> (33) 2303 8773 </p>
+					 </div>
+			</div>
+	</div>
+	<div   className="col-md-12">
+			<div class="container-fluid"  id="divarea5" class="box">
+					<div className="mov-map">
+					<span>8 DE JULIO </span>
+						<br></br>
+							<p>Av. 8 de Julio (#509) Mexicaltzingo, Guadalajara, Jalisco</p>
+							<p> (33)3942-8570 </p>
+					</div>
+		 </div>
+ </div>
+ <div   className="col-md-12">
+		 <div class="container-fluid"  id="divarea6" class="box">
+				 <div className="mov-map">
+				 <span>JUÁREZ </span>
+					 <br></br>
+						 <p> Av. Juárez (#660) Centro,  Guadalajara, Jalisco</p>
+						 <p> (33)3345-6052 </p>
+				 </div>
+		</div>
+ </div>
+ <div   className="col-md-12">
+		<div class="container-fluid"  id="divarea7" class="box">
+				<div className="mov-map">
+				<span>LA CIMA </span>
+					<br></br>
+						<p> Av. Juan Gil Preciado (#1600) La Cima,   Guadalajara, Jalisco</p>
+						<p> (33)3834-3912 </p>
+				</div>
+	 </div>
+ </div>
+ <div   className="col-md-12">
+		<div class="container-fluid"  id="divarea8" class="box">
+				<div className="mov-map">
+				<span>CAUTITLÁN </span>
+					<br></br>
+						<p> Las Jacarandas (#23) Arcos del Alba</p>
+						<p> (55)2611-0955 </p>
+				</div>
+	 </div>
+ </div>
+	 <div className="col-md-12">
+			 <div class="container-fluid" id="divarea2" class="box">
+					 <div className="mov-map">
+					 <span>MÉXICO </span>
+							<br></br>
+								<p>Av. Ejército Nacional #425 Int 7A. Col. Granada del Miguel Hidalgo</p>
+								<p> (55) 5531 1831</p>
+					 </div>
+			</div>
+	</div>
+	<div className="col-md-12">
+			<div class="container-fluid" id="divarea11" class="box">
+					<div className="mov-map">
+					<span>QUERÉTARO </span>
+						<br></br>
+							<p>Av. Universidad (#50) Local 22. Col. Centro Plaza Rivera</p>
+							<p> (44) 2214 - 0613</p>
+					</div>
+		 </div>
+ </div>
+
+	</div>
+
   <div id="contacto" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <br></br>
   <br></br>
@@ -379,7 +656,14 @@ const Home = () =>  {
 
         </div>
 
-	);
+
+
+
+
+					);
+
+
+
 }
 
-export default Home;
+}
