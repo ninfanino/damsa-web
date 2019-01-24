@@ -5,9 +5,7 @@ import './App.css';
 import './selector.js';
 
 import './icomoon/style.css';
-import Gallery from 'react-grid-gallery';
-
-import './icomoon/style2.css';
+//import Gallery from 'react-grid-gallery';
 
 
 

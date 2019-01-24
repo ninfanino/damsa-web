@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?2aa4ff');
-  src:  url('fonts/icomoon.eot?2aa4ff#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?2aa4ff') format('truetype'),
-    url('fonts/icomoon.woff?2aa4ff') format('woff'),
-    url('fonts/icomoon.svg?2aa4ff#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?xll8yr');
+  src:  url('fonts/icomoon.eot?xll8yr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?xll8yr') format('truetype'),
+    url('fonts/icomoon.woff?xll8yr') format('woff'),
+    url('fonts/icomoon.svg?xll8yr#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,36 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-administracionpersonal:before {
+  content: "\e914";
+}
+.icon-pruebasconfianza:before {
+  content: "\e915";
+}
+.icon-talento:before {
+  content: "\e916";
+}
+.icon-psicometricas:before {
+  content: "\e917";
+}
+.icon-capitalhumano:before {
+  content: "\e918";
+}
+.icon-socioeconomico:before {
+  content: "\e919";
+}
+.icon-capacitacion:before {
+  content: "\e91a";
+}
+.icon-close-button:before {
+  content: "\e913";
+}
+.icon-pointer:before {
+  content: "\e912";
+}
+.icon-call-center:before {
+  content: "\e911";
+}
 .icon-investigaciones:before {
   content: "\e90a";
 }

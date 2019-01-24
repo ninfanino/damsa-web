@@ -31,11 +31,11 @@ export default class Header extends Component {
 
 						<div className="col-md-12">
 
-  								<div class="container-fluid">
+  								<div className="container-fluid">
 					        			<button type="button" className="navbar-toggle" onClick={this.openMenu}>
-        									<span class="icon-bar"></span>
-        									<span class="icon-bar"></span>
-        									<span class="icon-bar"></span>
+        									<span className="icon-bar"></span>
+        									<span className="icon-bar"></span>
+        									<span className="icon-bar"></span>
       									</button>
 
       									<img className="logodam" src="../images/damsa.png"  />

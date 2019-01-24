@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
 
@@ -21,22 +21,22 @@ class Footer extends Component {
       <div className="container-fluid" id="footer_main">
       <div className="row">
       <div className="col-md-12 relative" id="menu1">
-        <img className="logodam" src="../images/damsa.png"  />
+        <img className="logodam" src="../images/damsa.png" alt="Damsa" />
         <nav id="main">
-          <a className="border-none"><span className="icon-user" ></span></a>
-          <a ><span>01 800 7013959</span></a>
+          <div className="border-none"><span className="icon-call-center" ></span></div>
+          <div ><span>01 800 7013959</span></div>
 
-          <a className="border-none"><span className="icon-facebook" ></span></a>
-                <a className="border-none" ><span className="icon-twitter" ></span></a>
-                <a className="border-none" ><span className="icon-linkedin" ></span></a>
+          <div className="border-none"><span className="icon-facebook" ></span></div>
+                <div className="border-none" ><span className="icon-twitter" ></span></div>
+                <div className="border-none" ><span className="icon-linkedin" ></span></div>
         </nav>
       </div>
 
           <div className="col-md-12 relative" id="menu">
 
             <nav id="main">
-            <span> Damsa 2018, Todos los derechos reservadors.</span>
-            <span> Aviso Privcidad.</span>
+            <span> Damsa 2018. Todos los derechos reservados.</span>
+            <span> Aviso de Privacidad.</span>
             </nav>
           </div>
       </div>

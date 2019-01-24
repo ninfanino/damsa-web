@@ -31,15 +31,15 @@ class SliderI extends Component {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img className="slider" src="../images/bg-index1.png" />
-              <div class="carousel-caption  d-md-block" id="textoEncima1" >
+              <div className="carousel-caption  d-md-block" id="textoEncima1" >
               <p className="sliderP">EN DAMSA SOMOS </p>
               <h1  className="sliderh1">GENTE   </h1>
                 <h1 className="sliderh1" >QUE TRABAJA </h1>
-              <p className="sliderP2">PARA GENTE</p>
+              <p className="sliderP2">PARA LA GENTE</p>
 
 
 
-                <div class="row justify-content-center">
+                <div className="row justify-content-center">
                     <div className="col-sm-12" >
                       <br/><br/>
                         <a  href="#" >  <h4 className="texto texto_redes" id="tuto" > Envianos tu CV</h4> </a>
@@ -50,13 +50,13 @@ class SliderI extends Component {
             </div>
             <div className="carousel-item">
               <img className="slider" src="../images/bg-index1.png" />
-              <div class="carousel-caption  d-md-block" id="textoEncima1" >
+              <div className="carousel-caption  d-md-block" id="textoEncima1" >
               <p className="sliderP">EN DAMSA SOMOS </p>
               <h1  className="sliderh1">GENTE   </h1>
                 <h1 className="sliderh1" >QUE TRABAJA </h1>
               <p className="sliderP2">PARA GENTE</p>
 
-                <div class="row justify-content-center">
+                <div className="row justify-content-center">
                     <div className="col-sm-12" >
                       <br/><br/>
                         <a  href="#" >  <h4 className="texto texto_redes" id="tuto" > Envianos tu CV</h4> </a>
@@ -68,13 +68,13 @@ class SliderI extends Component {
             </div>
             <div className="carousel-item">
               <img className="slider" src="../images/bg-index1.png" />
-              <div class="carousel-caption  d-md-block" id="textoEncima1" >
+              <div className="carousel-caption  d-md-block" id="textoEncima1" >
               <p className="sliderP">EN DAMSA SOMOS </p>
               <h1  className="sliderh1">GENTE   </h1>
                 <h1 className="sliderh1" >QUE TRABAJA </h1>
               <p className="sliderP2">PARA GENTE</p>
 
-                <div class="row justify-content-center">
+                <div className="row justify-content-center">
                     <div className="col-sm-12" >
                       <br/><br/>
                         <a  href="#" >  <h4 className="texto texto_redes" id="tuto" > Envianos tu CV</h4> </a>
@@ -90,7 +90,7 @@ class SliderI extends Component {
             <span className="carousel-control-prev-icon"></span>
           </a>
           <a className="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
+            <span className="carousel-control-next-icon"></span>
           </a>
         </div>
 

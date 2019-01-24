@@ -13,7 +13,7 @@
 			}
 			.jalisco
 			{
-				fill: #3563d9;
+				fill: #25559b;
 				fill-opacity: 1;
 				stroke:white;
 				stroke-opacity: 1;
@@ -21,7 +21,7 @@
 			}
 			.quintana
 			{
-				fill: #3563d9;
+				fill: #25559b;
 				fill-opacity: 1;
 				stroke:white;
 				stroke-opacity: 1;
@@ -29,7 +29,7 @@
 			}
 			.chihuahua
 			{
-				fill: #3563d9;
+				fill: #25559b;
 				fill-opacity: 1;
 				stroke:white;
 				stroke-opacity: 1;
@@ -37,7 +37,7 @@
 			}
 			.nleon
 			{
-				fill: #3563d9;
+				fill: #25559b;
 				fill-opacity: 1;
 				stroke:white;
 				stroke-opacity: 1;
@@ -45,7 +45,7 @@
 			}
 			.mex
 			{
-				fill: #3563d9;
+				fill: #25559b;
 				fill-opacity: 1;
 				stroke:white;
 				stroke-opacity: 1;

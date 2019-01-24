@@ -19,35 +19,35 @@ export default class Header extends Component {
 						<div className="col-md-12 relative" id="menu1">
 
 							<nav className="main">
-								<a ><span>atencionaclientes@damsa.com.mx</span></a>
-								<a ><span>01 800 7013959</span></a>
-								<a ><span>EN</span></a>
-								<a className="border-none"><span className="icon-facebook" ></span></a>
-			          			<a className="border-none" ><span className="icon-twitter" ></span></a>
-			          			<a className="border-none" ><span className="icon-linkedin" ></span></a>
+								<span>atencionaclientes@damsa.com.mx</span>
+								<span>01 800 7013959</span>
+								<span>EN</span>
+								<div className="border-none"><span className="icon-facebook" ></span></div>
+			          			<div className="border-none" ><span className="icon-twitter" ></span></div>
+			          			<div className="border-none" ><span className="icon-linkedin" ></span></div>
 							</nav>
 						</div>
 
 						<div className="col-md-12">
 
-  								<div class="container-fluid">
+  								<div className="container-fluid">
 					        			<button type="button" className="navbar-toggle" onClick={this.openMenu}>
-        									<span class="icon-bar"></span>
-        									<span class="icon-bar"></span>
-        									<span class="icon-bar"></span>
+        									<span className="icon-bar"></span>
+        									<span className="icon-bar"></span>
+        									<span className="icon-bar"></span>
       									</button>
 
-      									<NavLink to="/"><img className="logodam" src="../images/damsa.png"  /></NavLink>
+      									<NavLink to="/"><img className="logodam" src="../images/damsa.png" alt="Damsa" /></NavLink>
 
 
       									<nav id="menu-complete" className="main">
 								          <NavLink to="/nosotros"><span>NOSOTROS</span></NavLink>
 								          <NavLink to="/servicios"><span>SERVICIOS</span></NavLink>
-								          <a href="https://bolsa.damsa.com.mx/" target="_blank"><span>TALENTO</span></a>
+								          <a href="https://bolsa.damsa.com.mx/" target="_blank" rel="noopener noreferrer"><span>TALENTO</span></a>
 								          <NavLink to="/esr"><span>ESR</span></NavLink>
 								          <NavLink to="/galeria"><span>GALERIA</span></NavLink>
-								          <a href="https://www.damsa.com.mx/club/listadoDC.aspx" target="_blank"><span>DAMSACLUB</span></a>
-								          <a href="https://damsablog.com/" target="_blank"><span>BLOG</span></a>
+								          <a href="https://www.damsa.com.mx/club/listadoDC.aspx" target="_blank" rel="noopener noreferrer"><span>DAMSACLUB</span></a>
+								          <a href="https://damsablog.com/" target="_blank" rel="noopener noreferrer"><span>BLOG</span></a>
 								          <NavLink to="/contacto"><span>CONTACTO</span></NavLink>
 								          <NavLink to="/"><span className="icon-user" ></span></NavLink>
 								        </nav>

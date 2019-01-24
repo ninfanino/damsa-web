@@ -1,8 +1,6 @@
 
-import { render } from 'react-dom';
 import React, { Component } from 'react';
-import $ from 'jquery';
-import { NavLink } from "react-router-dom";
+
 
 import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';

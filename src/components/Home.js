@@ -3,16 +3,14 @@
 import Slider from "./Slider";
 import React, { Component } from 'react';
 import $ from 'jquery';
-import { NavLink } from "react-router-dom";
 
 
-$(document).ready
-(
+
+$(document).ready(
 	function()
 	{
 		$("div.box").hide();
-		$("#dropdown").change
-		(
+		$("#dropdown").change(
 			function()
 			{
 				var selectedValue = $(this).val();
@@ -27,32 +25,15 @@ $(document).ready
 );
 export default class Home extends Component {
 
+	openMenu(index){
+		$('.menu-map').removeClass('open');
+		$('.navb').addClass('open');
 
-
-	openMenu(){
-		$('.menu-map').toggleClass('open');
-
-		$('.navb').toggleClass('open');
+		$('.'+index).addClass('open');
 	}
-	openMenu2(){
-			$('.menu-map2').toggleClass('open');
-
-		$('.navb').toggleClass('open');
-	}
-	openMenu3(){
-			$('.menu-map3').toggleClass('open');
-
-		$('.navb').toggleClass('open');
-	}
-	openMenu4(){
-			$('.menu-map4').toggleClass('open');
-
-		$('.navb').toggleClass('open');
-	}
-	openMenu5(){
-			$('.menu-map5').toggleClass('open');
-
-		$('.navb').toggleClass('open');
+	closeMenu(){
+		$('.menu-map').removeClass('open');
+		$('.navb').removeClass('open');
 	}
 	render () {
 	return (
@@ -68,37 +49,37 @@ export default class Home extends Component {
 		              <div className="dark"></div>
 		            </div>
 
-		            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+		            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
 		              <div className="icono-home"> <span className="icon-mision" ></span></div>
 		              <div className="service-title" > MISIÓN</div>
 		              <p className="service-p"> Conoce nuestra Misión </p>
 		            </div>
 
-		            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+		            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
 		              <div className="icono-home"> <span className="icon-vision" ></span></div>
 		              <div className="service-title" >VISIÓN</div>
 		              <p className="service-p"> Conoce nuestra Visión </p>
 		            </div>
 
-		            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+		            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
 		              <div className="icono-home"> <span className="icon-valores" ></span></div>
 		              <div className="service-title" > VALORES</div>
 		              <p className="service-p">Conoces nuestros Valores</p>
 		            </div>
 
-		            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+		            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
 		              <div className="icono-home"> <span className="icon-responsabilidad" ></span></div>
 		              <div className="service-title" >RESPONSABILIDAD SOCIAL</div>
 		              <p className="service-p"> Conoce nuestro compromiso con la Resposabilidad Social </p>
 		            </div>
 
-		            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+		            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
 		              <div className="icono-home"> <span className="icon-politicas" ></span></div>
 		              <div className="service-title" > POLÍTICAS INSTITUCIONALES</div>
 		              <p className="service-p"> Resposabbilidad social, calidad, código de conducta de la industria electrónica </p>
 		            </div>
 
-		            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+		            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
 		              <div className="icono-home"> <span className="icon-semblanza" ></span></div>
 		              <div className="service-title" > SEMBLANZA</div>
 		              <p className="service-p">conoces nuestra Semblanza</p>
@@ -109,54 +90,86 @@ export default class Home extends Component {
 
   			<div className="homed2 container-fluid" >
   				<div className="row">
-					<div id="serviciosh1"  className="col-xs-12 col-sm-12 col-md-12 col-lg-6"></div>
+					<div className="serviciosh1 hidden-sm-down col-md-5 col-lg-6"></div>
 
-					<div id="serviciosh" className="col-xs-12 col-sm-12 col-md-12 col-lg-6 text-left">
+					<div className="serviciosh col-xs-12 col-sm-12 col-md-7 col-lg-6 text-left">
 						<h3 className="title yellow" ><b>SERVICIOS</b></h3>
 	  					<p className="subtitle white" > te vas a querer quedar con nosotros </p>
 	  					<div className="dark left"></div>
 
-	  					<div id="ds" className="carousel slide" data-ride="carousel">
-					  		<ol className="carousel-indicators" id="indicads">
-					          <li data-target="#ds" data-slide-to="0" className="active"></li>
-					          <li data-target="#ds" data-slide-to="1"></li>
+	  					<div className="ds carousel slide hidden-xs-down" data-ride="carousel">
+					  		<ol className="carousel-indicators indicads">
+					          <li data-target=".ds" data-slide-to="0" className="active"></li>
+					          <li data-target=".ds" data-slide-to="1"></li>
 					        </ol>
 
 						    <div className="carousel-inner row">
 						      	<div className="carousel-item active">
-							      	<div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+							      	<div className="sliserv col-xs-12 col-sm-4 col-md-4 col-lg-4">
 							      		<p className="sliderP"><span className="icon-administracion-personal" ></span></p>
 							        	<p className="sliderP3">Administración integral de personal</p>
 							      	</div>
 
-							      	<div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+							      	<div  className="sliserv col-xs-12 col-sm-4 col-md-4 col-lg-4">
 							      		<p className="sliderP"><span className="icon-busqueda-talento" ></span></p>
 							        	<p className="sliderP3">Búsqueda de talento ejecutivo</p>
 							      	</div>
 
-							      	<div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+							      	<div  className="sliserv col-xs-12 col-sm-4 col-md-4 col-lg-4">
 							      		<p className="sliderP"><span className="icon-pruebas-confianza" ></span></p>
 							        	<p className="sliderP3">Aplicación e implementación, prueba de confianza</p>
 							      	</div>
 					      	  	</div>
 
 		      					<div className="carousel-item">
-		      						<div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+		      						<div  className="sliserv col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		      							<p className="sliderP"><span className="icon-investigaciones" ></span></p>
 		        						<p className="sliderP3">Investigaciones socioeconómico laborales</p>
 		      						</div>
 
-								    <div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+								    <div  className="sliserv col-xs-12 col-sm-4 col-md-4 col-lg-4">
 								      	<p className="sliderP"><span className="icon-programas-capacitacion" ></span></p>
 								        <p className="sliderP3">Programas de capacitación</p>
 								    </div>
 
-		      						<div id="sliserv"  className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+		      						<div  className="sliserv col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		      							<p className="sliderP"><span className="icon-asesoria-capital" ></span></p>
 		        						<p className="sliderP3">Asesoría en capital humano</p>
 		      						</div>
 		      					</div>
 	    					</div>
+	    				</div>
+
+	    				<div className="hidden-sm-up">
+	    							<div className="col-xs-12 serviciosmovil">
+							      		<p className="sliderP"><span className="icon-administracion-personal" ></span></p>
+							        	<p className="sliderP3">Administración integral de personal</p>
+							      	</div>
+
+							      	<div className="col-xs-12 serviciosmovil">
+							      		<p className="sliderP"><span className="icon-busqueda-talento" ></span></p>
+							        	<p className="sliderP3">Búsqueda de talento ejecutivo</p>
+							      	</div>
+
+							      	<div className="col-xs-12 serviciosmovil">
+							      		<p className="sliderP"><span className="icon-pruebas-confianza" ></span></p>
+							        	<p className="sliderP3">Aplicación e implementación, prueba de confianza</p>
+							      	</div>
+
+							      	<div className="col-xs-12 serviciosmovil">
+		      							<p className="sliderP"><span className="icon-investigaciones" ></span></p>
+		        						<p className="sliderP3">Investigaciones socioeconómico laborales</p>
+		      						</div>
+
+								    <div className="col-xs-12 serviciosmovil">
+								      	<p className="sliderP"><span className="icon-programas-capacitacion" ></span></p>
+								        <p className="sliderP3">Programas de capacitación</p>
+								    </div>
+
+		      						<div className="col-xs-12 serviciosmovil">
+		      							<p className="sliderP"><span className="icon-asesoria-capital" ></span></p>
+		        						<p className="sliderP3">Asesoría en capital humano</p>
+		      						</div>
 	    				</div>
 	  				</div>
 	  			</div>
@@ -169,19 +182,21 @@ export default class Home extends Component {
       						<h1  className="sliderVacanteh1">¿POR QUE TRABAJAR </h1>
         					<h2 className="sliderVacanteh2" >CON NOSOTROS? </h2>
 
-                			<a  href="#" className="tuto" >  <h4 className="texto texto_vacantes" > Vacantes</h4> </a>
+                			<div className="tuto" >  <h4 className="texto texto_vacantes" > Vacantes</h4> </div>
             			</div>
             		</div>
         		</div>
       		</div>
 
-			<div id="mejoracontinua" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div className="mejoracontinua">
 				<h3 className="title"><b>MEJORA CONTINUA</b></h3>
   				<p className="subtitle"> te vas a querer quedar con nosotros </p>
   				<div className="dark"></div>
 			</div>
 
-			<div className="mejoracuadros1 col-xs-12 col-sm-12 col-md-12 col-lg-3">
+			<div className="container-fluid">
+			<div className="row">
+			<div className="mejoracuadros1 col-xs-12 col-sm-6 col-md-3 col-lg-3">
 				<div className="num-mejora">1</div>
 				<div className="valign">
   					<h3 > ISO</h3>
@@ -189,7 +204,7 @@ export default class Home extends Component {
     			</div>
 			</div>
 
-			<div className="mejoracuadros2 col-xs-12 col-sm-12 col-md-12 col-lg-3">
+			<div className="mejoracuadros2 col-xs-12 col-sm-6 col-md-3 col-lg-3">
 				<div className="num-mejora">2</div>
 				<div className="valign">
   					<h3 > C-TPAT</h3>
@@ -197,7 +212,7 @@ export default class Home extends Component {
     			</div>
 			</div>
 
-			<div className="mejoracuadros1 col-xs-12 col-sm-12 col-md-12 col-lg-3">
+			<div className="mejoracuadros1 second col-xs-12 col-sm-6 col-md-3 col-lg-3">
 				<div className="num-mejora">3</div>
 				<div className="valign">
   					<h3 > ESR</h3>
@@ -205,57 +220,43 @@ export default class Home extends Component {
     			</div>
 			</div>
 
-			<div className="mejoracuadros2 col-xs-12 col-sm-12 col-md-12 col-lg-3">
+			<div className="mejoracuadros2 second col-xs-12 col-sm-6 col-md-3 col-lg-3">
 				<div className="num-mejora">4</div>
 				<div className="valign">
   					<h3 >CADELEC</h3>
     				<h2> CERTIFICACIÓN</h2>
     			</div>
 			</div>
-
-
-<div id="demo" className="carousel slide" data-ride="carousel">
-
-
+			</div>
+			</div>
 
 
 
-  <div className="carousel-inner">
+  <div className="damsa-escucha">
+		<div className="valign">
+      		<div className="container" >
+      			<h1  className="sliderVacanteh3">DAMSA </h1>
+        		<h1 className="sliderVacanteh4" >TE ESCUCHA </h1>
 
-    <div className="carousel-item active">
-  <div className="filtroimg">
-      <img className="sliderVacante" src="../images/bg-contacto.png" />
+        		<div className="row justify-content-center">
+            		<div className="col-sm-12" >
+              			<div className="tuto" >  <h4 className="texto texto_redes" > Contáctanos</h4> </div>
+            		</div>
+        		</div>
 
-      <div className="carousel-caption  d-md-block" id="textoEncima1" >
-
-      <h1  className="sliderVacanteh1">DAMSA </h1>
-        <h1 className="sliderVacanteh1" >TE ESCUCHA </h1>
-
-
-
-
-        <div className="row justify-content-center">
-            <div className="col-sm-12" >
-              <br/><br/>
-                <a  href="#" className="tuto" >  <h4 className="texto texto_redes" > Contàctanos</h4> </a>
-            </div>
-        </div>
-
-      </div>
-    </div>
+      		</div>
+    	</div>
 
 
   </div>
 
 
-</div>
- </div>
 
- <div id="mejoracontinua" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
- <h3 ><b>EMPRESA SOCIALMENTE RESPONSABLE</b></h3>
+ <div className="mejoracontinua">
+ <div className="title">EMPRESA SOCIALMENTE RESPONSABLE</div>
 
-   <p > te vas a querer quedar con nosotros </p>
-   <div className="franjaServ1">
+   <div className="subtitle" > te vas a querer quedar con nosotros </div>
+   <div className="dark">
    <div>
 
    </div>
@@ -269,42 +270,34 @@ export default class Home extends Component {
 
 
 
-  <div id="demo1" >
-  <div id="demo2" className="carousel slide" data-ride="carousel">
-
-
-
-
-
+  <div className="container-fluid demo1" >
+  <div className="row">
+  <div className="carousel slide demo2" data-ride="carousel">
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img className="slider" src="../images/bg-index4.png" />
-        <div className="carousel-caption  d-md-block" id="textoEncima" >
-
-         <h1  className="sliderVacanteh1">DAMSA </h1>
-
-
-
-
-
-          <div className="row justify-content-center">
+        <img className="slider" src="../images/bg-index4.png" alt="¿Que es ESR?" />
+        <div className="carousel-caption  d-md-block textoEncima"  >
+			<h1  className="sliderVacanteh1">
+				<img className="img-slider" src="../images/damsa-esr.png" alt="Empresa socialmente responsable" />
+			</h1>
+          	<div className="row justify-content-center">
               <div className="col-sm-12" >
-                <br/><br/>
-                 <a  href="#" className="tuto" >  <h4 className="texto texto_vacantes" > Conoce què es ESR</h4> </a>
+                <div className="tuto" >  <h4 className="texto texto_vacantes" > Conoce que es ESR</h4> </div>
               </div>
-          </div>
+          	</div>
 
         </div>
       </div>
       <div className="carousel-item">
-        <img className="slider" src="../images/bg-index4.png" />
-        <div className="carousel-caption  d-md-block" id="textoEncima" >
-          <h1  className="sliderVacanteh1">DAMSA </h1>
+        <img className="slider" src="../images/bg-index4.png" alt="Empresa socialmente responsable"/>
+        <div className="carousel-caption  d-md-block textoEncima"  >
+          <h1  className="sliderVacanteh1">
+				<img className="img-slider" src="../images/damsa-esr.png" alt="Empresa socialmente responsable"/>
+			</h1>
 
           <div className="row justify-content-center">
               <div className="col-sm-12" >
-                <br/><br/>
-                   <a  href="#" className="tuto" >  <h4 className="texto texto_vacantes" > Conoce què es ESR</h4> </a>
+                <div className="tuto" >  <h4 className="texto texto_vacantes" > Conoce que es ESR</h4> </div>
               </div>
           </div>
 
@@ -312,14 +305,16 @@ export default class Home extends Component {
 
       </div>
       <div className="carousel-item">
-        <img className="slider" src="../images/bg-index4.png" />
-        <div className="carousel-caption  d-md-block" id="textoEncima" >
-       <h1  className="sliderVacanteh1">DAMSA </h1>
+        <img className="slider" src="../images/bg-index4.png" alt="Empresa socialmente responsable"/>
+        <div className="carousel-caption  d-md-block textoEncima"  >
+        <h1  className="sliderVacanteh1">
+				<img className="img-slider" src="../images/damsa-esr.png" alt="Empresa socialmente responsable"/>
+			</h1>
 
           <div className="row justify-content-center">
               <div className="col-sm-12" >
-                <br/><br/>
-                 <a  href="#" className="tuto" >  <h4 className="texto texto_vacantes"  > Conoce què es ESR</h4> </a>
+                
+                 <div className="tuto" >  <h4 className="texto texto_vacantes"  > Conoce que es ESR</h4> </div>
               </div>
           </div>
 
@@ -334,141 +329,120 @@ export default class Home extends Component {
     <a className="carousel-control-next" href="#demo2" data-slide="next">
       <span className="carousel-control-next-icon"></span>
     </a>
+  </div>
+    <div className="mejoracontinua">
+    	<div className="title">SUCURSALES</div>
 
-    <div id="mejoracontinua" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-    <h3 ><b>SUCURSALES</b></h3>
-
-      <p > te vas a querer quedar con nosotros </p>
-      <div className="franjaServ1">
+      <div className="subtitle" > te vas a querer quedar con nosotros </div>
+      <div className="dark">
       <div>
 
       </div>
       </div>
       <br></br>
-
-
-
     </div>
 
-    <div id="mapa" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
-
+    <div id="" className="mapa container">
 		<div className="col-md-12">
 
-					<div class="container-fluid">
+					<div className="container-fluid">
 
-								<div className="menu-map">
+								<div className="menu-map menu-map1">
 										<span>CD JUÁREZ </span>
 											<br></br>
 												<p> Av. Paseo Triunfo de la República #2408 Int 7A Col. Partido Escobedo</p>
 												<p> 65) 6639 - 1144</p>
-													<button type="button" className="navb" onClick={this.openMenu}>
-														<span class="icon-administracion-personal"></span>
+													<button type="button" className="navb" onClick={this.closeMenu}>
+														<div className="icon-close-button"></div>
 													</button>
 								</div>
-								<div className="menu-map2">
+								<div className="menu-map menu-map2">
 										<span>MONTERREY </span>
 											<br></br>
 												<p> Av. Vasconcelos #209 ote Local 2, Col. San Agustín, San Pedro García NL.</p>
 												<p> (81) 8335 - 0172 ext 73</p>
-													<button type="button" className="navb" onClick={this.openMenu2}>
-														<span class="icon-administracion-personal"></span>
+													<button type="button" className="navb" onClick={this.closeMenu}>
+														<div className="icon-close-button"></div>
 													</button>
 								</div>
-								<div className="menu-map3">
+								<div className="menu-map menu-map3">
 										<span>GUADALAJARA </span>
 											<br></br>
 												<p>Av. Terranova ·#295 Int. 300 Fracc. Terranova Guadalajara, Jalisco</p>
 												<p> (33) 1202 - 1000</p>
-													<button type="button" className="navb" onClick={this.openMenu3}>
-														<span class="icon-administracion-personal"></span>
+													<button type="button" className="navb" onClick={this.closeMenu}>
+														<div className="icon-close-button"></div>
 													</button>
 								</div>
-								<div className="menu-map4">
+								<div className="menu-map menu-map4">
 										<span>MÉXICO </span>
 											<br></br>
 												<p>Av. Ejército Nacional #425 Int 7A. Col. Granada del Miguel Hidalgo</p>
 												<p> (55) 5531 1831</p>
-													<button type="button" className="navb" onClick={this.openMenu4}>
-														<span class="icon-administracion-personal"></span>
+													<button type="button" className="navb" onClick={this.closeMenu}>
+														<div className="icon-close-button"></div>
 													</button>
 								</div>
-								<div className="menu-map5">
+								<div className="menu-map menu-map5">
 										<span>QUERÉTARO </span>
 											<br></br>
 												<p>Av. Universidad #50bis Local 22. Col. Centro Plaza Rivera</p>
 												<p> (44) 2214 - 0613</p>
-													<button type="button" className="navb" onClick={this.openMenu5}>
-														<span class="icon-administracion-personal"></span>
+													<button type="button" className="navb" onClick={this.closeMenu}>
+														<div className="icon-close-button"></div>
 													</button>
 								</div>
 
 					</div>
 
-			</div>
+		</div>
 
+  		<iframe title="mapa" src="../images/mexicoHigh.svg" width="100%" height="680"></iframe>
 
-
-  <iframe src="../images/mexicoHigh.svg" width="100%" height="680"></iframe>
-
-<span id="sucursal1" className="icon-busqueda-talento" onClick={this.openMenu}></span>
-<span id="sucursal2" className="icon-busqueda-talento" onClick={this.openMenu2}></span>
-<span id="sucursal3" className="icon-busqueda-talento" onClick={this.openMenu3}></span>
-<span id="sucursal4" className="icon-busqueda-talento" onClick={this.openMenu4}></span>
-<span id="sucursal5" className="icon-busqueda-talento" onClick={this.openMenu5}></span>
-
-
+		<span id="sucursal1" className="icon-pointer" onClick={this.openMenu.bind(this, 'menu-map1')}></span>
+		<span id="sucursal2" className="icon-pointer" onClick={this.openMenu.bind(this, 'menu-map2')}></span>
+		<span id="sucursal3" className="icon-pointer" onClick={this.openMenu.bind(this, 'menu-map3')}></span>
+		<span id="sucursal4" className="icon-pointer" onClick={this.openMenu.bind(this, 'menu-map4')}></span>
+		<span id="sucursal5" className="icon-pointer" onClick={this.openMenu.bind(this, 'menu-map5')}></span>
     </div>
-  </div>
+  
 
-	<div id="mapa2" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
-
-	<div className="col-md-12">
-
-
-	<div class="select-location">
-                        <div class="styled-select slate">
-                            <select id="dropdown" name="dropdown" class="select-map">
-																				<option value="0">Sucursales</option>
-                                        <optgroup label="Chihuahua">
-
-                                              <option className="icon-busqueda-talento" value="area1">CD Juárez</option>
-
-                                        </optgroup>
-                                        <optgroup label="Ciudad de México">
-
-                                                <option value="area2">México</option>
-                                        </optgroup>
-                                        <optgroup label="Jalisco">
-																								<option value="area4">Minerva</option>
-                                                <option value="area5">8 de Julio</option>
-                                                <option value="area3">Terranova</option>
-                                                <option value="area6">Juárez</option>
-                                                <option value="area7">La Cima</option>
-                                        </optgroup>
-                                        <optgroup label="México">
-
-                                                <option value="area8">Cuautitlán</option>
-                                        </optgroup>
-                                        <optgroup label="Nuevo León">
-
-                                                <option value="area9">Monterrey</option>
-                                                <option value="area10">Apodaca</option>
-                                        </optgroup>
-                                        <optgroup label="Querétaro">
-
-                                                <option value="area11">Querétaro</option>
-                                        </optgroup>
-
-                            </select>
-                        </div>
-
-										</div>
-								</div>
+	<div id="mapa2" className="container">
+		<div className="col-md-12">
+			<div className="select-location">
+                <div className="styled-select slate">
+                    <select id="dropdown" name="dropdown" className="select-map">
+						<option value="0">Sucursales</option>
+                        <optgroup label="Chihuahua">
+							<option className="icon-pointer" value="area1">CD Juárez</option>
+                        </optgroup>
+                        <optgroup label="Ciudad de México">
+                            <option value="area2">México</option>
+                        </optgroup>
+                        <optgroup label="Jalisco">
+						<option value="area4">Minerva</option>
+                            <option value="area5">8 de Julio</option>
+                            <option value="area3">Terranova</option>
+                            <option value="area6">Juárez</option>
+                            <option value="area7">La Cima</option>
+                        </optgroup>
+                        <optgroup label="México">
+                            <option value="area8">Cuautitlán</option>
+                        </optgroup>
+                        <optgroup label="Nuevo León">
+                            <option value="area9">Monterrey</option>
+                            <option value="area10">Apodaca</option>
+                        </optgroup>
+                        <optgroup label="Querétaro">
+                            <option value="area11">Querétaro</option>
+                        </optgroup>
+                    </select>
+                </div>
+			</div>
+		</div>
 
 	    <div  className="col-md-12">
-					<div class="container-fluid"  id="divarea1" class="box">
+					<div className="container-fluid box"  id="divarea1">
 							<div className="mov-map">
 								<span>CD JUÁREZ </span>
 									<br></br>
@@ -478,7 +452,7 @@ export default class Home extends Component {
 				 </div>
      </div>
 		 <div  className="col-md-12">
-				 <div class="container-fluid"  id="divarea9" class="box">
+				 <div className="container-fluid box"  id="divarea9" >
 						 <div className="mov-map">
 						 <span>MONTERREY </span>
 							 <br></br>
@@ -488,7 +462,7 @@ export default class Home extends Component {
 				</div>
 		</div>
 		<div  className="col-md-12">
-				<div class="container-fluid"  id="divarea10" class="box">
+				<div className="container-fluid box"  id="divarea10">
 						<div className="mov-map">
 						<span>APODACA </span>
 							<br></br>
@@ -498,7 +472,7 @@ export default class Home extends Component {
 			 </div>
 	 </div>
 		<div   className="col-md-12">
-				<div class="container-fluid"  id="divarea3" class="box">
+				<div className="container-fluid box"  id="divarea3" >
 						<div className="mov-map">
 						<span>TERRANOVA </span>
 							<br></br>
@@ -508,7 +482,7 @@ export default class Home extends Component {
 			 </div>
 	 </div>
 	 <div   className="col-md-12">
-			 <div class="container-fluid"  id="divarea4" class="box">
+			 <div className="container-fluid box"  id="divarea4" >
 					 <div className="mov-map">
 					 <span>MINERVA </span>
 						 <br></br>
@@ -518,7 +492,7 @@ export default class Home extends Component {
 			</div>
 	</div>
 	<div   className="col-md-12">
-			<div class="container-fluid"  id="divarea5" class="box">
+			<div className="container-fluid box"  id="divarea5">
 					<div className="mov-map">
 					<span>8 DE JULIO </span>
 						<br></br>
@@ -528,7 +502,7 @@ export default class Home extends Component {
 		 </div>
  </div>
  <div   className="col-md-12">
-		 <div class="container-fluid"  id="divarea6" class="box">
+		 <div className="container-fluid box"  id="divarea6">
 				 <div className="mov-map">
 				 <span>JUÁREZ </span>
 					 <br></br>
@@ -538,7 +512,7 @@ export default class Home extends Component {
 		</div>
  </div>
  <div   className="col-md-12">
-		<div class="container-fluid"  id="divarea7" class="box">
+		<div className="container-fluid box"  id="divarea7" >
 				<div className="mov-map">
 				<span>LA CIMA </span>
 					<br></br>
@@ -548,7 +522,7 @@ export default class Home extends Component {
 	 </div>
  </div>
  <div   className="col-md-12">
-		<div class="container-fluid"  id="divarea8" class="box">
+		<div className="container-fluid box"  id="divarea8">
 				<div className="mov-map">
 				<span>CAUTITLÁN </span>
 					<br></br>
@@ -558,7 +532,7 @@ export default class Home extends Component {
 	 </div>
  </div>
 	 <div className="col-md-12">
-			 <div class="container-fluid" id="divarea2" class="box">
+			 <div className="container-fluid box" id="divarea2">
 					 <div className="mov-map">
 					 <span>MÉXICO </span>
 							<br></br>
@@ -568,7 +542,7 @@ export default class Home extends Component {
 			</div>
 	</div>
 	<div className="col-md-12">
-			<div class="container-fluid" id="divarea11" class="box">
+			<div className="container-fluid box" id="divarea11" >
 					<div className="mov-map">
 					<span>QUERÉTARO </span>
 						<br></br>
@@ -583,63 +557,72 @@ export default class Home extends Component {
   <div id="contacto" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <br></br>
   <br></br>
-  <h3 ><b>CONTACTO</b></h3>
+  <h3 className="title yellow" ><b>CONTACTO</b></h3>
 
-    <p > te vas a querer quedar con nosotros </p>
-    <div className="franjaServ1">
+    <p className="subtitle yellow" > te vas a querer quedar con nosotros </p>
+    <div className="dark">
     <div>
 
     </div>
     </div>
 
 
-    <form id="formul" action="/qualtra/contacto/enviar" method="POST" accept-charset="utf-8" role="form" >
-										<div id="linearoja" className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <div className="form-group" >
-                      <input type="text" name="nombre" placeholder="Nombre" className="form-control" required="" />
-                    </div>
-									</div>
-                  <div id="linearoja"  className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <div className="form-group" >
-                    <input type="text" name="empresa" placeholder="Empresa" className="form-control" required=""/>
-                  </div>
-                </div>
-									<div id="linearoja" className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-									<div className="form-group" >
-										<input type="text" name="telefono"  placeholder="Teléfono" className="form-control" required="" />
-									</div>
-								</div>
-									<div id="linearoja"  className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <div className="form-group" >
-                      <input type="text" name="correo"  placeholder="Email" className="form-control" required="" />
-                    </div>
-									</div>
-
-                <div id="linearoja"  className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div className="form-group" >
-                  <input type="text" name="area" placeholder="Area" className="form-control" required=""/>
-                </div>
-              </div>
-              <div id="linearoja"  className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <div className="form-group" >
-                <input type="text" name="ciudad"  placeholder="Ciudad" className="form-control" required=""/>
-              </div>
-            </div>
-									<div id="linearoja"  className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <form id="formul" action="/qualtra/contacto/enviar" method="POST" acceptCharset="utf-8" >
+		<div className="container">	
+			<div className="row">
+				<div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	                <div className="form-group" >
+	                    <input type="text" name="nombre" placeholder="Nombre" className="form-control" required="" />
+	                </div>
+				</div>
+	            <div  className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	                <div className="form-group" >
+	                  	<input type="text" name="empresa" placeholder="Empresa" className="form-control" required=""/>
+	                </div>
+	            </div>
+	        </div>
+	        <div className="row">
+				<div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<div className="form-group" >
+						<input type="text" name="telefono"  placeholder="Teléfono" className="form-control" required="" />
+					</div>
+				</div>
+				<div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    				<div className="form-group" >
+      					<input type="text" name="correo"  placeholder="Email" className="form-control" required="" />
+    				</div>
+				</div>
+			</div>
+			<div className="row">
+                <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	                <div className="form-group" >
+	                  <input type="text" name="area" placeholder="Area" className="form-control" required=""/>
+	                </div>
+	            </div>
+              	<div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	              <div className="form-group" >
+	                <input type="text" name="ciudad"  placeholder="Ciudad" className="form-control" required=""/>
+	              </div>
+	            </div>
+	        </div>
+	        <div className="row">
+				<div id="linearoja"  className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div className="form-group">
                       <textarea id="areatext" name="mensaje" placeholder="Mensaje" className="form-control3 w-100" required="" ></textarea>
                     </div>
-									</div>
+				</div>
 
-                  <div id="linearoja"  className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div className="form-group" id="btncontact" >
-
-                      <button id="boton" type="submit" className="btn btn-default" onclick="" >Enviar</button>
+                      <button id="boton" type="submit" className="btn btn-default"  >Enviar</button>
                     </div>
-                    </div>
-                  </form>
+                </div>
+            </div>
+        </div>
+    </form>
 
 
+  </div>
   </div>
   </div>
 
