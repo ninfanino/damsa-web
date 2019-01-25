@@ -26,9 +26,9 @@ class Footer extends Component {
           <div className="border-none"><span className="icon-call-center" ></span></div>
           <div ><span>01 800 7013959</span></div>
 
-          <div className="border-none"><span className="icon-facebook" ></span></div>
-                <div className="border-none" ><span className="icon-twitter" ></span></div>
-                <div className="border-none" ><span className="icon-linkedin" ></span></div>
+            <a href="https://www.facebook.com/DAMSA.RH" target="_blank" rel="noopener noreferrer"><div className="border-none"><span className="icon-facebook" ></span></div></a>
+            <a href="https://twitter.com/DAMSA_oficial" target="_blank" rel="noopener noreferrer"><div className="border-none" ><span className="icon-twitter" ></span></div></a>
+            <a href="https://www.linkedin.com/company/corporativo-damsa/" target="_blank" rel="noopener noreferrer"><div className="border-none" ><span className="icon-linkedin" ></span></div></a>
         </nav>
       </div>
 

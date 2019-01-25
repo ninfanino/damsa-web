@@ -19,6 +19,7 @@ import Servicios from "./components/Servicios";
 import Esr from "./components/Esr";
 import Galeria from "./components/Galeria";
 import Galeria1 from "./components/Galeria1";
+import Galeria1b from "./components/Galeria1b";
 import Reforestacion_2018 from "./components/Reforestacion_2018";
 import Diadelpadre2018 from "./components/Diadelpadre2018";
 import Diadelabuelo2018 from "./components/Diadelabuelo2018";
@@ -36,17 +37,17 @@ class App extends Component {
 
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/nosotros" component={Nosotros} />
-            <Route path="/servicios" component={Servicios} />
-            <Route path="/esr" component={Esr} />
-            <Route path="/galeria" component={Galeria} />
-            <Route path="/fiesta_fin_de_año_2018" component={Galeria1} />
-            <Route path="/reforestacion_2018" component={Reforestacion_2018} />
-            <Route path="/dia_del_padre_2018" component={Diadelpadre2018} />
-            <Route path="/dia_del_abuelo_2018" component={Diadelabuelo2018} />
-            <Route path="/dia_de_muertos_2018" component={Diademuertos2018} />
-              <Route path="/paseo_anual_2018" component={Paseoanual2018} />
-            <Route path="/contacto" component={Contacto} />
+            <Route path="/#/nosotros" component={Nosotros} />
+            <Route path="/#/servicios" component={Servicios} />
+            <Route path="/#/esr" component={Esr} />
+            <Route path="/#/galeria" component={Galeria} />
+            <Route path="/#/galeria/" component={Galeria1b} />
+            <Route path="/#/reforestacion_2018" component={Reforestacion_2018} />
+            <Route path="/#/dia_del_padre_2018" component={Diadelpadre2018} />
+            <Route path="/#/dia_del_abuelo_2018" component={Diadelabuelo2018} />
+            <Route path="/#/dia_de_muertos_2018" component={Diademuertos2018} />
+            <Route path="/#/paseo_anual_2018" component={Paseoanual2018} />
+            <Route path="/#/contacto" component={Contacto} />
 
           </Switch>
 
