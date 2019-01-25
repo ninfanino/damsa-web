@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter, Route, Switch } from 'react-router-dom';
+import {BrowserRouter, Route, Switch, HashRouter } from 'react-router-dom';
 
 import './App.css';
 import './selector.js';
@@ -31,29 +31,30 @@ import Contacto from "./components/Contacto";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div>
           <Navigation />
 
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/#/nosotros" component={Nosotros} />
-            <Route path="/#/servicios" component={Servicios} />
-            <Route path="/#/esr" component={Esr} />
-            <Route path="/#/galeria" component={Galeria} />
-            <Route path="/#/galeria/" component={Galeria1b} />
-            <Route path="/#/reforestacion_2018" component={Reforestacion_2018} />
-            <Route path="/#/dia_del_padre_2018" component={Diadelpadre2018} />
-            <Route path="/#/dia_del_abuelo_2018" component={Diadelabuelo2018} />
-            <Route path="/#/dia_de_muertos_2018" component={Diademuertos2018} />
-            <Route path="/#/paseo_anual_2018" component={Paseoanual2018} />
-            <Route path="/#/contacto" component={Contacto} />
+            <Route path="/nosotros" component={Nosotros} />
+            <Route path="/servicios" component={Servicios} />
+            <Route path="/esr" component={Esr} />
+            <Route path="/galeria" component={Galeria} />
+            <Route path="/galeria/:fiesta-anual-2018/:31" component={Galeria1b} />
+            <Route path="/fiesta_fin_de_año_2018" component={Galeria1} />
+            <Route path="/reforestacion_2018" component={Reforestacion_2018} />
+            <Route path="/dia_del_padre_2018" component={Diadelpadre2018} />
+            <Route path="/dia_del_abuelo_2018" component={Diadelabuelo2018} />
+            <Route path="/dia_de_muertos_2018" component={Diademuertos2018} />
+            <Route path="/paseo_anual_2018" component={Paseoanual2018} />
+            <Route path="/contacto" component={Contacto} />
 
           </Switch>
 
           <Footer/>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
