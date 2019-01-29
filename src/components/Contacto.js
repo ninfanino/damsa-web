@@ -22,17 +22,9 @@ const Contacto = () =>  {
 			<div className="seccion6">
 				<div className="container-btns-contact">
 					<h1>queremos escucharte</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>		
-					
-					<div className="btn-contact">
-						<div className="title-btn-contact">DENUNCIA DE CONDUCTAS</div>
-						<p className="txt-btn-contact">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-
-					<div className="btn-contact">
-						<div className="title-btn-contact">QUEJAS/ SUGERENCIAS</div>
-						<p className="txt-btn-contact">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
+					<p>Te presentamos el buzón DAMSA, un canal de comunicación para escuchar y atender todas tus dudas, sugerencias y recomendaciones para mejorar la calidad de nuestros servicios
+					</p>
+					<p>¡Contáctanos! </p>
 				</div>
 			</div>
 
@@ -75,13 +67,13 @@ const Contacto = () =>  {
 						<div className="subtitle-contact">TIPO DE USUARIO</div>
 					</div>
 					<div className="col-md-3">
-						<input type="radio" name="radio" /><label>Candidato</label>
-					</div>
-					<div className="col-md-3">
-						<input type="radio" name="radio" /><label>Trabajador temporal</label>
-					</div>
-					<div className="col-md-3">
 						<input type="radio" name="radio" /><label>Cliente</label>
+					</div>
+					<div className="col-md-3">
+						<input type="radio" name="radio" /><label>Trabajador</label>
+					</div>
+					<div className="col-md-3">
+						<input type="radio" name="radio" /><label>Candidato</label>
 					</div>
 					<div className="col-md-3">
 						<input type="radio" name="radio" /><label>Proveedor</label>
@@ -89,25 +81,40 @@ const Contacto = () =>  {
 				</div>
 				<div className="row">
 					<div className="col-md-12">
-						<div className="subtitle-contact">tema de la queja/sugerencia</div>
+						<div className="subtitle-contact">tema</div>
 					</div>
 					
+					<div className="col-md-3">
+						<input type="radio" name="radio" /><label>Ventas</label>
+					</div>
+					<div className="col-md-3">
+						<input type="radio" name="radio" /><label>Atención al cliente</label>
+					</div>
 					<div className="col-md-3">
 						<input type="radio" name="radio" /><label>Reclutamiento y selección</label>
 					</div>
 					<div className="col-md-3">
-						<input type="radio" name="radio" /><label>Pago de nóminas o finiquitos</label>
-					</div>
-					<div className="col-md-3">
-						<input type="radio" name="radio" /><label>Cotizaciones y propuestas</label>
-					</div>
-					<div className="col-md-3">
-						<input type="radio" name="radio" /><label>Servicio en corporativo</label>
+						<input type="radio" name="radio" /><label>Ventana de atención</label>
 					</div>
 				</div>
 				<div className="row">
 					<div className="col-md-12">
-						<textarea name="mensaje" placeholder="QUEJA O COMENTARIO" className="areatext form-control3 w-100" required="" ></textarea>
+						<div className="subtitle-contact">sucursal</div>
+					</div>
+					
+					<div className="col-md-3">
+						<input type="radio" name="radio" /><label>Guadalajara</label>
+					</div>
+					<div className="col-md-3">
+						<input type="radio" name="radio" /><label>México</label>
+					</div>
+					<div className="col-md-3">
+						<input type="radio" name="radio" /><label>Monterrey</label>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-md-12">
+						<textarea name="mensaje" placeholder="Ingresa tus comentarios" className="areatext form-control3 w-100" required="" ></textarea>
 					</div>
 				</div>
 				<div className="row">

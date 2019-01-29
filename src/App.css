@@ -1882,7 +1882,7 @@ color: #fff;
 
 .Contact .seccion6 {
   background:url('/images/bg-atencion-clientes.jpg') no-repeat;
-  height: 680px;
+  height: 480px;
 }
 
 .container-btns-contact {
@@ -1902,7 +1902,7 @@ color: #fff;
 }
 
 .container-btns-contact p { 
-  color: #a5a4a4;
+  color: #5c5c5c;
 }
 
 .title-btn-contact {
@@ -2598,6 +2598,11 @@ border-color: #3649ac57;
     color: #fff;
   } 
 }
+@media (max-width: 1200px) {
+  .Contact .seccion2.container {
+    width: 100%;
+  }
+}
 @media (max-width: 1190px) {
   .mapa #sucursal1 {
   bottom: 75%;
@@ -2735,6 +2740,12 @@ border-color: #3649ac57;
   .Ers .valoresh {
     padding: 15px;
   }
+  .Contact .col-md-3 {
+    width: auto;
+    flex: initial;
+    margin-right: 40px;
+    max-width: 250px;
+  }
 }
 @media (max-width: 930px) {
   .Nosotros .seccion1 {
@@ -2809,6 +2820,9 @@ border-color: #3649ac57;
   }
   .Ers .borde {
     height: 360px;
+  }
+  .Contact .col-md-3 {
+        margin-right: 30px;
   }
 }
 @media (max-width: 890px) {
@@ -3158,6 +3172,10 @@ border-color: #3649ac57;
     .Nosotros .ers2 {
       margin: 30px auto 0px;
     }
+    .container-btns-contact {
+    width: 100%;
+    left: 0px;
+    }
 }
 @media (max-width: 575px) {
   .serviciosh {
@@ -3214,6 +3232,9 @@ border-color: #3649ac57;
   }
   .Ers .borde {
     height: 240px;
+  }
+  .Contact .col-md-3 {
+    width: 100%;
   }
   
 }
