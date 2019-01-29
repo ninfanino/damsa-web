@@ -157,6 +157,12 @@ left: 30px;
     padding-top: 0px;
       background-color: #224ca4;
 }
+#menu1 a {
+    color: #fff;
+}
+#menu1 a:hover {
+    opacity: .6;
+}
 .header #header_main #menu1 nav.main {
     float: right;
     right: 15px;

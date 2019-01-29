@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 import { NavLink } from "react-router-dom";
+import Mailto from 'react-protected-mailto';
 
 
 
@@ -19,8 +20,16 @@ export default class Header extends Component {
 						<div className="col-md-12 relative" id="menu1">
 
 							<nav className="main">
-								<span>atencionaclientes@damsa.com.mx</span>
-								<span>01 800 7013959</span>
+								<span>
+									<Mailto
+      								email='atencionaclientes@damsa.com.mx'
+      								headers={
+        								{subject:'Contacto desde la página web',cc:'hdelatorre@damsa.com.mx'}
+      								}/>
+								</span>
+								<span>
+									<Mailto tel='01-800-7013959' />
+								</span>
 								<span>EN</span>
 								<div className="border-none"><span className="icon-facebook" ></span></div>
 			          			<div className="border-none" ><span className="icon-twitter" ></span></div>
