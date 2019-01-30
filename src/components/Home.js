@@ -407,7 +407,7 @@ export default class Home extends Component {
     </div>
   
 
-	<div id="mapa2" className="container">
+	<div className="mapa2 container">
 		<div className="col-md-12">
 			<div className="select-location">
                 <div className="styled-select slate">

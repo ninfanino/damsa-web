@@ -2,6 +2,27 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Servicios = () =>  {
+    var contenidoDiv = '<div class="row">';
+    const galerias = [
+        { src:'fiesta-anual-2018', photos:'192', name: 'Fiesta anual 2018'},
+        { src:'fiesta-anual-mty-2018', photos:'29', name: 'Fiesta anual MTY 2018'},
+        { src:'fiesta-anual-mx-2018', photos:'51', name: 'Fiesta anual CDMX 2018'},
+        { src:'dia-muertos-2018', photos:'41', name: 'Día de muertos 2018'},
+        { src:'paseo-anual-2018', photos:'105', name: 'Paseo Anual GDL 2018'},
+        { src:'paseo-anual-mty-2018', photos:'30', name: 'Paseo Anual MTY 2018'},
+        { src:'paseo-anual-mx-2018', photos:'39', name: 'Paseo Anual CDMX 2018'},
+        { src:'dia-abuelo-2018', photos:'19', name: 'Día del abuelo 2018'},
+        { src:'reforestacion-2018', photos:'45', name: 'Reforestación 2018'},
+        { src:'dia-padre-2018', photos:'28', name: 'Día del padre 2018'},
+        { src:'dia-madres-2018', photos:'38', name: 'Día de las madres 2018'},
+        { src:'dia-nino-2018', photos:'68', name: 'Día del niño 2018'}
+    ];
+
+    for(var key in galerias) {
+        contenidoDiv+='<div class="gale col-xs-12 col-sm-6 col-md-6 col-lg-4"><a href="#/galerias/'+ galerias[key]['src'] +'/' + galerias[key]['photos'] +'"><div class="contenedorGaleria"><img class="logoesr" src="../images/'+galerias[key]['src']+'/1.jpg" alt="'+galerias[key]['name']+'" /><div class="filtro"></div><div class="texto"><h3>'+galerias[key]['name']+'</h3><label> <i class="fa fa-plus" aria-hidden="true"></i></label></div></div></a></div>';
+    }
+    
+    contenidoDiv+= '</div>';
     return (
         
         <div className="Galeri">
@@ -13,89 +34,7 @@ const Servicios = () =>  {
             <span className="carousel-control-next-icon"></span>
           </a></div>
             <div className="seccion6" >
-            <br/><br/><br/>
-                <div className="row">
-                    <div className="gale col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                        <NavLink to="/reforestacion_2018">
-                            <div className="contenedorGaleria">
-                                <img className="logoesr" src="../images/reforestacion1.png" alt="Reforestación 2018" />
-                                <div className="filtro"></div>
-                                <div className="texto">
-                                   <div className="line1"></div>
-                                   <h3>Reforestación</h3>
-                                   <h2>2018</h2>
-                                   <label> <i className="fa fa-plus" aria-hidden="true"></i></label>
-                                    <div className="line1"></div>
-                               </div>
-                            </div>
-                        </NavLink>
-                    </div>
-
-                    <div className="gale col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                        <NavLink to="/dia_del_padre_2018">
-                        <div className="contenedorGaleria">
-                            <img className="logoesr" src="../images/diapadre1.png" alt="Dia del padre 2018" />
-                            <div className="filtro"></div>
-                            <div className="texto">
-                               <h3>Día del padre 2018</h3>
-                               <label> <i className="fa fa-plus" aria-hidden="true"></i></label>
-                           </div>
-                        </div>
-                        </NavLink>
-                    </div>
-
-                    <div className="gale col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                    <NavLink to="/dia_del_abuelo_2018">
-                        <div className="contenedorGaleria">
-                            <img className="logoesr" src="../images/diaabuelo1.png" alt="Dia del abuelo 2018" />
-                            <div className="filtro"></div>
-                            <div className="texto">
-                               <h3>Día del abuelo 2018</h3>
-                               <label> <i className="fa fa-plus" aria-hidden="true"></i></label>
-                           </div>
-                        </div>
-                            </NavLink>
-                    </div>
-
-                    <div className="gale col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                        <NavLink to="/paseo_anual_2018">
-                        <div className="contenedorGaleria">
-                            <img className="logoesr" src="../images/paseoanual2018/17.jpg" alt="Paseo Anual 2018" />
-                            <div className="filtro"></div>
-                            <div className="texto">
-                                <h3>Paseo anual 2018</h3>
-                                <label> <i className="fa fa-plus" aria-hidden="true"></i></label>
-                            </div>
-                        </div>
-                        </NavLink>
-                    </div>
-
-                    <div className="gale col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                        <NavLink to="/fiesta_fin_de_año_2018">
-                        <div className="contenedorGaleria">
-                            <img className="logoesr" src="../images/posada2018/3.jpg" alt="Fiesta de fin de año 2018" />
-                            <div className="filtro"></div>
-                            <div className="texto">
-                                <h3>Fiesta fin de año 2018</h3>
-                                <label> <i className="fa fa-plus" aria-hidden="true"></i></label>
-                            </div>
-                        </div>
-                            </NavLink>
-                    </div>
-
-                    <div className="gale col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                        <NavLink to="/dia_de_muertos_2018">
-                        <div className="contenedorGaleria">
-                            <img className="logoesr" src="../images/diademuertos2018/8.png" alt="Día de muertos 2018" />
-                            <div className="filtro"></div>
-                            <div className="texto">
-                                <h3>Día de muertos</h3>
-                                <label> <i className="fa fa-plus" aria-hidden="true"></i></label>
-                            </div>
-                        </div>
-                        </NavLink>
-                    </div>
-                </div>
+                <div dangerouslySetInnerHTML={{__html:contenidoDiv}} ></div>
             </div>
         </div>
     );

@@ -41,7 +41,7 @@ class App extends Component {
             <Route path="/servicios" component={Servicios} />
             <Route path="/esr" component={Esr} />
             <Route path="/galeria" component={Galeria} />
-            <Route path="/galeria/:fiesta-anual-2018/:31" component={Galeria1b} />
+            <Route path="/galerias/:name/:photos" component={Galeria1b} />
             <Route path="/fiesta_fin_de_año_2018" component={Galeria1} />
             <Route path="/reforestacion_2018" component={Reforestacion_2018} />
             <Route path="/dia_del_padre_2018" component={Diadelpadre2018} />
