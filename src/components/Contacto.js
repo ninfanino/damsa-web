@@ -10,8 +10,8 @@ const Contacto = () =>  {
 							<div className="carousel-item active">
 								<img className="imgNosotros" src="../images/bg-contacto.png" alt="Búzon Damsa" />
 								<div className="carousel-caption  d-md-block" >
-									<h1  className="sliderh1">DAMSA  </h1>
-									<p className="sliderP2">TE ESCUCHA</p>
+									<h1  className="sliderh1">Buzón  </h1>
+									<p className="sliderP2">Damsa</p>
 								</div>
 							</div>
 						</div>

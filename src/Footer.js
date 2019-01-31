@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Mailto from 'react-protected-mailto';
 import './App.css';
 
 
@@ -24,7 +24,7 @@ class Footer extends Component {
         <img className="logodam" src="../images/damsa.png" alt="Damsa" />
         <nav id="main">
           <div className="border-none"><span className="icon-call-center" ></span></div>
-          <div ><span>01 800 7013959</span></div>
+          <div ><span><Mailto tel='01-800-7013959' /></span></div>
 
             <a href="https://www.facebook.com/DAMSA.RH" target="_blank" rel="noopener noreferrer"><div className="border-none"><span className="icon-facebook" ></span></div></a>
             <a href="https://twitter.com/DAMSA_oficial" target="_blank" rel="noopener noreferrer"><div className="border-none" ><span className="icon-twitter" ></span></div></a>

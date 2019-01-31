@@ -115,8 +115,11 @@ margin: 0 auto;
 left: 30px;
 
 }
+.navbar-toggle {
+  background-color: #224ca4;
+}
 .navbar-toggle .icon-bar {
-    background-color: #224ca4;
+    background-color: #fff;
     width: 20px;
     height: 3px;
     display: block;
@@ -785,6 +788,7 @@ box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.25);
 
 .Nosotros .seccion1{
   padding-bottom: 50px;
+  padding-top: 130px;
 }
 
 .Nosotros [class^="icon-"], [class*=" icon-"]{
@@ -816,7 +820,14 @@ box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.25);
   font-size: 26px;
   margin-top: 20px;
 }
-
+.service-link {
+  color: #f0c23c;
+  position: absolute;
+  bottom: 20px;
+}
+.service-link:hover {
+  text-decoration: underline;
+}
 .Nosotros .sembla{
 
     padding: 40px;
@@ -999,7 +1010,6 @@ text-align: center;
 .Nosotros .seccion1 .row {
     margin-right: 0;
     margin-left: 0;
-    padding-top: 50px;
 }
 .Nosotros .seccion2 .row {
     margin-right: 0;
@@ -1309,9 +1319,9 @@ position: absolute;
 .contenedorGaleria h3 {
     left: 12px;
     position: absolute;
-    font-size: 22px;
-    text-transform: uppercase;
-    top: 20px;
+    font-size: 18px;
+    
+    top: 30px;
     color: #5c5c5c;
 }
 .Galeri .contenedorGaleria {
@@ -1618,28 +1628,7 @@ width: 70px;
 }
 
 /* The Modal (background) */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: black;
-}
 
-/* Modal Content */
-.modal-content {
-  position: relative;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 0;
-  width: 90%;
-  max-width: 1200px;
-}
 
 /* The Close Button */
 .close {
@@ -1656,6 +1645,41 @@ width: 70px;
   color: #999;
   text-decoration: none;
   cursor: pointer;
+}
+.btn-login {
+  width: 40%;
+  margin: 20px;
+  display: inline-block;
+  background: #224ca4;
+  height: 150px;
+  vertical-align: top;
+}
+.btn-login:hover {
+  background: #f0c23c;
+}
+.modal-title {
+  color: #f0c23c;
+}
+button.close {
+    color: #224ca4;
+    font-size: 20px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+}
+button.close svg {
+  width: 100%;
+  height: 100%;
+  fill:#224ca4;
+
+}
+.btn-login img {
+    width: 60px;
+    margin: 20px 0px 3px;
+}
+.btn-login span {
+    color: #fff;
+    display: block;
 }
 
 /* Hide the slides by default */
@@ -1780,13 +1804,18 @@ img.hover-shadow {
     height: 25px;
     line-height: 25px;
     margin-top: 5px;
-    cursor: pointer;
     transition: all 200ms ease-in-out;
     color: #224ca4;
 
     font-size: 14px;
     font-weight: 400;
     position: relative;
+}
+.Footer a {
+  color: #224ca4 !important;
+}
+.Footer a:hover {
+  opacity: .8 !important;
 }
 .main span:hover {
       color: #e0b905;
@@ -2193,6 +2222,12 @@ width: 50%;
 }
 .menu-mobile {
   display: none;
+}
+.menu-mobile span {
+  cursor: pointer;
+}
+.menu-mobile a:hover, .menu-mobile span:hover {
+  opacity: .8;
 }
 .select-map{
   text-align: center;

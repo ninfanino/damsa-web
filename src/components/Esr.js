@@ -1,6 +1,22 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 const Servicios = () =>  {
+	var contenidoDiv = '<div class="contenedor-galerias row">';
+    const galerias = [
+        { src:'fiesta-anual-2018', photos:'192', name: 'Fiesta anual 2018'},
+        { src:'fiesta-anual-mty-2018', photos:'29', name: 'Fiesta anual MTY 2018'},
+        { src:'fiesta-anual-mx-2018', photos:'51', name: 'Fiesta anual CDMX 2018'},
+        { src:'dia-muertos-2018', photos:'41', name: 'Día de muertos 2018'},
+        { src:'paseo-anual-2018', photos:'105', name: 'Paseo Anual GDL 2018'},
+        { src:'paseo-anual-mty-2018', photos:'30', name: 'Paseo Anual MTY 2018'}
+        
+    ];
+
+    for(var key in galerias) {
+        contenidoDiv+='<div  class="sembla col-xs-12 col-sm-12 col-md-6 col-lg-4"><div class="contenedorGaleria"><a href="#/galerias/'+ galerias[key]['src'] +'/' + galerias[key]['photos'] +'"><img class="logoesr" src="../images/'+galerias[key]['src']+'/1.jpg" alt="'+galerias[key]['name']+'" /><div class="filtro"></div><div class="texto"><div class="line1"></div><h3>'+galerias[key]['name']+'</h3><label> <i class="fa fa-plus" aria-hidden="true"></i></label><div class="line2"></div></div></a></div></div>';
+    }
+    
+    contenidoDiv+= '</div>';
 	return (
 		<div className="Ers">
 			<div className="SliderI">
@@ -66,93 +82,8 @@ const Servicios = () =>  {
 					</div>
 				</div>
 
-
-				<div className="contenedor-galerias row">
-					<div  className="sembla col-xs-12 col-sm-12 col-md-6 col-lg-4">
-						<div className="contenedorGaleria">
-							<img className="logoesr" src="../images/reforestacion1.png" alt="Reforestación 2018" />
-							<div className="filtro"></div>
-							<div className="texto">
-								<div className="line1"></div>
-								<h3>Reforestación</h3>
-								<h2>2018</h2>
-								<label> <i className="fa fa-plus" aria-hidden="true"></i></label>
-								<div className="line2"></div>
-							</div>
-						</div>
-					</div>
-
-					<div  className="sembla col-xs-12 col-sm-12 col-md-6 col-lg-4">
-						<div className="contenedorGaleria">
-							<img className="logoesr" src="../images/diapadre1.png" alt="Día del padre 2018" />
-							<div className="filtro"></div>
-							<div className="texto">
-								<div className="line1"></div>
-								<h3>Día del padre</h3>
-								<h2> 2018</h2>
-								<label> <i className="fa fa-plus" aria-hidden="true"></i></label>
-								<div className="line2"></div>
-							</div>
-						</div>
-					</div>
-
-					<div  className="sembla col-xs-12 col-sm-12 col-md-6 col-lg-4">
-						<div className="contenedorGaleria">
-							<img className="logoesr" src="../images/diaabuelo1.png" alt="Día del abuelo" />
-							<div className="filtro"></div>
-							<div className="texto">
-								<div className="line1"></div>
-								<h3>Día del abuelo</h3>
-								<h2> 2018</h2>
-								<label> <i className="fa fa-plus" aria-hidden="true"></i></label>
-								<div className="line2"></div>
-							</div>
-						</div>
-					</div>
-
-					<div  className="sembla col-xs-12 col-sm-12 col-md-6 col-lg-4">
-						<div className="contenedorGaleria">
-							<img className="logoesr" src="../images/5-Expo.png" alt="Expo 2018" />
-							<div className="filtro"></div>
-							<div className="texto">
-								<div className="line1"></div>
-								<h3>Expo</h3>
-								<h2>2018</h2>
-								<label> <i className="fa fa-plus" aria-hidden="true"></i></label>
-								<div className="line2"></div>
-							</div>
-						</div>
-					</div>
-
-					<div  className="sembla col-xs-12 col-sm-12 col-md-6 col-lg-4">
-						<div className="contenedorGaleria">
-							<img className="logoesr" src="../images/4-Posada.png" alt="Posada 2017" />
-							<div className="filtro"></div>
-							<div className="texto">
-								<div className="line1"></div>
-								<h3>Posada</h3>
-								<h2>2017</h2>
-								<label> <i className="fa fa-plus" aria-hidden="true"></i></label>
-								<div className="line2"></div>
-							</div>
-						</div>
-					</div>
-
-					<div  className="sembla col-xs-12 col-sm-12 col-md-6 col-lg-4">
-						<div className="contenedorGaleria">
-							<img className="logoesr" src="../images/6-Cumbre.png" alt="Cumbre 2017" />
-							<div className="filtro"></div>
-							<div className="texto">
-								<div className="line1"></div>
-								<h3>Cumbre</h3>
-								<h2>2017</h2>
-								<label> <i className="fa fa-plus" aria-hidden="true"></i></label>
-								<div className="line2"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-
+				<div dangerouslySetInnerHTML={{__html:contenidoDiv}} ></div>
+				
 				<div className="row">
 					<div className="btngaleria col-xs-12 col-sm-12 col-md-12 col-lg-12">
 						<div className="row justify-content-center">
@@ -184,6 +115,7 @@ const Servicios = () =>  {
 							<div className="contenedor1">
 							<p className="cont1" >Trabajan para brindar una nueva oportunidad de vida a niños que han sufrido maltrato y abandono por parte de sus familias. </p>
 							</div>
+							<a href="http://www.suenosyesperanzas.org/" target="_blank" rel="noopener noreferrer"><p className="vermas"> Conoce más</p></a>
 							</div>
 						</div>
 
@@ -194,6 +126,7 @@ const Servicios = () =>  {
 							<div className="contenedor1">
 							<p className="cont1"> Organización ambiental cuya misión es conservar la flora, la fauna y los ecosistemas prioritarios promoviendo un desarrollo de la sociedad en armonía con la naturaleza. </p>
 							</div>
+							<a href="http://www.pronatura.org.mx/" target="_blank" rel="noopener noreferrer"><p className="vermas"> Conoce más</p></a>
 							</div>
 						</div>
 
@@ -205,7 +138,8 @@ const Servicios = () =>  {
 							<p className="cont1"> Organización que busca la transformación de las comunidades escolares, impulsando una educación integral basada en valores.</p>
 
 							
-							</div><p className="vermas"> Conoce más</p>
+							</div>
+							<a href="https://www.lazos.org.mx/" target="_blank" rel="noopener noreferrer"><p className="vermas"> Conoce más</p></a>
 							</div>
 						</div>
 
@@ -217,7 +151,8 @@ const Servicios = () =>  {
 							<p className="cont1"> Proyecto de intervención integral en la ZMG a través de la experiencia directa con la realidad de la migración en tránsito en otras zonas de la República.</p>
 
 							
-							</div><p className="vermas"> Conoce más</p>
+							</div>
+							<a href="https://fm4pasolibre.org/" target="_blank" rel="noopener noreferrer"><p className="vermas"> Conoce más</p></a>
 							</div>
 						</div>
 
@@ -229,7 +164,8 @@ const Servicios = () =>  {
 							<p className="cont1"> Somos una asociación civil comprometida a apoyar a los niños de escasos recursos con enfermedades del corazón y a sus familias.</p>
 
 							
-							</div><p className="vermas"> Conoce más</p>
+							</div>
+							<a href="https://www.taiyari.org/" target="_blank" rel="noopener noreferrer"><p className="vermas"> Conoce más</p></a>
 							</div>
 						</div>
 
@@ -241,7 +177,8 @@ const Servicios = () =>  {
 							<p className="cont1"> Somos una asociación civil sin fines de lucro legalmente constituida y reconocida que apoya a toda persona que vive con cáncer en el estado de Jalisco.</p>
 
 							
-							</div><p className="vermas"> Conoce más</p>
+							</div>
+							<a href="https://www.complicesac.org/" target="_blank" rel="noopener noreferrer"><p className="vermas"> Conoce más</p></a>
 							</div>
 						</div>
 
@@ -253,7 +190,8 @@ const Servicios = () =>  {
 							<p className="cont1"> Buscamos evitar la deforestación en América Latina trabajando con empresas que sean agentes de cambio reconociendo que el reciclaje es importante, en las empresas.</p>
 
 							
-							</div><p className="vermas"> Conoce más</p>
+							</div>
+							<a href="http://aquitelocompro.com/" target="_blank" rel="noopener noreferrer"><p className="vermas"> Conoce más</p></a>
 							</div>
 						</div>
 
@@ -265,7 +203,8 @@ const Servicios = () =>  {
 							<p className="cont1"> Promueve la conciencia ecológica a través de la donación de árboles, forestaciones y reforestaciones con el fin de mejorar la calidad del aire, del clima y del paisaje de la ZMG.</p>
 
 							
-							</div><p className="vermas"> Conoce más</p>
+							</div>
+							<a href="https://bosqueurbanoextra.org.mx/" target="_blank" rel="noopener noreferrer"><p className="vermas"> Conoce más</p></a>
 							</div>
 						</div>
 						
@@ -277,7 +216,8 @@ const Servicios = () =>  {
 							<p className="cont1"> Apoya el desarrollo de niñas víctimas de abuso y violencia intrafamiliar que no cuentan con ningún tipo de recursos para su recuperación.</p>
 
 							
-							</div><p className="vermas"> Conoce más</p>
+							</div>
+							<a href="https://www.casakamami.org/index.html" target="_blank" rel="noopener noreferrer"><p className="vermas"> Conoce más</p></a>
 							</div>
 						</div>
 					</div>

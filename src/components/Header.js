@@ -46,32 +46,34 @@ export default class Header extends Component {
         									<span className="icon-bar"></span>
       									</button>
 
-      									<NavLink to="/"><img className="logodam" src="../images/damsa.png" alt="Damsa" /></NavLink>
+      									<NavLink to="/" onClick={()=> {window.scrollTo(0, 0);}}><img className="logodam" src="../images/damsa.png" alt="Damsa" /></NavLink>
 
 
       									<nav id="menu-complete" className="main">
-								          <NavLink to="/nosotros"><span>NOSOTROS</span></NavLink>
-								          <NavLink to="/servicios"><span>SERVICIOS</span></NavLink>
+								          <NavLink to="/nosotros" onClick={()=> {window.scrollTo(0, 0);}}><span>NOSOTROS</span></NavLink>
+								          <NavLink to="/servicios" onClick={()=> {window.scrollTo(0, 0);}}><span>SERVICIOS</span></NavLink>
 								          <a href="https://bolsa.damsa.com.mx/" target="_blank" rel="noopener noreferrer"><span>TALENTO</span></a>
-								          <NavLink to="/esr"><span>ESR</span></NavLink>
-								          <NavLink to="/galeria"><span>GALERIA</span></NavLink>
+								          <NavLink to="/esr" onClick={()=> {window.scrollTo(0, 0);}}><span>ESR</span></NavLink>
+								          <NavLink to="/galeria" onClick={()=> {window.scrollTo(0, 0);}}><span>GALERIA</span></NavLink>
 								          <a href="https://www.damsa.com.mx/club/listadoDC.aspx" target="_blank" rel="noopener noreferrer"><span>DAMSACLUB</span></a>
 								          <a href="https://damsablog.com/" target="_blank" rel="noopener noreferrer"><span>BLOG</span></a>
-								          <NavLink to="/contacto"><span>CONTACTO</span></NavLink>
-								          <NavLink to="/"><span className="icon-user" ></span></NavLink>
+								          <NavLink to="/contacto" onClick={()=> {window.scrollTo(0, 0);}}><span>CONTACTO</span></NavLink>
+								          <span className="icon-user" data-toggle="modal" data-target="#modal" ></span>
 								        </nav>
 
 								        <div className="menu-mobile">
-								          <NavLink to="/nosotros"><span>NOSOTROS</span></NavLink>
-								          <NavLink to="/servicios"><span>SERVICIOS</span></NavLink>
-								          <NavLink to="/"><span>TALENTO</span></NavLink>
-								          <NavLink to="/esr"><span>ESR</span></NavLink>
-								          <NavLink to="/galeria"><span>GALERIA</span></NavLink>
-								          <NavLink to="/"><span>DAMSACLUB</span></NavLink>
-								          <NavLink to="/"><span>BLOG</span></NavLink>
-								          <NavLink to="/contacto"><span>CONTACTO</span></NavLink>
-								          <NavLink to="/contacto"><span className="icon-user" ></span></NavLink>
+								          <NavLink to="/nosotros" onClick={()=> {window.scrollTo(0, 0);}}><span>NOSOTROS</span></NavLink>
+								          <NavLink to="/servicios" onClick={()=> {window.scrollTo(0, 0);}}><span>SERVICIOS</span></NavLink>
+								          <NavLink to="https://bolsa.damsa.com.mx/"><span>TALENTO</span></NavLink>
+								          <NavLink to="/esr" onClick={()=> {window.scrollTo(0, 0);}}><span>ESR</span></NavLink>
+								          <NavLink to="/galeria" onClick={()=> {window.scrollTo(0, 0);}}><span>GALERIA</span></NavLink>
+								          <NavLink to="https://www.damsa.com.mx/club/listadoDC.aspx"><span>DAMSACLUB</span></NavLink>
+								          <NavLink to="https://damsablog.com/"><span>BLOG</span></NavLink>
+								          <NavLink to="/contacto" onClick={()=> {window.scrollTo(0, 0);}}><span>CONTACTO</span></NavLink>
+								          <span className="icon-user"  data-toggle="modal" data-target="#modal" ></span>
 					        			</div>
+
+					        			
 
     							</div>
 
@@ -79,6 +81,8 @@ export default class Header extends Component {
 					</div>
 		    	</div>
 		    </header>
+
+
 		);
 	}
 }

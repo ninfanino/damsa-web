@@ -3,7 +3,7 @@
 import Slider from "./Slider";
 import React, { Component } from 'react';
 import $ from 'jquery';
-
+import { NavLink } from "react-router-dom";
 
 
 $(document).ready(
@@ -52,37 +52,37 @@ export default class Home extends Component {
 		            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
 		              <div className="icono-home"> <span className="icon-mision" ></span></div>
 		              <div className="service-title" > MISIÓN</div>
-		              <p className="service-p"> Conoce nuestra Misión </p>
+		              <NavLink to="/sobre-nosotros/valores"><p className="service-p"> Conoce nuestra Misión </p></NavLink>
 		            </div>
 
 		            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
 		              <div className="icono-home"> <span className="icon-vision" ></span></div>
 		              <div className="service-title" >VISIÓN</div>
-		              <p className="service-p"> Conoce nuestra Visión </p>
+		              <NavLink to="/sobre-nosotros/valores"><p className="service-p"> Conoce nuestra Visión </p></NavLink>
 		            </div>
 
 		            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
 		              <div className="icono-home"> <span className="icon-valores" ></span></div>
 		              <div className="service-title" > VALORES</div>
-		              <p className="service-p">Conoces nuestros Valores</p>
+		              <NavLink to="/sobre-nosotros/valores"><p className="service-p">Conoces nuestros Valores</p></NavLink>
 		            </div>
 
 		            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
 		              <div className="icono-home"> <span className="icon-responsabilidad" ></span></div>
 		              <div className="service-title" >RESPONSABILIDAD SOCIAL</div>
-		              <p className="service-p"> Conoce nuestro compromiso con la Resposabilidad Social </p>
+		              <NavLink to="/sobre-nosotros/esr"><p className="service-p"> Conoce nuestro compromiso con la Resposabilidad Social </p></NavLink>
 		            </div>
 
 		            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
 		              <div className="icono-home"> <span className="icon-politicas" ></span></div>
 		              <div className="service-title" > POLÍTICAS INSTITUCIONALES</div>
-		              <p className="service-p"> Resposabbilidad social, calidad, código de conducta de la industria electrónica </p>
+		              <NavLink to="/sobre-nosotros/politicas"><p className="service-p"> Resposabilidad social, calidad, código de conducta de la industria electrónica </p></NavLink>
 		            </div>
 
 		            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
 		              <div className="icono-home"> <span className="icon-semblanza" ></span></div>
 		              <div className="service-title" > SEMBLANZA</div>
-		              <p className="service-p">conoces nuestra Semblanza</p>
+		              <NavLink to="/sobre-nosotros/semblanza"><p className="service-p">conoces nuestra Semblanza</p></NavLink>
 		            </div>
 		          </div>
 		        </div>
@@ -171,6 +171,8 @@ export default class Home extends Component {
 		        						<p className="sliderP3">Asesoría en capital humano</p>
 		      						</div>
 	    				</div>
+
+	    				<NavLink to="/servicios" onClick={()=> {window.scrollTo(0, 0);}}><p className="service-link"> Ver más </p></NavLink>
 	  				</div>
 	  			</div>
 			</div>
@@ -182,7 +184,7 @@ export default class Home extends Component {
       						<h1  className="sliderVacanteh1">¿POR QUE TRABAJAR </h1>
         					<h2 className="sliderVacanteh2" >CON NOSOTROS? </h2>
 
-                			<div className="tuto" >  <h4 className="texto texto_vacantes" > Vacantes</h4> </div>
+                			<a href="https://bolsa.damsa.com.mx/" target="_blank" rel="noopener noreferrer"><div className="tuto" >  <h4 className="texto texto_vacantes" > Vacantes</h4> </div></a>
             			</div>
             		</div>
         		</div>
@@ -235,12 +237,12 @@ export default class Home extends Component {
   <div className="damsa-escucha">
 		<div className="valign">
       		<div className="container" >
-      			<h1  className="sliderVacanteh3">DAMSA </h1>
-        		<h1 className="sliderVacanteh4" >TE ESCUCHA </h1>
+      			<h1  className="sliderVacanteh3">Buzon </h1>
+        		<h1 className="sliderVacanteh4" >Damsa </h1>
 
         		<div className="row justify-content-center">
             		<div className="col-sm-12" >
-              			<div className="tuto" >  <h4 className="texto texto_redes" > Contáctanos</h4> </div>
+              			<NavLink to="/contacto" onClick={()=> {window.scrollTo(0, 0);}}><div className="tuto" >  <h4 className="texto texto_redes" > Contáctanos</h4> </div></NavLink>
             		</div>
         		</div>
 
