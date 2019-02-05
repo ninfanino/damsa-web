@@ -11,6 +11,10 @@ class Header extends Component {
 		$('.menu-mobile').toggleClass('open');
 		$('.navbar-toggle').toggleClass('open');
 	}
+	closeMenu(){
+		$('.menu-mobile').removeClass('open');
+		$('.navbar-toggle').removeClass('open');
+	}
 
 	render () {
 		const { t, i18n } = this.props;
@@ -51,11 +55,11 @@ class Header extends Component {
         									<span className="icon-bar"></span>
       									</button>
 
-      									<NavLink to="/" onClick={()=> {window.scrollTo(0, 0);}}><img className="logodam" src="../images/damsa.png" alt="Damsa" /></NavLink>
+      									<NavLink to="/" onClick={()=> {window.scrollTo(0, 0);}}><img className="logodam" src="../images/damsa.png" alt="Damsa" onClick={this.closeMenu} /></NavLink>
 
 
       									<nav id="menu-complete" className="main">
-								          <NavLink to="/nosotros" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.nosotros")}</span></NavLink>
+								          <NavLink to="/nosotros" onClick={()=> {window.scrollTo(0, 0);}} ><span >{t("menu.nosotros")}</span></NavLink>
 								          <NavLink to="/servicios" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.servicios")}</span></NavLink>
 								          <a href="https://bolsa.damsa.com.mx/" target="_blank" rel="noopener noreferrer"><span>{t("menu.talento")}</span></a>
 								          <NavLink to="/esr" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.esr")}</span></NavLink>
@@ -67,18 +71,18 @@ class Header extends Component {
 								        </nav>
 
 								        <div className="menu-mobile">
-								          <NavLink to="/nosotros" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.nosotros")}</span></NavLink>
-								          <NavLink to="/servicios" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.servicios")}</span></NavLink>
+								          <NavLink to="/nosotros" onClick={()=> {window.scrollTo(0, 0); }} ><span onClick={this.closeMenu}>{t("menu.nosotros")}</span></NavLink>
+								          <NavLink to="/servicios" onClick={()=> {window.scrollTo(0, 0);}}><span onClick={this.closeMenu}>{t("menu.servicios")}</span></NavLink>
 								          <a href="https://bolsa.damsa.com.mx/"><span>{t("menu.talento")}</span></a>
-								          <NavLink to="/esr" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.esr")}</span></NavLink>
-								          <NavLink to="/galeria" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.galeria")}</span></NavLink>
+								          <NavLink to="/esr" onClick={()=> {window.scrollTo(0, 0);}}><span onClick={this.closeMenu}>{t("menu.esr")}</span></NavLink>
+								          <NavLink to="/galeria" onClick={()=> {window.scrollTo(0, 0);}}><span onClick={this.closeMenu}>{t("menu.galeria")}</span></NavLink>
 								          <a href="https://www.damsa.com.mx/club/listadoDC.aspx"><span>{t("menu.club")}</span></a>
 								          <a href="https://damsablog.com/"><span>{t("menu.blog")}</span></a>
-								          <NavLink to="/contacto" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.contacto")}</span></NavLink>
+								          <NavLink to="/contacto" onClick={()=> {window.scrollTo(0, 0);}}><span onClick={this.closeMenu}>{t("menu.contacto")}</span></NavLink>
 								          <span className="icon-user"  data-toggle="modal" data-target="#modal" ></span>
 					        			</div>
 
-					        			
+
 
     							</div>
 

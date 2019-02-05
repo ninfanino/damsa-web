@@ -44,7 +44,7 @@ class Home extends Component {
 	return (
 		<div>
 			<Slider/>
-
+  
 			<div>
 		        <div className="Home-header container-fluid">
 		          <div className="row homed2" >
