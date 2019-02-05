@@ -1,10 +1,9 @@
 
-
 import Slider from "./Slider";
 import React, { Component } from 'react';
 import $ from 'jquery';
 import { NavLink } from "react-router-dom";
-
+import { translate } from 'react-i18next';
 
 $(document).ready(
 	function()
@@ -23,7 +22,8 @@ $(document).ready(
 		);
 	}
 );
-export default class Home extends Component {
+
+class Home extends Component {
 
 	openMenu(index){
 		$('.menu-map').removeClass('open');
@@ -36,6 +36,11 @@ export default class Home extends Component {
 		$('.navb').removeClass('open');
 	}
 	render () {
+		const { t, i18n } = this.props;
+
+	    const changeLanguage = lng => {
+	      i18n.changeLanguage(lng);
+	    };
 	return (
 		<div>
 			<Slider/>
@@ -44,45 +49,45 @@ export default class Home extends Component {
 		        <div className="Home-header container-fluid">
 		          <div className="row homed2" >
 		            <div className="col-12 text-center">
-		              <h3 className="title"><b> CONÓCENOS</b></h3>
-		              <p className="subtitle"> te vas a querer quedar con nosotros </p>
+		              <h3 className="title"><b> {t("home-about.title")}</b></h3>
+		              <p className="subtitle"> {t("home-about.slogan")} </p>
 		              <div className="dark"></div>
 		            </div>
 
 		            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
 		              <div className="icono-home"> <span className="icon-mision" ></span></div>
-		              <div className="service-title" > MISIÓN</div>
-		              <NavLink to="/sobre-nosotros/valores"><p className="service-p"> Conoce nuestra Misión </p></NavLink>
+		              <div className="service-title" > {t("home-about.mision")}</div>
+		              <NavLink to="/sobre-nosotros/valores"><p className="service-p"> {t("home-about.more-mision")} </p></NavLink>
 		            </div>
 
 		            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
 		              <div className="icono-home"> <span className="icon-vision" ></span></div>
-		              <div className="service-title" >VISIÓN</div>
-		              <NavLink to="/sobre-nosotros/valores"><p className="service-p"> Conoce nuestra Visión </p></NavLink>
+		              <div className="service-title" >{t("home-about.vision")}</div>
+		              <NavLink to="/sobre-nosotros/valores"><p className="service-p"> {t("home-about.more-vision")} </p></NavLink>
 		            </div>
 
 		            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
 		              <div className="icono-home"> <span className="icon-valores" ></span></div>
-		              <div className="service-title" > VALORES</div>
-		              <NavLink to="/sobre-nosotros/valores"><p className="service-p">Conoces nuestros Valores</p></NavLink>
+		              <div className="service-title" > {t("home-about.valores")}</div>
+		              <NavLink to="/sobre-nosotros/valores"><p className="service-p">{t("home-about.more-valores")}</p></NavLink>
 		            </div>
 
 		            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
 		              <div className="icono-home"> <span className="icon-responsabilidad" ></span></div>
-		              <div className="service-title" >RESPONSABILIDAD SOCIAL</div>
-		              <NavLink to="/sobre-nosotros/esr"><p className="service-p"> Conoce nuestro compromiso con la Resposabilidad Social </p></NavLink>
+		              <div className="service-title" >{t("home-about.responsabilidad")}</div>
+		              <NavLink to="/sobre-nosotros/esr"><p className="service-p"> {t("home-about.more-responsabilidad")} </p></NavLink>
 		            </div>
 
 		            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
 		              <div className="icono-home"> <span className="icon-politicas" ></span></div>
-		              <div className="service-title" > POLÍTICAS INSTITUCIONALES</div>
-		              <NavLink to="/sobre-nosotros/politicas"><p className="service-p"> Resposabilidad social, calidad, código de conducta de la industria electrónica </p></NavLink>
+		              <div className="service-title" > {t("home-about.politicas")}</div>
+		              <NavLink to="/sobre-nosotros/politicas"><p className="service-p"> {t("home-about.more-politicas")} </p></NavLink>
 		            </div>
 
 		            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
 		              <div className="icono-home"> <span className="icon-semblanza" ></span></div>
-		              <div className="service-title" > SEMBLANZA</div>
-		              <NavLink to="/sobre-nosotros/semblanza"><p className="service-p">conoces nuestra Semblanza</p></NavLink>
+		              <div className="service-title" > {t("home-about.semblanza")} </div>
+		              <NavLink to="/sobre-nosotros/semblanza"><p className="service-p">{t("home-about.more-semblanza")}</p></NavLink>
 		            </div>
 		          </div>
 		        </div>
@@ -93,8 +98,8 @@ export default class Home extends Component {
 					<div className="serviciosh1 hidden-sm-down col-md-5 col-lg-6"></div>
 
 					<div className="serviciosh col-xs-12 col-sm-12 col-md-7 col-lg-6 text-left">
-						<h3 className="title yellow" ><b>SERVICIOS</b></h3>
-	  					<p className="subtitle white" > te vas a querer quedar con nosotros </p>
+						<h3 className="title yellow" ><b>{t("home-servicios.title")}</b></h3>
+	  					<p className="subtitle white" > {t("home-servicios.slogan")} </p>
 	  					<div className="dark left"></div>
 
 	  					<div className="ds carousel slide hidden-xs-down" data-ride="carousel">
@@ -107,34 +112,34 @@ export default class Home extends Component {
 						      	<div className="carousel-item active">
 							      	<div className="sliserv col-xs-12 col-sm-4 col-md-4 col-lg-4">
 							      		<p className="sliderP"><span className="icon-administracion-personal" ></span></p>
-							        	<p className="sliderP3">Administración integral de personal</p>
+							        	<p className="sliderP3">{t("home-servicios.servicio1")}</p>
 							      	</div>
 
 							      	<div  className="sliserv col-xs-12 col-sm-4 col-md-4 col-lg-4">
 							      		<p className="sliderP"><span className="icon-busqueda-talento" ></span></p>
-							        	<p className="sliderP3">Búsqueda de talento ejecutivo</p>
+							        	<p className="sliderP3">{t("home-servicios.servicio2")}</p>
 							      	</div>
 
 							      	<div  className="sliserv col-xs-12 col-sm-4 col-md-4 col-lg-4">
 							      		<p className="sliderP"><span className="icon-pruebas-confianza" ></span></p>
-							        	<p className="sliderP3">Aplicación e implementación, prueba de confianza</p>
+							        	<p className="sliderP3">{t("home-servicios.servicio3")}</p>
 							      	</div>
 					      	  	</div>
 
 		      					<div className="carousel-item">
 		      						<div  className="sliserv col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		      							<p className="sliderP"><span className="icon-investigaciones" ></span></p>
-		        						<p className="sliderP3">Investigaciones socioeconómico laborales</p>
+		        						<p className="sliderP3">{t("home-servicios.servicio4")}</p>
 		      						</div>
 
 								    <div  className="sliserv col-xs-12 col-sm-4 col-md-4 col-lg-4">
 								      	<p className="sliderP"><span className="icon-programas-capacitacion" ></span></p>
-								        <p className="sliderP3">Programas de capacitación</p>
+								        <p className="sliderP3">{t("home-servicios.servicio5")}</p>
 								    </div>
 
 		      						<div  className="sliserv col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		      							<p className="sliderP"><span className="icon-asesoria-capital" ></span></p>
-		        						<p className="sliderP3">Asesoría en capital humano</p>
+		        						<p className="sliderP3">{t("home-servicios.servicio6")}</p>
 		      						</div>
 		      					</div>
 	    					</div>
@@ -143,36 +148,36 @@ export default class Home extends Component {
 	    				<div className="hidden-sm-up">
 	    							<div className="col-xs-12 serviciosmovil">
 							      		<p className="sliderP"><span className="icon-administracion-personal" ></span></p>
-							        	<p className="sliderP3">Administración integral de personal</p>
+							        	<p className="sliderP3">{t("home-servicios.servicio1")}</p>
 							      	</div>
 
 							      	<div className="col-xs-12 serviciosmovil">
 							      		<p className="sliderP"><span className="icon-busqueda-talento" ></span></p>
-							        	<p className="sliderP3">Búsqueda de talento ejecutivo</p>
+							        	<p className="sliderP3">{t("home-servicios.servicio2")}</p>
 							      	</div>
 
 							      	<div className="col-xs-12 serviciosmovil">
 							      		<p className="sliderP"><span className="icon-pruebas-confianza" ></span></p>
-							        	<p className="sliderP3">Aplicación e implementación, prueba de confianza</p>
+							        	<p className="sliderP3">{t("home-servicios.servicio3")}</p>
 							      	</div>
 
 							      	<div className="col-xs-12 serviciosmovil">
 		      							<p className="sliderP"><span className="icon-investigaciones" ></span></p>
-		        						<p className="sliderP3">Investigaciones socioeconómico laborales</p>
+		        						<p className="sliderP3">{t("home-servicios.servicio4")}</p>
 		      						</div>
 
 								    <div className="col-xs-12 serviciosmovil">
 								      	<p className="sliderP"><span className="icon-programas-capacitacion" ></span></p>
-								        <p className="sliderP3">Programas de capacitación</p>
+								        <p className="sliderP3">{t("home-servicios.servicio5")}</p>
 								    </div>
 
 		      						<div className="col-xs-12 serviciosmovil">
 		      							<p className="sliderP"><span className="icon-asesoria-capital" ></span></p>
-		        						<p className="sliderP3">Asesoría en capital humano</p>
+		        						<p className="sliderP3">{t("home-servicios.servicio6")}</p>
 		      						</div>
 	    				</div>
 
-	    				<NavLink to="/servicios" onClick={()=> {window.scrollTo(0, 0);}}><p className="service-link"> Ver más </p></NavLink>
+	    				<NavLink to="/servicios" onClick={()=> {window.scrollTo(0, 0);}}><p className="service-link"> {t("home-servicios.more")} </p></NavLink>
 	  				</div>
 	  			</div>
 			</div>
@@ -181,18 +186,18 @@ export default class Home extends Component {
 				<div className="valign">
 					<div className="row justify-content-center text-center" >
 						<div className="col-sm-12">
-      						<h1  className="sliderVacanteh1">¿POR QUE TRABAJAR </h1>
-        					<h2 className="sliderVacanteh2" >CON NOSOTROS? </h2>
+      						<h1  className="sliderVacanteh1">{t("home-vacantes.title1")} </h1>
+        					<h2 className="sliderVacanteh2" >{t("home-vacantes.title2")} </h2>
 
-                			<a href="https://bolsa.damsa.com.mx/" target="_blank" rel="noopener noreferrer"><div className="tuto" >  <h4 className="texto texto_vacantes" > Vacantes</h4> </div></a>
+                			<a href="https://bolsa.damsa.com.mx/" target="_blank" rel="noopener noreferrer"><div className="tuto" >  <h4 className="texto texto_vacantes" > {t("home-vacantes.btn")}</h4> </div></a>
             			</div>
             		</div>
         		</div>
       		</div>
 
 			<div className="mejoracontinua">
-				<h3 className="title"><b>MEJORA CONTINUA</b></h3>
-  				<p className="subtitle"> te vas a querer quedar con nosotros </p>
+				<h3 className="title"><b>{t("home-mejora.title")}</b></h3>
+  				<p className="subtitle"> {t("home-mejora.subtitle")} </p>
   				<div className="dark"></div>
 			</div>
 
@@ -201,32 +206,32 @@ export default class Home extends Component {
 			<div className="mejoracuadros1 col-xs-12 col-sm-6 col-md-3 col-lg-3">
 				<div className="num-mejora">1</div>
 				<div className="valign">
-  					<h3 > ISO</h3>
-    				<h2 >CERTIFICACIÓN</h2>
+  					<h3 > {t("home-certificaciones.title1")}</h3>
+    				<h2 >{t("home-certificaciones.subtitle1")}</h2>
     			</div>
 			</div>
 
 			<div className="mejoracuadros2 col-xs-12 col-sm-6 col-md-3 col-lg-3">
 				<div className="num-mejora">2</div>
 				<div className="valign">
-  					<h3 > C-TPAT</h3>
-    				<h2 > ALINEADOS A SUS ESTÁNDARES</h2>
+  					<h3 > {t("home-certificaciones.title2")}</h3>
+    				<h2 > {t("home-certificaciones.subtitle2")}</h2>
     			</div>
 			</div>
 
 			<div className="mejoracuadros1 second col-xs-12 col-sm-6 col-md-3 col-lg-3">
 				<div className="num-mejora">3</div>
 				<div className="valign">
-  					<h3 > ESR</h3>
-    				<h2>DISTINTIVO</h2>
+  					<h3 > {t("home-certificaciones.title3")}</h3>
+    				<h2>{t("home-certificaciones.subtitle3")}</h2>
     			</div>
 			</div>
 
 			<div className="mejoracuadros2 second col-xs-12 col-sm-6 col-md-3 col-lg-3">
 				<div className="num-mejora">4</div>
 				<div className="valign">
-  					<h3 >CADELEC</h3>
-    				<h2> CERTIFICACIÓN</h2>
+  					<h3 >{t("home-certificaciones.title4")}</h3>
+    				<h2> {t("home-certificaciones.subtitle4")}</h2>
     			</div>
 			</div>
 			</div>
@@ -237,12 +242,12 @@ export default class Home extends Component {
   <div className="damsa-escucha">
 		<div className="valign">
       		<div className="container" >
-      			<h1  className="sliderVacanteh3">Buzon </h1>
-        		<h1 className="sliderVacanteh4" >Damsa </h1>
+      			<h1  className="sliderVacanteh3">{t("home-buzon.title")} </h1>
+        		<h1 className="sliderVacanteh4" >{t("home-buzon.subtitle")}</h1>
 
         		<div className="row justify-content-center">
             		<div className="col-sm-12" >
-              			<NavLink to="/contacto" onClick={()=> {window.scrollTo(0, 0);}}><div className="tuto" >  <h4 className="texto texto_redes" > Contáctanos</h4> </div></NavLink>
+              			<NavLink to="/contacto" onClick={()=> {window.scrollTo(0, 0);}}><div className="tuto" >  <h4 className="texto texto_redes" > {t("home-buzon.btn")}</h4> </div></NavLink>
             		</div>
         		</div>
 
@@ -255,9 +260,9 @@ export default class Home extends Component {
 
 
  <div className="mejoracontinua">
- <div className="title">EMPRESA SOCIALMENTE RESPONSABLE</div>
+ <div className="title">{t("home-esr.title")}</div>
 
-   <div className="subtitle" > te vas a querer quedar con nosotros </div>
+   <div className="subtitle" > {t("home-esr.subtitle")} </div>
    <div className="dark">
    <div>
 
@@ -284,7 +289,7 @@ export default class Home extends Component {
 			</h1>
           	<div className="row justify-content-center">
               <div className="col-sm-12" >
-                <div className="tuto" >  <h4 className="texto texto_vacantes" > Conoce que es ESR</h4> </div>
+                <div className="tuto" >  <h4 className="texto texto_vacantes" > {t("home-esr.btn")}</h4> </div>
               </div>
           	</div>
 
@@ -299,7 +304,7 @@ export default class Home extends Component {
 
           <div className="row justify-content-center">
               <div className="col-sm-12" >
-                <div className="tuto" >  <h4 className="texto texto_vacantes" > Conoce que es ESR</h4> </div>
+                <div className="tuto" >  <h4 className="texto texto_vacantes" > {t("home-esr.btn")}</h4> </div>
               </div>
           </div>
 
@@ -316,7 +321,7 @@ export default class Home extends Component {
           <div className="row justify-content-center">
               <div className="col-sm-12" >
                 
-                 <div className="tuto" >  <h4 className="texto texto_vacantes"  > Conoce que es ESR</h4> </div>
+                 <div className="tuto" >  <h4 className="texto texto_vacantes"  > {t("home-esr.btn")}</h4> </div>
               </div>
           </div>
 
@@ -333,9 +338,9 @@ export default class Home extends Component {
     </a>
   </div>
     <div className="mejoracontinua">
-    	<div className="title">SUCURSALES</div>
+    	<div className="title">{t("home-sucursales.title")}</div>
 
-      <div className="subtitle" > te vas a querer quedar con nosotros </div>
+      <div className="subtitle" > {t("home-sucursales.subtitle")} </div>
       <div className="dark">
       <div>
 
@@ -559,9 +564,9 @@ export default class Home extends Component {
   <div id="contacto" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <br></br>
   <br></br>
-  <h3 className="title yellow" ><b>CONTACTO</b></h3>
+  <h3 className="title yellow" ><b>{t("home-contact.title")}</b></h3>
 
-    <p className="subtitle yellow" > te vas a querer quedar con nosotros </p>
+    <p className="subtitle yellow" > {t("home-contact.subtitle")} </p>
     <div className="dark">
     <div>
 
@@ -574,49 +579,49 @@ export default class Home extends Component {
 			<div className="row">
 				<div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 	                <div className="form-group" >
-	                    <input type="text" name="nombre" placeholder="Nombre" className="form-control" required="" />
+	                    <input type="text" name="nombre" placeholder={t("home-contact.name")} className="form-control" required="" />
 	                </div>
 				</div>
 	            <div  className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 	                <div className="form-group" >
-	                  	<input type="text" name="empresa" placeholder="Empresa" className="form-control" required=""/>
+	                  	<input type="text" name="empresa" placeholder={t("home-contact.company")} className="form-control" required=""/>
 	                </div>
 	            </div>
 	        </div>
 	        <div className="row">
 				<div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 					<div className="form-group" >
-						<input type="text" name="telefono"  placeholder="Teléfono" className="form-control" required="" />
+						<input type="text" name="telefono"  placeholder={t("home-contact.phone")} className="form-control" required="" />
 					</div>
 				</div>
 				<div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
     				<div className="form-group" >
-      					<input type="text" name="correo"  placeholder="Email" className="form-control" required="" />
+      					<input type="text" name="correo"  placeholder={t("home-contact.mail")} className="form-control" required="" />
     				</div>
 				</div>
 			</div>
 			<div className="row">
                 <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 	                <div className="form-group" >
-	                  <input type="text" name="area" placeholder="Area" className="form-control" required=""/>
+	                  <input type="text" name="area" placeholder={t("home-contact.area")} className="form-control" required=""/>
 	                </div>
 	            </div>
               	<div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 	              <div className="form-group" >
-	                <input type="text" name="ciudad"  placeholder="Ciudad" className="form-control" required=""/>
+	                <input type="text" name="ciudad"  placeholder={t("home-contact.city")} className="form-control" required=""/>
 	              </div>
 	            </div>
 	        </div>
 	        <div className="row">
 				<div id="linearoja"  className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div className="form-group">
-                      <textarea id="areatext" name="mensaje" placeholder="Mensaje" className="form-control3 w-100" required="" ></textarea>
+                      <textarea id="areatext" name="mensaje" placeholder={t("home-contact.message")} className="form-control3 w-100" required="" ></textarea>
                     </div>
 				</div>
 
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div className="form-group" id="btncontact" >
-                      <button id="boton" type="submit" className="btn btn-default"  >Enviar</button>
+                      <button id="boton" type="submit" className="btn btn-default"  >{t("home-contact.enviar")}</button>
                     </div>
                 </div>
             </div>
@@ -652,3 +657,4 @@ export default class Home extends Component {
 }
 
 }
+export default translate('common')(Home);

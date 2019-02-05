@@ -3,7 +3,7 @@ import $ from 'jquery';
 import { NavLink } from "react-router-dom";
 import Mailto from 'react-protected-mailto';
 
-import { translate, Trans } from 'react-i18next';
+import { translate } from 'react-i18next';
 
 class Header extends Component {
 
@@ -15,9 +15,9 @@ class Header extends Component {
 	render () {
 		const { t, i18n } = this.props;
 
-    const changeLanguage = lng => {
-      i18n.changeLanguage(lng);
-    };
+	    const changeLanguage = lng => {
+	      i18n.changeLanguage(lng);
+	    };
 		return (
 			<header className="header">
 		      	<div className="container-fluid" id="header_main">

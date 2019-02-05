@@ -115,6 +115,9 @@ margin: 0 auto;
 left: 30px;
 
 }
+.carousel-item {
+  text-transform: uppercase;
+}
 .navbar-toggle {
   background-color: #224ca4;
 }

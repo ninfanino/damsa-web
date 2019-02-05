@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
 import Mailto from 'react-protected-mailto';
 import './App.css';
-
-
-
-
-
-
-
-
-
+import { translate } from 'react-i18next';
 
 
 class Footer extends Component {
   render() {
+      const { t } = this.props;
+
     return (
       <div className="Footer">
 
@@ -35,8 +29,8 @@ class Footer extends Component {
           <div className="col-md-12 relative" id="menu">
 
             <nav id="main">
-            <span> Damsa 2018. Todos los derechos reservados.</span>
-            <span> Aviso de Privacidad.</span>
+            <span> {t("footer.derechos")}.</span>
+            <span> {t("footer.privacidad")}.</span>
             </nav>
           </div>
       </div>
@@ -47,4 +41,4 @@ class Footer extends Component {
 }
 
 
-export default Footer;
+export default translate('common')(Footer);

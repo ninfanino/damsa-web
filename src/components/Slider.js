@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-
+import { translate } from 'react-i18next';
 class Slider extends Component {
   render() {
+    const { t } = this.props;
     return (
       <div className="SliderI">
         <div className="SliderI-header">
@@ -11,13 +12,13 @@ class Slider extends Component {
                 <img className="slider" src="../images/bg-index1.png" alt="Gente que trabaja para la gente" />
                 
                 <div className="carousel-caption  d-md-block" >
-                  <p className="sliderP">EN DAMSA SOMOS </p>
-                  <h1  className="sliderh1">GENTE   </h1>
-                  <h1 className="sliderh1" >QUE TRABAJA </h1>
-                  <p className="sliderP2">PARA LA GENTE</p>
+                  <p className="sliderP">{t("slider.somos")} </p>
+                  <h1  className="sliderh1">{t("slider.gente")}   </h1>
+                  <h1 className="sliderh1" >{t("slider.trabaja")} </h1>
+                  <p className="sliderP2">{t("slider.para")}</p>
                   <div className="row justify-content-center">
                     <div className="col-sm-12" >
-                       <h4 className="texto texto_redes tuto" > Envianos tu CV</h4>
+                       <h4 className="texto texto_redes tuto" > {t("slider.btn")}</h4>
                     </div>
                   </div>
                 </div>
@@ -27,13 +28,13 @@ class Slider extends Component {
               <div className="carousel-item">
                 <img className="slider" src="../images/bg-index1.png" alt="Gente que trabaja para la gente" />
                 <div className="carousel-caption  d-md-block" >
-                  <p className="sliderP">EN DAMSA SOMOS </p>
-                  <h1  className="sliderh1">GENTE   </h1>
-                  <h1 className="sliderh1" >QUE TRABAJA </h1>
-                  <p className="sliderP2">PARA GENTE</p>
+                  <p className="sliderP">{t("slider.somos")} </p>
+                  <h1  className="sliderh1">{t("slider.gente")}   </h1>
+                  <h1 className="sliderh1" >{t("slider.trabaja")} </h1>
+                  <p className="sliderP2">{t("slider.para")}</p>
                   <div className="row justify-content-center">
                     <div className="col-sm-12" >
-                       <h4 className="texto texto_redes tuto" > Envianos tu CV</h4> 
+                       <h4 className="texto texto_redes tuto" > {t("slider.btn")}</h4>
                     </div>
                   </div>
                 </div>
@@ -57,4 +58,4 @@ class Slider extends Component {
 }
 
 
-export default Slider;
+export default translate('common')(Slider);
