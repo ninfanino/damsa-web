@@ -156,6 +156,10 @@ left: 30px;
 
   top: 15px;
 }
+
+#carouselExampleControls2{
+  width: 100% !important;
+}
 .header #header_main #menu1 {
     height: 40px;
     position: relative;
@@ -314,7 +318,7 @@ margin-top: 30px;
 
 .serviciosh{
   padding: 40px;
-  
+
     width: 100%;
     height: 535px;
     background-color: #06225cd4;
@@ -462,7 +466,7 @@ margin-top: 30px;
   margin-top: 0px;
   margin-bottom: 50px;
 }
-.sliderVacanteh4 { 
+.sliderVacanteh4 {
   margin-bottom: 0px;
 }
 .sliderVacanteh3, .sliderVacanteh4 {
@@ -805,7 +809,7 @@ box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.25);
 }
 
 .Nosotros .cont1{
-  
+
   font-size: 16px;
     line-height: 24px;
     margin-top: 20px;
@@ -1075,7 +1079,7 @@ text-align: center;
 }
 
 .Servicios .contenedor1 {
-  
+
     width: 100%;
     margin: 0 auto;
 }
@@ -1210,7 +1214,7 @@ position: absolute;
 
 .Ers .contenedor1 {
   padding: 15px;
-  
+
     width: 100%;
     margin: 0 auto;
 }
@@ -1224,7 +1228,7 @@ position: absolute;
 }
 
 .Ers .sembla {
-    
+
     width: 100%;
     height: auto;
     text-align: center;
@@ -1323,7 +1327,7 @@ position: absolute;
     left: 12px;
     position: absolute;
     font-size: 18px;
-    
+
     top: 30px;
     color: #5c5c5c;
 }
@@ -1607,7 +1611,7 @@ width: 70px;
 .mapa #sucursal5 {
   margin-top: -264px;
 position: absolute;
-left: 74%;
+left: 800%;
 font-size: 24px;
 color: #fff;
 width: 70px;
@@ -1932,14 +1936,14 @@ color: #fff;
   padding: 50px 30px;
 }
 
-.container-btns-contact h1 { 
+.container-btns-contact h1 {
   text-transform: uppercase;
   font-size: 24px;
   color: #5c5c5c;
   font-weight: 700;
 }
 
-.container-btns-contact p { 
+.container-btns-contact p {
   color: #5c5c5c;
 }
 
@@ -2025,7 +2029,7 @@ margin-top: 30px;
 input[type=radio] + label {
   margin-left: 10px;
   color: #a5a4a4;
-} 
+}
 .areatext {
   height: 100px;
   padding: 10px;
@@ -2285,14 +2289,14 @@ border-color: #3649ac57;
   .mapa #sucursal1 {
     bottom: 75%;
     position: absolute;
-    left: 46%;
+    left: 40%;
     font-size: 30px;
     color: #fff;
   }
   .mapa #sucursal2 {
     margin-top: -440px;
     position: absolute;
-    left: 52%;
+    left: 54%;
     font-size: 30px;
     color: #fff;
 
@@ -2300,7 +2304,7 @@ border-color: #3649ac57;
   .mapa #sucursal3 {
     margin-top: -290px;
     position: absolute;
-    left: 48%;
+    left: 46%;
     font-size: 24px;
     color: #fff;
 
@@ -2308,7 +2312,7 @@ border-color: #3649ac57;
   .mapa #sucursal4 {
     margin-top: -270px;
     position: absolute;
-    left: 52%;
+    left: 55%;
     font-size: 24px;
     color: #fff;
 
@@ -2316,7 +2320,7 @@ border-color: #3649ac57;
   .mapa #sucursal5 {
     margin-top: -264px;
     position: absolute;
-    left: 63%;
+    left: 80%;
     font-size: 24px;
     color: #fff;
   }
@@ -2325,14 +2329,14 @@ border-color: #3649ac57;
   .mapa #sucursal1 {
   bottom: 75%;
   position: absolute;
-  left: 46%;
+  left: 40%;
   font-size: 30px;
   color: #fff;
   }
   .mapa #sucursal2 {
     margin-top: -440px;
     position: absolute;
-    left: 52%;
+    left: 54%;
     font-size: 30px;
     color: #fff;
 
@@ -2340,7 +2344,7 @@ border-color: #3649ac57;
   .mapa #sucursal3 {
     margin-top: -290px;
     position: absolute;
-    left: 48%;
+    left: 46%;
     font-size: 24px;
     color: #fff;
 
@@ -2348,14 +2352,14 @@ border-color: #3649ac57;
   .mapa #sucursal4 {
     margin-top: -270px;
     position: absolute;
-    left: 52%;
+    left: 55%;
     font-size: 24px;
     color: #fff;
   }
   .mapa #sucursal5 {
     margin-top: -264px;
     position: absolute;
-    left: 64%;
+    left: 80%;
     font-size: 24px;
     color: #fff;
   }
@@ -2364,14 +2368,14 @@ border-color: #3649ac57;
   .mapa #sucursal1 {
   bottom: 75%;
   position: absolute;
-  left: 46%;
+  left: 40%;
   font-size: 30px;
   color: #fff;
   }
   .mapa #sucursal2 {
     margin-top: -440px;
     position: absolute;
-    left: 52%;
+    left: 54%;
     font-size: 30px;
     color: #fff;
 
@@ -2379,7 +2383,7 @@ border-color: #3649ac57;
   .mapa #sucursal3 {
     margin-top: -290px;
     position: absolute;
-    left: 48%;
+    left: 46%;
     font-size: 24px;
     color: #fff;
 
@@ -2387,7 +2391,7 @@ border-color: #3649ac57;
   .mapa #sucursal4 {
     margin-top: -270px;
     position: absolute;
-    left: 53%;
+    left: 55%;
     font-size: 24px;
     color: #fff;
 
@@ -2395,7 +2399,7 @@ border-color: #3649ac57;
   .mapa #sucursal5 {
     margin-top: -264px;
     position: absolute;
-    left: 65%;
+    left: 80%;
     font-size: 24px;
     color: #fff;
   }
@@ -2404,7 +2408,7 @@ border-color: #3649ac57;
   .mapa #sucursal5 {
     margin-top: -264px;
     position: absolute;
-    left: 66%;
+    left: 80%;
     font-size: 24px;
     color: #fff;
   }
@@ -2413,35 +2417,35 @@ border-color: #3649ac57;
   .mapa #sucursal1 {
   bottom: 75%;
   position: absolute;
-  left: 45%;
+  left: 40%;
   font-size: 30px;
   color: #fff;
   }
   .mapa #sucursal2 {
     margin-top: -440px;
     position: absolute;
-    left: 52%;
+    left: 54%;
     font-size: 30px;
     color: #fff;
   }
   .mapa #sucursal3 {
     margin-top: -290px;
     position: absolute;
-    left: 48%;
+    left: 46%;
     font-size: 24px;
     color: #fff;
   }
   .mapa #sucursal4 {
     margin-top: -270px;
     position: absolute;
-    left: 53%;
+    left: 55%;
     font-size: 24px;
     color: #fff;
   }
   .mapa #sucursal5 {
     margin-top: -264px;
     position: absolute;
-    left: 68%;
+    left: 80%;
     font-size: 24px;
     color: #fff;
   }
@@ -2450,35 +2454,35 @@ border-color: #3649ac57;
   .mapa #sucursal1 {
   bottom: 75%;
   position: absolute;
-  left: 45%;
+  left: 40%;
   font-size: 30px;
   color: #fff;
   }
   .mapa #sucursal2 {
     margin-top: -440px;
     position: absolute;
-    left: 53%;
+    left: 54%;
     font-size: 30px;
     color: #fff;
   }
   .mapa #sucursal3 {
     margin-top: -290px;
     position: absolute;
-    left: 48%;
+    left: 46%;
     font-size: 24px;
     color: #fff;
   }
   .mapa #sucursal4 {
     margin-top: -270px;
     position: absolute;
-    left: 53%;
+    left: 55%;
     font-size: 24px;
     color: #fff;
   }
   .mapa #sucursal5 {
     margin-top: -264px;
     position: absolute;
-    left: 70%;
+    left: 80%;
     font-size: 24px;
     color: #fff;
   }
@@ -2487,21 +2491,21 @@ border-color: #3649ac57;
   .mapa #sucursal1 {
   bottom: 75%;
   position: absolute;
-  left: 45%;
+  left: 40%;
   font-size: 30px;
   color: #fff;
   }
   .mapa #sucursal2 {
     margin-top: -440px;
     position: absolute;
-    left: 53%;
+    left: 54%;
     font-size: 30px;
     color: #fff;
   }
   .mapa #sucursal3 {
     margin-top: -290px;
     position: absolute;
-    left: 48%;
+    left: 46%;
     font-size: 24px;
     color: #fff;
 
@@ -2509,7 +2513,7 @@ border-color: #3649ac57;
   .mapa #sucursal4 {
     margin-top: -270px;
     position: absolute;
-    left: 53%;
+    left: 55%;
     font-size: 24px;
     color: #fff;
 
@@ -2517,7 +2521,7 @@ border-color: #3649ac57;
   .mapa #sucursal5 {
     margin-top: -264px;
     position: absolute;
-    left: 72%;
+    left: 80%;
     font-size: 24px;
     color: #fff;
   }
@@ -2526,14 +2530,14 @@ border-color: #3649ac57;
   .mapa #sucursal1 {
   bottom: 75%;
   position: absolute;
-  left: 44%;
+  left: 40%;
   font-size: 30px;
   color: #fff;
   }
   .mapa #sucursal2 {
     margin-top: -440px;
     position: absolute;
-    left: 53%;
+    left: 54%;
     font-size: 30px;
     color: #fff;
 
@@ -2541,7 +2545,7 @@ border-color: #3649ac57;
   .mapa #sucursal3 {
     margin-top: -290px;
     position: absolute;
-    left: 47%;
+    left: 46%;
     font-size: 24px;
     color: #fff;
 
@@ -2549,7 +2553,7 @@ border-color: #3649ac57;
   .mapa #sucursal4 {
     margin-top: -270px;
     position: absolute;
-    left: 54%;
+    left: 55%;
     font-size: 24px;
     color: #fff;
 
@@ -2557,7 +2561,7 @@ border-color: #3649ac57;
   .mapa #sucursal5 {
     margin-top: -264px;
     position: absolute;
-    left: 74%;
+    left: 80%;
     font-size: 24px;
     color: #fff;
   }
@@ -2566,14 +2570,14 @@ border-color: #3649ac57;
   .mapa #sucursal1 {
   bottom: 75%;
   position: absolute;
-  left: 43%;
+  left: 40%;
   font-size: 30px;
   color: #fff;
   }
   .mapa #sucursal2 {
     margin-top: -440px;
     position: absolute;
-    left: 53%;
+    left: 54%;
     font-size: 30px;
     color: #fff;
 
@@ -2581,7 +2585,7 @@ border-color: #3649ac57;
   .mapa #sucursal3 {
     margin-top: -290px;
     position: absolute;
-    left: 47%;
+    left: 46%;
     font-size: 24px;
     color: #fff;
 
@@ -2589,7 +2593,7 @@ border-color: #3649ac57;
   .mapa #sucursal4 {
     margin-top: -270px;
     position: absolute;
-    left: 54%;
+    left: 55%;
     font-size: 24px;
     color: #fff;
 
@@ -2597,7 +2601,7 @@ border-color: #3649ac57;
   .mapa #sucursal5 {
     margin-top: -264px;
     position: absolute;
-    left: 76%;
+    left: 80%;
     font-size: 24px;
     color: #fff;
   }
@@ -2606,14 +2610,14 @@ border-color: #3649ac57;
   .mapa #sucursal1 {
   bottom: 75%;
   position: absolute;
-  left: 42%;
+  left: 40%;
   font-size: 30px;
   color: #fff;
   }
   .mapa #sucursal2 {
     margin-top: -440px;
     position: absolute;
-    left: 53%;
+    left: 54%;
     font-size: 30px;
     color: #fff;
 
@@ -2621,7 +2625,7 @@ border-color: #3649ac57;
   .mapa #sucursal3 {
     margin-top: -290px;
     position: absolute;
-    left: 47%;
+    left: 46%;
     font-size: 24px;
     color: #fff;
 
@@ -2629,7 +2633,7 @@ border-color: #3649ac57;
   .mapa #sucursal4 {
     margin-top: -270px;
     position: absolute;
-    left: 54%;
+    left: 55%;
     font-size: 24px;
     color: #fff;
 
@@ -2637,10 +2641,10 @@ border-color: #3649ac57;
   .mapa #sucursal5 {
     margin-top: -264px;
     position: absolute;
-    left: 77%;
+    left: 80%;
     font-size: 24px;
     color: #fff;
-  } 
+  }
 }
 @media (max-width: 1200px) {
   .Contact .seccion2.container {
@@ -2651,14 +2655,14 @@ border-color: #3649ac57;
   .mapa #sucursal1 {
   bottom: 75%;
   position: absolute;
-  left: 42%;
+  left: 40%;
   font-size: 30px;
   color: #fff;
   }
   .mapa #sucursal2 {
     margin-top: -440px;
     position: absolute;
-    left: 54%;
+    left: 55%;
     font-size: 30px;
     color: #fff;
 
@@ -2666,7 +2670,7 @@ border-color: #3649ac57;
   .mapa #sucursal3 {
     margin-top: -290px;
     position: absolute;
-    left: 47%;
+    left: 46%;
     font-size: 24px;
     color: #fff;
 
@@ -2674,7 +2678,7 @@ border-color: #3649ac57;
   .mapa #sucursal4 {
     margin-top: -270px;
     position: absolute;
-    left: 55%;
+    left: 56%;
     font-size: 24px;
     color: #fff;
 
@@ -2682,7 +2686,7 @@ border-color: #3649ac57;
   .mapa #sucursal5 {
     margin-top: -264px;
     position: absolute;
-    left: 79%;
+    left: 85%;
     font-size: 24px;
     color: #fff;
   }
@@ -2691,14 +2695,14 @@ border-color: #3649ac57;
   .mapa #sucursal1 {
   bottom: 75%;
   position: absolute;
-  left: 41%;
+  left: 40%;
   font-size: 30px;
   color: #fff;
   }
   .mapa #sucursal2 {
     margin-top: -440px;
     position: absolute;
-    left: 54%;
+    left: 55%;
     font-size: 30px;
     color: #fff;
 
@@ -2706,7 +2710,7 @@ border-color: #3649ac57;
   .mapa #sucursal3 {
     margin-top: -290px;
     position: absolute;
-    left: 47%;
+    left: 46%;
     font-size: 24px;
     color: #fff;
 
@@ -2714,7 +2718,7 @@ border-color: #3649ac57;
   .mapa #sucursal4 {
     margin-top: -270px;
     position: absolute;
-    left: 55%;
+    left: 56%;
     font-size: 24px;
     color: #fff;
 
@@ -2722,7 +2726,7 @@ border-color: #3649ac57;
   .mapa #sucursal5 {
     margin-top: -264px;
     position: absolute;
-    left: 83%;
+    left: 85%;
     font-size: 24px;
     color: #fff;
   }
@@ -2852,8 +2856,8 @@ border-color: #3649ac57;
   .demo2 .slider {
     height: 500px;
   }
-  
-  .sliserv { 
+
+  .sliserv {
     padding: 40px 0px;
   }
   .Nosotros .seccion2 .sembla .semblaIcon {
@@ -3002,7 +3006,7 @@ border-color: #3649ac57;
   .Servicios .valoresh h3 {
     margin: 20px 0px;
   }
-  
+
   .Nosotros .logoesr {
     padding-top: 20px;
   }
@@ -3086,7 +3090,7 @@ border-color: #3649ac57;
   .Ers .seccion5 {
   height: auto;
   }
-  
+
   .Servicios .valoresh {
       padding: 40px;
       width: 100%;
@@ -3104,7 +3108,7 @@ border-color: #3649ac57;
   }
   h1{
     text-align: center;
-    
+
   }
   .Nosotros .seccion2 .sembla h1 {
     text-align: left;
@@ -3193,7 +3197,7 @@ border-color: #3649ac57;
     font-weight: 400;
     position: relative;
   }
-  
+
   .Footer #footer_main #menu1 {
     height: 100px;
     position: relative;
@@ -3280,7 +3284,7 @@ border-color: #3649ac57;
   .Contact .col-md-3 {
     width: 100%;
   }
-  
+
 }
 @media (max-width: 495px) {
   .imgNosotros {
@@ -3307,6 +3311,3 @@ border-color: #3649ac57;
     font-size: 10px;
   }
 }
-
-
-

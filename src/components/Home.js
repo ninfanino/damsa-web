@@ -279,64 +279,50 @@ class Home extends Component {
 
   <div className="container-fluid demo1" >
   <div className="row">
-  <div className="carousel slide demo2" data-ride="carousel">
-    <div className="carousel-inner">
-      <div className="carousel-item active">
-        <img className="slider" src="../images/bg-index4.png" alt="¿Que es ESR?" />
-        <div className="carousel-caption  d-md-block textoEncima"  >
-			<h1  className="sliderVacanteh1">
-				<img className="img-slider" src="../images/damsa-esr.png" alt="Empresa socialmente responsable" />
-			</h1>
-          	<div className="row justify-content-center">
-              <div className="col-sm-12" >
-                <div className="tuto" >  <h4 className="texto texto_vacantes" > {t("home-esr.btn")}</h4> </div>
-              </div>
-          	</div>
 
-        </div>
-      </div>
-      <div className="carousel-item">
-        <img className="slider" src="../images/bg-index4.png" alt="Empresa socialmente responsable"/>
-        <div className="carousel-caption  d-md-block textoEncima"  >
-          <h1  className="sliderVacanteh1">
-				<img className="img-slider" src="../images/damsa-esr.png" alt="Empresa socialmente responsable"/>
-			</h1>
+	<div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+		<div className="carousel-item active">
+			<img className="slider" src="../images/bg-index4.png" alt="¿Que es ESR?" />
+			<div className="carousel-caption  d-md-block textoEncima"  >
+		<h1  className="sliderVacanteh1">
+			<img className="img-slider" src="../images/damsa-esr.png" alt="Empresa socialmente responsable" />
+		</h1>
+					<div className="row justify-content-center">
+						<div className="col-sm-12" >
+							<div className="tuto" >  <h4 className="texto texto_vacantes" > {t("home-esr.btn")}</h4> </div>
+						</div>
+					</div>
 
-          <div className="row justify-content-center">
-              <div className="col-sm-12" >
-                <div className="tuto" >  <h4 className="texto texto_vacantes" > {t("home-esr.btn")}</h4> </div>
-              </div>
-          </div>
+			</div>
+		</div>
+		<div className="carousel-item">
+			<img className="slider" src="../images/bg-index4.png" alt="Empresa socialmente responsable"/>
+			<div className="carousel-caption  d-md-block textoEncima"  >
+				<h1  className="sliderVacanteh1">
+			<img className="img-slider" src="../images/damsa-esr.png" alt="Empresa socialmente responsable"/>
+		</h1>
 
-        </div>
+				<div className="row justify-content-center">
+						<div className="col-sm-12" >
+							<div className="tuto" >  <h4 className="texto texto_vacantes" > {t("home-esr.btn")}</h4> </div>
+						</div>
+				</div>
 
-      </div>
-      <div className="carousel-item">
-        <img className="slider" src="../images/bg-index4.png" alt="Empresa socialmente responsable"/>
-        <div className="carousel-caption  d-md-block textoEncima"  >
-        <h1  className="sliderVacanteh1">
-				<img className="img-slider" src="../images/damsa-esr.png" alt="Empresa socialmente responsable"/>
-			</h1>
+			</div>
 
-          <div className="row justify-content-center">
-              <div className="col-sm-12" >
-                
-                 <div className="tuto" >  <h4 className="texto texto_vacantes"  > {t("home-esr.btn")}</h4> </div>
-              </div>
-          </div>
+		</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
 
-        </div>
-      </div>
-    </div>
-
-
-    <a className="carousel-control-prev" href="#demo2" data-slide="prev">
-      <span className="carousel-control-prev-icon"></span>
-    </a>
-    <a className="carousel-control-next" href="#demo2" data-slide="next">
-      <span className="carousel-control-next-icon"></span>
-    </a>
-  </div>
     <div className="mejoracontinua">
     	<div className="title">{t("home-sucursales.title")}</div>
 
@@ -412,7 +398,7 @@ class Home extends Component {
 		<span id="sucursal4" className="icon-pointer" onClick={this.openMenu.bind(this, 'menu-map4')}></span>
 		<span id="sucursal5" className="icon-pointer" onClick={this.openMenu.bind(this, 'menu-map5')}></span>
     </div>
-  
+
 
 	<div className="mapa2 container">
 		<div className="col-md-12">
@@ -575,7 +561,7 @@ class Home extends Component {
 
 
     <form id="formul" action="/qualtra/contacto/enviar" method="POST" acceptCharset="utf-8" >
-		<div className="container">	
+		<div className="container">
 			<div className="row">
 				<div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 	                <div className="form-group" >
