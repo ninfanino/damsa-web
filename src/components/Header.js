@@ -55,7 +55,7 @@ class Header extends Component {
         									<span className="icon-bar"></span>
       									</button>
 
-      									<NavLink to="/" onClick={()=> {window.scrollTo(0, 0);}}><img className="logodam" src="../images/damsa.png" alt="Damsa" onClick={this.closeMenu} /></NavLink>
+      									<NavLink to="/" onClick={()=> {window.scrollTo(0, 0);}}><img className="logodam" src="../images/damsa.png" alt="Damsa" onClick={this.closeMenu}	 /></NavLink>
 
 
       									<nav id="menu-complete" className="main">
