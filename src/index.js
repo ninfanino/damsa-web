@@ -13,7 +13,7 @@ import * as serviceWorker from './serviceWorker';
 
 i18n.init({
     interpolation: { escapeValue: false },  // React already does escaping
-    lng: 'en',                              // language to use
+    lng: 'es',                              // language to use
         resources: {
             en: {
                 common: common_en               // 'common' is our custom namespace

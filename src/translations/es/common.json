@@ -277,5 +277,13 @@
     	"radio11": "Monterrey",
     	"placeholder7": "Ingresa tus comentarios",
     	"btn": "Enviar"
+    },
+    "club": {
+        "chicaschic": {
+            "txt": "Vive tu momento chic con las bolsas y accesorios más trendy de la temporada. CHICAS CHIC y DamsaClub tienen para ti un descuento al presentar tu membresía. ¡No te lo pierdas!",
+            "discount": "10% DE DESCUENTO",
+            "details": "Sobre el costo total de la compra realizada",
+            "more":"No aplica con otras promociones. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        }
     }
 }

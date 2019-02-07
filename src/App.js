@@ -18,13 +18,9 @@ import Nosotros from "./components/Nosotros";
 import Servicios from "./components/Servicios";
 import Esr from "./components/Esr";
 import Galeria from "./components/Galeria";
-import Galeria1 from "./components/Galeria1";
 import Galeria1b from "./components/Galeria1b";
-import Reforestacion_2018 from "./components/Reforestacion_2018";
-import Diadelpadre2018 from "./components/Diadelpadre2018";
-import Diadelabuelo2018 from "./components/Diadelabuelo2018";
-import Diademuertos2018 from "./components/Diademuertos2018";
-import Paseoanual2018 from "./components/Paseoanual2018";
+import Club from "./components/Club";
+import ClubBeneficio from "./components/ClubBeneficio";
 import Contacto from "./components/Contacto";
 
 import { translate } from 'react-i18next';
@@ -48,12 +44,8 @@ class App extends Component {
             <Route path="/esr" component={Esr} />
             <Route path="/galeria" component={Galeria} />
             <Route path="/galerias/:name/:photos" component={Galeria1b} />
-            <Route path="/fiesta_fin_de_año_2018" component={Galeria1} />
-            <Route path="/reforestacion_2018" component={Reforestacion_2018} />
-            <Route path="/dia_del_padre_2018" component={Diadelpadre2018} />
-            <Route path="/dia_del_abuelo_2018" component={Diadelabuelo2018} />
-            <Route path="/dia_de_muertos_2018" component={Diademuertos2018} />
-            <Route path="/paseo_anual_2018" component={Paseoanual2018} />
+            <Route path="/club" component={Club} />
+            <Route path="/beneficio/:beneficio" component={ClubBeneficio} />
             <Route path="/contacto" component={Contacto} />
 
           </Switch>

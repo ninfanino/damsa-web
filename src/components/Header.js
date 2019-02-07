@@ -39,7 +39,8 @@ class Header extends Component {
 								<span>
 									<Mailto tel='01-800-7013959' />
 								</span>
-								<span>en</span>
+								<span className="lang-en hidden-xs-down"  onClick={() => changeLanguage('en')}>en</span>
+								<span className="lang-es hidden-xs-down"  onClick={() => changeLanguage('es')}>es</span>
 								<div className="border-none"><span className="icon-facebook" ></span></div>
 			          			<div className="border-none" ><span className="icon-twitter" ></span></div>
 			          			<div className="border-none" ><span className="icon-linkedin" ></span></div>
@@ -64,7 +65,7 @@ class Header extends Component {
 								          <a href="https://bolsa.damsa.com.mx/" target="_blank" rel="noopener noreferrer"><span>{t("menu.talento")}</span></a>
 								          <NavLink to="/esr" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.esr")}</span></NavLink>
 								          <NavLink to="/galeria" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.galeria")}</span></NavLink>
-								          <a href="https://www.damsa.com.mx/club/listadoDC.aspx" target="_blank" rel="noopener noreferrer"><span>{t("menu.club")}</span></a>
+								          <NavLink to="/club" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.club")}</span></NavLink>
 								          <a href="https://damsablog.com/" target="_blank" rel="noopener noreferrer"><span>{t("menu.blog")}</span></a>
 								          <NavLink to="/contacto" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.contacto")}</span></NavLink>
 								          <span className="icon-user" data-toggle="modal" data-target="#modal" ></span>
@@ -76,10 +77,20 @@ class Header extends Component {
 								          <a href="https://bolsa.damsa.com.mx/"><span>{t("menu.talento")}</span></a>
 								          <NavLink to="/esr" onClick={()=> {window.scrollTo(0, 0);}}><span onClick={this.closeMenu}>{t("menu.esr")}</span></NavLink>
 								          <NavLink to="/galeria" onClick={()=> {window.scrollTo(0, 0);}}><span onClick={this.closeMenu}>{t("menu.galeria")}</span></NavLink>
-								          <a href="https://www.damsa.com.mx/club/listadoDC.aspx"><span>{t("menu.club")}</span></a>
+								          <NavLink to="/club" onClick={()=> {window.scrollTo(0, 0);}}><span onClick={this.closeMenu}>{t("menu.club")}</span></NavLink>
 								          <a href="https://damsablog.com/"><span>{t("menu.blog")}</span></a>
 								          <NavLink to="/contacto" onClick={()=> {window.scrollTo(0, 0);}}><span onClick={this.closeMenu}>{t("menu.contacto")}</span></NavLink>
-								          <span className="icon-user"  data-toggle="modal" data-target="#modal" ></span>
+								          <div className="last-item">
+								          	<div className="float-left">
+								          		<span className="icon-user"  data-toggle="modal" data-target="#modal" ></span>
+								          	</div>
+								          	<div className="float-right">
+								          		<span className="lang-en"  onClick={() => changeLanguage('en')}>en</span>
+												<span className="lang-es"  onClick={() => changeLanguage('es')}>es</span>
+								          	</div>
+								          </div>
+
+								          
 					        			</div>
 
 

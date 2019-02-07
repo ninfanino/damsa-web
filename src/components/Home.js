@@ -36,11 +36,7 @@ class Home extends Component {
 		$('.navb').removeClass('open');
 	}
 	render () {
-		const { t, i18n } = this.props;
-
-	    const changeLanguage = lng => {
-	      i18n.changeLanguage(lng);
-	    };
+		const { t } = this.props;
 	return (
 		<div>
 			<Slider/>
@@ -280,8 +276,8 @@ class Home extends Component {
   <div className="container-fluid demo1" >
   <div className="row">
 
-	<div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
-		<div class="carousel-inner">
+	<div id="carouselExampleControls2" className="carousel slide" data-ride="carousel">
+		<div className="carousel-inner">
 		<div className="carousel-item active">
 			<img className="slider" src="../images/bg-index4.png" alt="¿Que es ESR?" />
 			<div className="carousel-caption  d-md-block textoEncima"  >
@@ -313,13 +309,13 @@ class Home extends Component {
 
 		</div>
 		</div>
-		<a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
+		<a className="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+			<span className="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span className="sr-only">Previous</span>
 		</a>
-		<a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
+		<a className="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+			<span className="carousel-control-next-icon" aria-hidden="true"></span>
+			<span className="sr-only">Next</span>
 		</a>
 	</div>
 

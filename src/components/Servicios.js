@@ -4,11 +4,8 @@ import { translate } from 'react-i18next';
 
 class Servicios extends Component {
 	render () {
-		const { t, i18n } = this.props;
+		const { t } = this.props;
 
-	    const changeLanguage = lng => {
-	      i18n.changeLanguage(lng);
-	    };
 		return (
 			<div className="Servicios">
 				<div className="SliderI">

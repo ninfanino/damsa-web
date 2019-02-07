@@ -42,14 +42,7 @@ const photos = [
   { src: '../images/posada2018/45.jpg', width: 1, height: 1 }
 ];
 
-export default class Galeria1 extends Component {
-
-
-
-
-
-
-
+class Galeria1 extends Component {
     constructor() {
       super();
       this.state = { currentImage: 0 };
@@ -98,3 +91,4 @@ export default class Galeria1 extends Component {
 		);
 	}
 }
+export default translate('common')(Galeria1);

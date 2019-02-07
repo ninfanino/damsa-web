@@ -2,30 +2,36 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import { translate } from 'react-i18next';
 
-class Servicios extends Component {
+class ESR extends Component {
+	createGalleries = () => {
+        const { t } = this.props;
+
+        const galerias = [
+            { src:'fiesta-anual-2018', photos:'192'},
+            { src:'fiesta-anual-mty-2018', photos:'29'},
+            { src:'fiesta-anual-mx-2018', photos:'51'},
+            { src:'dia-muertos-2018', photos:'41'},
+            { src:'paseo-anual-2018', photos:'105'},
+            { src:'paseo-anual-mty-2018', photos:'30'}
+        ];
+
+        //let table=[]
+        let contenidoDiv=[];
+        
+        for(var key in galerias) {
+          let children = []
+          var link = "#/galerias/" + galerias[key]['src'] + "/" + galerias[key]['photos']; 
+          var img =  "../images/" + galerias[key]['src'] + "/1.jpg";
+          var name = "galerias." + galerias[key]['src'];
+          children.push(<a href={link}><div class="contenedorGaleria"><img class="logoesr" src={img} alt={t(name)} /><div class="filtro"></div><div class="texto"><h3>{t(name)}</h3><label> <i class="fa fa-plus" aria-hidden="true"></i></label></div></div></a>);
+          contenidoDiv.push(<div class="gale col-xs-12 col-sm-6 col-md-6 col-lg-4">{children}</div>)
+        }
+        return contenidoDiv;
+      }
+
 	render () {
-		var contenidoDiv = '<div class="contenedor-galerias row">';
-	    const galerias = [
-	        { src:'fiesta-anual-2018', photos:'192', name: 'Fiesta anual 2018'},
-	        { src:'fiesta-anual-mty-2018', photos:'29', name: 'Fiesta anual MTY 2018'},
-	        { src:'fiesta-anual-mx-2018', photos:'51', name: 'Fiesta anual CDMX 2018'},
-	        { src:'dia-muertos-2018', photos:'41', name: 'Día de muertos 2018'},
-	        { src:'paseo-anual-2018', photos:'105', name: 'Paseo Anual GDL 2018'},
-	        { src:'paseo-anual-mty-2018', photos:'30', name: 'Paseo Anual MTY 2018'}
-	        
-	    ];
-
-	    for(var key in galerias) {
-	        contenidoDiv+='<div  class="sembla col-xs-12 col-sm-12 col-md-6 col-lg-4"><div class="contenedorGaleria"><a href="#/galerias/'+ galerias[key]['src'] +'/' + galerias[key]['photos'] +'"><img class="logoesr" src="../images/'+galerias[key]['src']+'/1.jpg" alt="'+galerias[key]['name']+'" /><div class="filtro"></div><div class="texto"><div class="line1"></div><h3>'+galerias[key]['name']+'</h3><label> <i class="fa fa-plus" aria-hidden="true"></i></label><div class="line2"></div></div></a></div></div>';
-	    }
-	    
-	    contenidoDiv+= '</div>';
-
-	    const { t, i18n } = this.props;
-
-		    const changeLanguage = lng => {
-		      i18n.changeLanguage(lng);
-		    };
+		const { t } = this.props;
+		
 		return (
 			<div className="Ers">
 				<div className="SliderI">
@@ -91,7 +97,9 @@ class Servicios extends Component {
 						</div>
 					</div>
 
-					<div dangerouslySetInnerHTML={{__html:contenidoDiv}} ></div>
+					<div className="row">
+						{this.createGalleries()}
+					</div>
 					
 					<div className="row">
 						<div className="btngaleria col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -238,4 +246,4 @@ class Servicios extends Component {
 	};
 }
 
-export default translate('common')(Servicios);
+export default translate('common')(ESR);

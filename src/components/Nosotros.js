@@ -19,18 +19,15 @@ class Nosotros extends Component {
 			case 'politicas':
 				scrollToComponent(this.politicas, { offset: -116, align: 'top', duration: 500, ease:'inCirc'});
 				break;
-			case 'default':
+			default:
 				scrollToComponent(this.nosotros, { offset: -116, align: 'top', duration: 500, ease:'inCirc'});
 				break;
 		}
     	
   	}
 	render () {
-		const { t, i18n } = this.props;
+		const { t } = this.props;
 
-	    const changeLanguage = lng => {
-	      i18n.changeLanguage(lng);
-	    };
 		
 		return (
 			<div ref={(section) => { this.nosotros = section; }} className="Nosotros">

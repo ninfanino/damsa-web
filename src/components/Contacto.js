@@ -3,11 +3,8 @@ import { translate } from 'react-i18next';
 
 class Contacto extends Component {
 	render () {
-		const { t, i18n } = this.props;
+		const { t } = this.props;
 
-		    const changeLanguage = lng => {
-		      i18n.changeLanguage(lng);
-		    };
 		return (
 			<div className="Contact">
 				<div className="SliderI">

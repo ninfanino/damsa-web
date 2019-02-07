@@ -203,6 +203,20 @@ left: 30px;
 .header #header_main #menu1 nav.main .border-none span {
   border-right:none;
 }
+.last-item {
+    margin-right: 0px;
+    display: block;
+    padding: 4px;
+    background: rgba(70, 97, 175, 0.8);
+    color: #fff;
+    border-bottom: 1px solid #5470b6;
+    height: 53px;
+}
+.last-item span {
+  display: inline-block !important;
+  background: none !important;
+  border-bottom: 0px !important;
+}
 .slider {
   width: 100%;
   height: 900px;
@@ -2284,6 +2298,121 @@ border-color: #3649ac57;
     color: #fff;
 }
 
+.cardBox {
+  font-size: 1.2em;
+  perspective: 800px;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+
+.cardBox:hover .card {
+  transform: rotateY( 180deg);
+}
+
+.card {
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease 0s;
+  width: 100%;
+  -webkit-animation: giro 1s 1;
+  animation: giro 1s 1;
+  border-radius: 0px;
+  border:1px solid #eee;
+  padding: 20px;
+  height: 313px;
+}
+
+.card p {
+  margin-bottom: 1.8em;
+}
+.club {
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+div.front {
+  align-content: center; 
+  padding: 0;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+}
+div.back {
+  align-content: center;
+  padding: 0;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+}
+.card .front,
+.card .back {
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  text-align: center;
+}
+.card img.front {
+  padding: 0px;
+  width: 100%;
+}
+
+.card .front strong {
+  background: #fff;
+  border-radius: 100%;
+  color: #222;
+  font-size: 1.5em;
+  line-height: 30px;
+  padding: 0 7px 4px 6px;
+}
+
+.card .back {
+  transform: rotateY( 180deg);
+}
+
+
+
+.card .back a:hover {
+  background: #fff;
+  color: #333;
+}
+img.photo-beneficio {
+    width: 100%;
+    margin-bottom: 50px;
+}
+img.logo-beneficio {
+    width: 200px;
+}
+.club .fb {
+    font-size: 22px;
+    line-height: 50px;
+}
+.txt-benefit {
+    margin: 50px 0px;
+    color: #827d7d;
+}
+.discount {
+    padding: 30px;
+    border: 1px dashed #f1e9e9;
+    color: #224ca4;
+    font-size: 30px;
+    font-weight: 700;
+}
+.terms-discount {
+    background: #224ca4;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.terms {
+  color: #6f6f6f;
+  margin-top: 30px;
+}
+.address {
+    color: #6f6f6f;
+    margin-top: 20px;
+}
 
 @media (max-width: 2990px) {
   .mapa #sucursal1 {
@@ -2793,6 +2922,9 @@ border-color: #3649ac57;
     flex: initial;
     margin-right: 40px;
     max-width: 250px;
+  }
+  img.logo-beneficio {
+    width: 150px;
   }
 }
 @media (max-width: 930px) {

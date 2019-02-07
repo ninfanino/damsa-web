@@ -1,13 +1,13 @@
 {
     "menu": {
-        "nosotros": "nosotros",
-        "servicios": "servicios",
-        "talento": "talento",
+        "nosotros": "about us",
+        "servicios": "services",
+        "talento": "talent",
         "esr": "esr",
-        "galeria": "galeria",
+        "galeria": "gallery",
         "club": "damsaclub",
         "blog": "blog",
-        "contacto": "contacto"
+        "contacto": "contact"
     },
     "sesion": {
     	"bienvenido": "Bienvenido",
@@ -220,6 +220,7 @@
     	"btn2": "Reporte de identidad DAMSA",
     	"subtitle4": "NUESTRAS ACTIVIDADES",
     	"subtitle5": "TE VAS A QUERER QUEDAR CON NOSOTROS",
+        "galerias": "GALERIAS",
     	"subtitle6": "CAUSAS QUE APOYAMOS",
     	"subtitle7": "TE VAS A QUERER QUEDAR CON NOSOTROS",
     	"causa1": "Trabajan para brindar una nueva oportunidad de vida a niños que han sufrido maltrato y abandono por parte de sus familias.",
@@ -276,5 +277,13 @@
     	"radio11": "Monterrey",
     	"placeholder7": "Ingresa tus comentarios",
     	"btn": "Enviar"
+    },
+    "club": {
+        "chicaschic": {
+            "txt": "Vive tu momento chic con las bolsas y accesorios más trendy de la temporada. CHICAS CHIC y DamsaClub tienen para ti un descuento al presentar tu membresía. ¡No te lo pierdas!",
+            "discount": "10% DE DESCUENTO",
+            "details": "Sobre el costo total de la compra realizada",
+            "more":"No aplica con otras promociones. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        }
     }
 }
