@@ -3,11 +3,12 @@
         "nosotros": "nosotros",
         "servicios": "servicios",
         "talento": "talento",
-        "esr": "esr",
+        "shelter": "shelter",
         "galeria": "galeria",
         "club": "damsaclub",
         "blog": "blog",
-        "contacto": "contacto"
+        "contacto": "contacto",
+        "buzon": "buzon"
     },
     "sesion": {
     	"bienvenido": "Bienvenido",
@@ -20,30 +21,55 @@
     },
     "slider": {
     	"somos": "En damsa somos",
-    	"gente": "gente",
-    	"trabaja": "que trabaja",
+    	"gente": "gente que",
+    	"trabaja": "trabaja",
     	"para": "para la gente",
-    	"btn": "Envianos tu CV"
+    	"btn": "Envianos tu CV",
+
+        "mas": "Más de",
+        "veinte": "20 años",
+        "experiencia": "de experiencia",
+        "respaldan": "nos respaldan",
+
+        "trabajamos": "Trabajamos bajo los ",
+        "estandares": "estándares",
+        "altos": "más altos ",
+        "calidad": "de calidad",
+        "btn2": "Conócenos",
+
+        "lideres": "Somos líderes en ",
+        "innovacion": "Innovación",
+        "servicios": "de servicios",
+
+        "escuchamos": "Te escuchamos ",
+        "entendemos": "entendemos",
+        "adaptamos": "y nos adaptamos a ti  ",
+        "btn3": "Servicios",
+
+        "socios": "Tenemos socios comerciales  ",
+        "nacionales": "nacionales",
+        "internacionales": "e internacionales ",
+        "btn4": "Damsa Shelter"
     },
     "home-about": {
     	"title": "CONÓCENOS",
     	"slogan": "TE VAS A QUERER QUEDAR CON NOSOTROS",
     	"mision": "MISIÓN",
-    	"more-mision": "Conoce nuestra Misión",
+    	"more-mision": "Estamos generando soluciones de impacto",
     	"vision": "VISIÓN",
-    	"more-vision": "Conoce nuestra Visión",
+    	"more-vision": "Seguimos innovando",
     	"valores": "VALORES",
-    	"more-valores": "Conoce nuestros Valores",
+    	"more-valores": "Creemos en lo que te ofrecemos",
     	"responsabilidad": "RESPONSABILIDAD SOCIAL",
-    	"more-responsabilidad": "Conoce nuestro compromiso con la Resposabilidad Social",
+    	"more-responsabilidad": "Estamos comprometidos a ayudar y generar cambios",
     	"politicas": "POLÍTICAS INSTITUCIONALES",
-    	"more-politicas": "Resposabilidad social, calidad, código de conducta de la industria electrónica",
+    	"more-politicas": "Garantizamos la calidad, condiciones laborales, seguridad y medio ambiente, entre otras políticas.",
     	"semblanza": "SEMBLANZA",
     	"more-semblanza": "Conoce nuestra semblanza"
     },
     "home-servicios": {
     	"title": "SERVICIOS",
-    	"slogan": "TE VAS A QUERER QUEDAR CON NOSOTROS",
+    	"slogan": "Te escuchamos, te entendemos y nos adaptamos a tus necesidades",
     	"servicio1": "Administración integral de personal",
     	"servicio2": "Búsqueda de talento ejecutivo",
     	"servicio3": "Aplicación e implementación, prueba de confianza",
@@ -53,23 +79,23 @@
     	"more": "Ver más"
     },
     "home-vacantes": {
-    	"title1": "¿POR QUE TRABAJAR",
-    	"title2": "CON NOSOTROS?",
-    	"btn": "Vacantes"
+    	"title1": " ESTAMOS BUSCANDO ",
+    	"title2": "GENTE COMO TÚ",
+    	"btn": "Bolsa de trabajo"
     },
     "home-mejora": {
     	"title": "MEJORA CONTINUA",
-    	"subtitle": "TE VAS A QUERER QUEDAR CON NOSOTROS"
+    	"subtitle": "Cumplimos con los más altos estándares de calidad"
     },
     "home-certificaciones": {
     	"title1": "ISO",
-    	"subtitle1": "CERTIFICACIÓN",
+    	"subtitle1": "Nuestros procesos están certificados para cumplir las necesidades de nuestros clientes ",
     	"title2": "C-TPAT",
-    	"subtitle2": "ALINEADOS A SUS ESTÁNDARES",
+    	"subtitle2": "Estamos a los estándares de seguridad",
     	"title3": "ESR",
-    	"subtitle3": "DISTINTIVO",
+    	"subtitle3": "Empresa socialmente responsable con el planeta y nuestra comunidad.",
     	"title4": "CADELEC",
-    	"subtitle4": "CERTIFICACIÓN"
+    	"subtitle4": "Somos el primer proveedor de RH con certificado de clase mundial."
     },
     "home-buzon": {
     	"title": "Buzon",
@@ -78,17 +104,29 @@
     },
     "home-esr": {
     	"title": "EMPRESA SOCIALMENTE RESPONSABLE",
-    	"subtitle": "TE VAS A QUERER QUEDAR CON NOSOTROS",
-    	"btn": "Conoce que es ESR"
+    	"subtitle": "Estamos siendo parte del cambio. ¡Únete!",
+    	"btn": "Conoce que es ESR",
+
+        "title-comunidad": "Comunidad DAMSA",
+        "subtitle-comunidad": "Conoce algunas de nuestras actividades",
+        "btn-comunidad": "Entérate",
+
+        "title-club": "Beneficios",
+        "subtitle-club": "Disfruta de todos los",
+        "btn-club": "Ver más",
+
+        "title-cultura": "Nuestra Cultura Incluyente",
+        "subtitle-cultura": "Rompamos las barreras sociales",
+        "btn-cultura": "Ver más"
     },
     "home-sucursales": {
     	"title": "SUCURSALES",
-    	"subtitle": "TE VAS A QUERER QUEDAR CON NOSOTROS"
+    	"subtitle": "Estamos más cerca de lo que crees"
     }
     ,
     "home-contact": {
     	"title": "CONTACTO",
-    	"subtitle": "TE VAS A QUERER QUEDAR CON NOSOTROS",
+    	"subtitle": "Queremos escucharte. ¡Acércate a nosotros!",
     	"name": "Nombre",
     	"company": "Empresa",
     	"phone": "Teléfono",
@@ -248,6 +286,32 @@
     	"dia-madres-2018": "Día de las madres",
     	"dia-nino-2018": "Día del niño 2018"
     },
+    "shelter": {
+        "title": "DAMSA",
+        "subtitle": "Shelter",
+        "p1": "Somos una división con más de 7 años experiencia en guiar, acompañar y abrigar a empresas extranjeras que desean comenzar operaciones en México.",
+        "p2": "Entendemos que cada empresa tiene sus propias necesidades cuando pretende incursionar en un nuevo mercado. En DAMSA contamos con especialistas y experiencia que les ayude a que este sea un proceso exitoso.",
+        "p3": "La flexibilidad es parte integral de nuestros servicios adaptándonos al modelo de negocio de cada cliente.",
+        "p4": "Nuestros servicios están enfocados a que nuestros clientes se dediquen al núcleo de su negocio y puedan rentabilizar sus operaciones.",
+        "p5": "Facilitamos el establecimiento de operaciones en México minimizando los riesgos y disminuyendo los tiempos.",
+        "p6": "Brindamos protección y asesoría en materia jurídica, fiscal y laboral.",
+        "subtitle2": "NUESTROS SERVICIOS",
+        "txt1": "Constitución Jurídica.",
+        "desc1": "Trámites y permisos ante cualquier instancia del orden federal, estatal y local para operar conforme a la normatividad.",
+        "txt2": "Representación Legal.",
+        "desc2": "Contamos con los mecanismos necesarios para representar a la empresa frente autoridades y terceros.",
+        "txt3": "Contratación de personal.",
+        "desc3": "Contamos con la infraestructura necesaria para reclutar al mejor talento y mano de obra.",
+        "txt4": "Administración de Personal.",
+        "desc4": "Contamos con los mecanismos y el personal altamente capacitado para responder ante cualquier autoridad.",
+        "txt5": "Capacitación de personal.",
+        "txt6": "Servicios contables y financieros.",
+        "txt7": "Búsqueda de ubicación física.",
+        "desc7": "Te asesoramos en el sondeo para encontrar la mejor ubicación para tu empresa.",
+        "txt8": "Nos adaptamos a cualquier necesidad que fuese necesario para operar en México.",
+        "desc8": "Tenemos una relación continua mano a mano con empresas europeas, asiáticas, sudamericanas y americanas.",
+        "txt9": "En DAMSA contarás con un aliado de negocios enfocado al crecimiento y evolución de tu empresa."
+    },
     "contacto": {
     	"title": "Buzón",
     	"subtitle": "Damsa",
@@ -279,11 +343,170 @@
     	"btn": "Enviar"
     },
     "club": {
-        "chicaschic": {
-            "txt": "Vive tu momento chic con las bolsas y accesorios más trendy de la temporada. CHICAS CHIC y DamsaClub tienen para ti un descuento al presentar tu membresía. ¡No te lo pierdas!",
-            "discount": "10% DE DESCUENTO",
-            "details": "Sobre el costo total de la compra realizada",
+        "airepaz": {
+            "txt": "Ven a AirePaz chocolatería y deléitate con su deliciosa atmósfera de sabores y aromas únicos. Disfruta la experiencia a un precio especial con tu membresía DamsaClub.",
+            "discount0": "15% DE DESCUENTO",
+            "details0": "En productos, alimentos y bebidas en todas las sucursales",
+            "more":"No aplica con otras promociones. Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios.."
+        },
+        "pandataller": {
+            "txt": "Lleva tu coche a uno de los talleres más selectos y especializados de todo Guadalajara. Calidad y servicio premium con los expertos. Presenta tu membresía DamsaClub y aprovecha el descuento especial.",
+            "discount0": "15% DE DESCUENTO O PAGO DIFERIDO EN 4 QUINCENAS",
+            "details0": "En mano de obra /aplican restricciones",
+            "discount1": "25% DE DESCUENTO O PAGO DIFERIDO A 2 QUINCENAS",
+            "details1": "En detallado y tratamiento cosmético /aplican restricciones",
             "more":"No aplica con otras promociones. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "chimulco": {
+            "txt": "Ven a Chimulco y disfruta de un día divertido e inolvidable con toda tu familia. Presenta tu membresía DamsaClub y haz válidos tus privilegios dentro del parque.",
+            "discount0": "50% DE DESCUENTO EN EL PASE DE ENTRADA",
+            "details0": "Para el colaborador y cinco acompañantes (adultos o niños).",
+            "discount1": "30% DE DESCUENTO EN BUNGALOWS",
+            "details1": "Rentando de domingo a jueves, estancia mínima de 2 noches previa reservación.",
+            "more":"Vigencia al 2 de Julio 2019. Válido todos los días del año excepto 1 de Mayo y Semana Santa. Bungalows no válidos en puentes, días festivos, temporada vacacional de Diciembre ni Semana Santa y Pascua. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "Petite_Pia": {
+            "txt": "Quédate tranquila/o, tus hijos estarán en las mejores manos. Petite Pía estancia infantil brinda un servicio confiable y comprometido para ti y tus hijos. Aprovecha tu descuento presentando la membresía DamsaClub.",
+            "discount0": "50% DE DESCUENTO EN INSCRIPCIÓN.",
+            "details0": "Presentando membresía",
+            "discount1": "15% EN HORAS EXTRAS, NIGHT CARE Y CURSOS DE VERANO.",
+            "details1": "Presentando membresía",
+            "more":"Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "Canon_de_la_flores": {
+            "txt": "El Cañon de las Flores es el lugar donde siempre te divertirás. Ven en compañía de toda tu familia y refrésquense en sus limpias albercas. Presenta tu membresía DamsaClub y goza el precio especial.",
+            "discount0": "TARIFA ADULTO $90.00 .",
+            "details0": "A partir de 13 años.",
+            "more":"La tarifa para niños es de $60.00, de 4-12 años. El empleado más un máximo de 5 personas adultas contarán con este beneficio. Promoción válida hasta el 31 de diciembre de 2019. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "european": {
+            "txt": "Aprovecha tu beneficio DamsaClub y vive la experiencia de hospedarte durante tu viaje, en un hotel increíble y al mejor precio para ti.",
+            "discount0": "HOSPÉDATE EN GUADALAJARA Y APROVECHA LOS INCREÍBLES DESCUENTOS",
+            "details0": "Conoce nuestras tarifas",
+            "more":"No aplica con otras promociones. Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "sport_world": {
+            "txt": "Ejercítate en Sports World, el club deportivo de primer nivel con lo último en equipamiento y tecnología para tu entrenamiento físico. No te puedes perder el gran descuento al presentar la membresía DamsaClub.",
+            "discount0": "50% DE DESCUENTO",
+            "details0": "Membresías Familiares e Individuales.",
+            "more":"Contacta a tu ejecutivo corporativo Ma. Patricia Ramos para mayor información y cotizaciones maria.ramos@sportworld.com.mx. Pregunta por la promoción corporativa vigente. No aplica con otras promociones. Descuentos no acumulables. Recuerda presentar siempre tu membres´a Damsa Club para hacer válidos tus beneficios."
+        },
+        "chopo": {
+            "txt": "Laboratorio Médico del Chopo te ofrece el servicio de estudios y análisis clínicos con los más altos estándares de calidad, presenta tu membresía DamsaClub y obtén descuentos diversos.",
+            "discount0": "10% DE DESCUENTO",
+            "details0": "En exámenes de laboratorio",
+            "discount1": "5% DE DESCUENTO",
+            "details1": "En estudios de gabinete",
+            "discount2": "3% DE DESCUENTO",
+            "details2": "En promociones, manteletas, check up y perfiles",
+            "more":"No aplica con otras promociones.Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios. Presentar el numero del convenio: 101777 Llamar antes de acudir a cualquiera de nuestras sucursales para ver los requisitos del examen o estudio y saber en qué sucursal lo realizan."
+        },
+        "granja_las_americas": {
+            "txt": "Centro de entretenimiento familiar enfocado en la comprensión y valoración del cuidado de la naturaleza, que ofrece experiencias de aprendizaje lúdico para la formación integral de la niñez, presenta tu membresía DamsaClub y disfruta de estos beneficios.",
+            "discount0": "30% DE DESCUENTO",
+            "details0": "En Gotcha Las Américas*",
+            "discount1": "20% DE DESCUENTO",
+            "details1": "En boleto de entrada",
+            "discount2": "10% DE DESCUENTO",
+            "details2": "En fiestas infantiles**",
+            "more":"*El descuento en gotcha estará sujeto a disponibilidad. **Descuento sobre el monto total de la fiesta. Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "arriva": {
+            "txt": "Aprovecha tu beneficio DamsaClub y vive la experiencia de hospedarte durante tu viaje, en un hotel increíble y al mejor precio para ti.",
+            "discount0": "INCREÍBLES DESCUENTOS",
+            "details0": "En las nuevas tarifas 2019",
+            "more":"No aplica con otras promociones. Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "mambo_cafe": {
+            "txt": "Haz uso de tu membresía DamsaClub y disfruta de una noche fabulosa, en la cadena de centros nocturnos de música latina en vivo número 1 a nivel mundial, Mambo Café.",
+            "discount0": "NO COVER",
+            "details0": "Para nuestro afiliado y 3 acompañantes",
+            "discount1": "15% DE DESCUENTO",
+            "details1": "En la cuenta total de su consumo.",
+            "more":"No aplica con otras promociones. Aplica en todas nuestras sucursales. Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "bauhaus": {
+            "txt": "DamsaClub y La Bauhaus tienen para ti, descuentos exclusivos en papelería y materiales para arte, diseño, arquitectura e ingeniería.",
+            "discount0": "30% DE DESCUENTO",
+            "details0": "Sobre precio al público.",
+            "discount1": "HASTA 20% DE DESCUENTO",
+            "details1": "Sobre productos ya en promoción.",
+            "more":"No aplica con otras promociones. Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "masvision": {
+            "txt": "Más visión, ¡menos precio!, al presentar tu membresía DamsaClub, no lo dejes pasar y visita tu óptica más cercana.",
+            "discount0": "20% DE DESCUENTO",
+            "details0": "En todas tus compras mayores a $2000 pesos.",
+            "more":"No aplica con otras promociones. Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "Take_a_wok": {
+            "txt": "¿Tienes antojo de comida china?, aprovecha los descuentos que DamsaClub tiene para ti y disfruta de las increíbles combinaciones de sabores y texturas de Take a Wok.",
+            "discount0": "10% DE DESCUENTO",
+            "details0": "En el consumo total de tu cuenta.",
+            "more":"No aplica con otras promociones. Aplica en todas nuestras sucursales. Descuento es válido todos los días de la semana. Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "bellini": {
+            "txt": "Vive una increíble experiencia en Bellini, el único restaurante giratorio de México, al mejor precio, presentando tu membresía de beneficios DamsaClub.",
+            "discount0": "50% DE DESCUENTO",
+            "details0": "En alimentos a la carta de lunes a viernes en un horario de 1:00 pm a 7:00 pm.",
+            "more":"No aplica con otras promociones. No aplica descuento en bebidas y postres. No aplica descuento en menús establecidos. No aplica descuento en eventos (empresariales o familiares). Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "juguetega": {
+            "txt": "Presenta tu membresía DamsaClub y obtén los beneficios que Juguetega México, tiene para ti.",
+            "discount0": "10% DE DESCUENTO",
+            "details0": "Sobre precio público en cualquiera de nuestras diferentes marcas en todas nuestras sucursales.",
+            "more":"No aplica con otras promociones. Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "mockocity": {
+            "txt": "Deja que los pequeños usen su imaginación y se diviertan al máximo con los descuentos que Mockocity tiene para ti, al presentar tu membresía de beneficios DamsaClub.",
+            "discount0": "PROMOCIÓN DEL 2X1",
+            "details0": "En tiempo del área de juegos",
+            "more":"No aplica con otras promociones. Descuentos no acumulables. Aplica en todas nuestras sucursales. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "hye": {
+            "txt": "Obtén las mejores promociones de Hoteles y Experiencias en los más paradisíacos destinos de México con DamsaClub y disfruta de un hospedaje único con atención personalizada.",
+            "discount0": "PARA CONSULTAR OTROS PAQUETES Y DESTINOS ",
+            "details0": "COMUNÍCATE CON NOSOTROS",
+            "paquete1": "PUERTO VALLARTA",
+            "condicion1": "12 Quincenas de $375 pesos",
+            "txt1": "4 Días y 3 Noches 2 Adultos y 2 Menores (hasta 6 años) Desayunos, Comidas, Cenas, Snacks, Bebidas Nacionales e Internacionales ilimitadas, Actividades acuáticas no motorizadas. Apartalo con $1500 pesos, el resto a pagar $4,499 pesos a 12 Quincenas de $375 pesos",
+            "paquete2": "CANCÚN",
+            "condicion2": "12 Quincenas de $383 pesos",
+            "txt2":"4 Días y 3 Noches. 2 Adultos y 2 Menores (hasta 6 años). Desayunos, Comidas, Cenas, Snacks, Bebidas Nacionales e Internacionales ilimitadas. Actividades acuáticas no motorizadas. Apartalo con $1500 pesos, el resto a pagar $4,600 pesos a 12 Quincenas de $383 pesos",
+            "paquete3": "LOS CABOS",
+            "condicion3": "12 Quincenas de $458 pesos",
+            "txt3":"4 Días y 3 Noches. 2 Adultos y 2 Menores (hasta 6 años). Desayunos, Comidas, Cenas, Snacks, Bebidas Nacionales e Internacionales ilimitadas. Actividades acuáticas no motorizadas. Aplica para verano y puentes. Apartalo con $1500 pesos, el resto a pagar $5,500 pesos a 12 Quincenas de $458 pesos",
+            "more":"Disponibilidad sujeta al hotel.No incluye transportación.Puerto Vallarta y Cancún aplica suplementos.No aplica con otras promociones. Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "gayosso": {
+            "txt": "En Gayosso encuentras paquetes a previsión en servicios funerarios con las mejores tarifas, al presentar tu membresía de beneficios DamsaClub.",
+            "discount0": "30% DE DESCUENTO",
+            "details0": "En la compra de propiedades (nicho o lote)",
+            "discount1": "35% DE DESCUENTO",
+            "details1": "Servicios Funerarios de previsión (Cremación e Inhumación.)",
+            "discount2": "50% DE DESCUENTO",
+            "details2": "En la contratación de dos Servicios Funerarios de previsión (Paquetes Iguales.)",
+            "discount3": "55% DE DESCUENTO",
+            "details3": "Contratación de 3 o 4 Servicios Funerarios de previsión (Cremación e Inhumación, Paquetes Iguales.)",
+            "discount4": "55% DE DESCUENTO",
+            "details4": "En Servicios Integrales de previsión. Servicio Funerario con Propiedad [Nicho o Lote en Cementerio].",
+            "discount5": "15% DE DESCUENTO",
+            "details5": "Directo en servicio de uso inmediato",
+            "discount6": "DESCUENTO ADICIONAL POR FORMA DE PAGO:",
+            "details6": "Contado / Domiciliada a tarjeta de credito (36 meses) / Meses sin intereses (solo tarjetas de credito participantes",
+            "more":"No aplica con otras promociones. Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "pampas": {
+            "txt": "Presenta tu membresía de beneficios DamsaClub y disfruta de todo el sabor de la autentica comida brasileña en Mr. Pampas.",
+            "discount0": "15% DE DESCUENTO",
+            "details0": "En Rodizio.",
+            "more":"Por cada credencial presentada, aplica para 4 acompañantes. Valido de lunes a sábado, de 12:00pm a 6:00pm. Excepto dí­as festivos. No valido domingo y mes de diciembre. No aplica con otras promociones. Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "upc": {
+            "txt": "DamsaClub se preocupa por tu salud y tiene para ti descuentos especiales en Unidad de Patología Clínica, al presentar tu membresía de beneficios.",
+            "discount0": "30% DE DESCUENTO EN LOS SERVICIOS",
+            "details0": "Laboratorio / Estudios de Rayos X / Estudios de Ultrasonido / Estudios de Tomografía / Estudios de Medicina Nuclear / Estudios de Cardiodiagnóstico",
+            "more":"No aplica con otras promociones. Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
         }
     }
 }

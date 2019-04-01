@@ -22,6 +22,7 @@ import Galeria1b from "./components/Galeria1b";
 import Club from "./components/Club";
 import ClubBeneficio from "./components/ClubBeneficio";
 import Contacto from "./components/Contacto";
+import Shelter from "./components/Shelter";
 
 import { translate } from 'react-i18next';
 
@@ -42,12 +43,13 @@ class App extends Component {
             <Route path="/sobre-nosotros/:topic" component={Nosotros} />
             <Route path="/servicios" component={Servicios} />
             <Route path="/esr" component={Esr} />
+            <Route path="/shelter" component={Shelter} />
             <Route path="/galeria" component={Galeria} />
             <Route path="/galerias/:name/:photos" component={Galeria1b} />
             <Route path="/club" component={Club} />
             <Route path="/beneficio/:beneficio" component={ClubBeneficio} />
-            <Route path="/contacto" component={Contacto} />
-
+            <Route path="/buzon" component={Contacto} />
+            <Route path="/inicio/:contacto" component={Home} />
           </Switch>
 
           <Footer/>

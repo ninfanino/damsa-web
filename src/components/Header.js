@@ -39,11 +39,22 @@ class Header extends Component {
 								<span>
 									<Mailto tel='01-800-7013959' />
 								</span>
-								<span className="lang-en hidden-xs-down"  onClick={() => changeLanguage('en')}>en</span>
-								<span className="lang-es hidden-xs-down"  onClick={() => changeLanguage('es')}>es</span>
-								<div className="border-none"><span className="icon-facebook" ></span></div>
-			          			<div className="border-none" ><span className="icon-twitter" ></span></div>
-			          			<div className="border-none" ><span className="icon-linkedin" ></span></div>
+								
+								<div className="border-none">
+									<a href="https://www.facebook.com/DAMSA.RH" target="_blank" rel="noopener noreferrer">
+										<span className="icon-facebook" ></span>
+									</a>
+								</div>
+			          			<div className="border-none" >
+			          				<a href="https://twitter.com/DAMSA_oficial" target="_blank" rel="noopener noreferrer">
+			          					<span className="icon-twitter" ></span>
+			          				</a>
+			          			</div>
+			          			<div className="border-none" >
+			          				<a href="https://www.linkedin.com/company/corporativo-damsa/" target="_blank" rel="noopener noreferrer">
+			          					<span className="icon-linkedin" ></span>
+			          				</a>
+			          			</div>
 							</nav>
 						</div>
 
@@ -63,11 +74,12 @@ class Header extends Component {
 								          <NavLink to="/nosotros" onClick={()=> {window.scrollTo(0, 0);}} ><span >{t("menu.nosotros")}</span></NavLink>
 								          <NavLink to="/servicios" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.servicios")}</span></NavLink>
 								          <a href="https://bolsa.damsa.com.mx/" target="_blank" rel="noopener noreferrer"><span>{t("menu.talento")}</span></a>
-								          <NavLink to="/esr" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.esr")}</span></NavLink>
+								          <NavLink to="/shelter" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.shelter")}</span></NavLink>
 								          <NavLink to="/galeria" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.galeria")}</span></NavLink>
 								          <NavLink to="/club" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.club")}</span></NavLink>
 								          <a href="https://damsablog.com/" target="_blank" rel="noopener noreferrer"><span>{t("menu.blog")}</span></a>
-								          <NavLink to="/contacto" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.contacto")}</span></NavLink>
+								          <NavLink to="/inicio/contacto"  onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.contacto")}</span></NavLink>
+								          <NavLink to="/buzon" onClick={()=> {window.scrollTo(0, 0);}}><span>{t("menu.buzon")}</span></NavLink>
 								          <span className="icon-user" data-toggle="modal" data-target="#modal" ></span>
 								        </nav>
 
@@ -75,19 +87,17 @@ class Header extends Component {
 								          <NavLink to="/nosotros" onClick={()=> {window.scrollTo(0, 0); }} ><span onClick={this.closeMenu}>{t("menu.nosotros")}</span></NavLink>
 								          <NavLink to="/servicios" onClick={()=> {window.scrollTo(0, 0);}}><span onClick={this.closeMenu}>{t("menu.servicios")}</span></NavLink>
 								          <a href="https://bolsa.damsa.com.mx/"><span>{t("menu.talento")}</span></a>
-								          <NavLink to="/esr" onClick={()=> {window.scrollTo(0, 0);}}><span onClick={this.closeMenu}>{t("menu.esr")}</span></NavLink>
+								          <NavLink to="/shelter" onClick={()=> {window.scrollTo(0, 0);}}><span onClick={this.closeMenu}>{t("menu.shelter")}</span></NavLink>
 								          <NavLink to="/galeria" onClick={()=> {window.scrollTo(0, 0);}}><span onClick={this.closeMenu}>{t("menu.galeria")}</span></NavLink>
 								          <NavLink to="/club" onClick={()=> {window.scrollTo(0, 0);}}><span onClick={this.closeMenu}>{t("menu.club")}</span></NavLink>
 								          <a href="https://damsablog.com/"><span>{t("menu.blog")}</span></a>
-								          <NavLink to="/contacto" onClick={()=> {window.scrollTo(0, 0);}}><span onClick={this.closeMenu}>{t("menu.contacto")}</span></NavLink>
+								          <NavLink to="/inicio/contacto" onClick={()=> {window.scrollTo(0, 0);}}><span onClick={this.closeMenu}>{t("menu.contacto")}</span></NavLink>
+								          <NavLink to="/buzon" onClick={()=> {window.scrollTo(0, 0);}}><span onClick={this.closeMenu}>{t("menu.buzon")}</span></NavLink>
 								          <div className="last-item">
 								          	<div className="float-left">
 								          		<span className="icon-user"  data-toggle="modal" data-target="#modal" ></span>
 								          	</div>
-								          	<div className="float-right">
-								          		<span className="lang-en"  onClick={() => changeLanguage('en')}>en</span>
-												<span className="lang-es"  onClick={() => changeLanguage('es')}>es</span>
-								          	</div>
+								          	
 								          </div>
 
 								          

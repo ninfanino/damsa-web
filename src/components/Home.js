@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 import { NavLink } from "react-router-dom";
 import { translate } from 'react-i18next';
+import scrollToComponent from 'react-scroll-to-component';
 
 $(document).ready(
 	function()
@@ -35,10 +36,22 @@ class Home extends Component {
 		$('.menu-map').removeClass('open');
 		$('.navb').removeClass('open');
 	}
+
+	componentDidMount() {
+		var contacto = this.props.match.params.contacto;
+		switch(contacto) {
+			case 'contacto':
+				scrollToComponent(this.contacto, { offset: -116, align: 'top', duration: 500, ease:'inCirc'});
+				break;
+			default:
+				scrollToComponent(this.home, { offset: -116, align: 'top', duration: 500, ease:'inCirc'});
+				break;
+		}
+	}
 	render () {
 		const { t } = this.props;
 	return (
-		<div>
+		<div ref={(section) => { this.home = section; }} >
 			<Slider/>
   
 			<div>
@@ -243,7 +256,7 @@ class Home extends Component {
 
         		<div className="row justify-content-center">
             		<div className="col-sm-12" >
-              			<NavLink to="/contacto" onClick={()=> {window.scrollTo(0, 0);}}><div className="tuto" >  <h4 className="texto texto_redes" > {t("home-buzon.btn")}</h4> </div></NavLink>
+              			<NavLink to="/buzon" onClick={()=> {window.scrollTo(0, 0);}}><div className="tuto" >  <h4 className="texto texto_redes" > {t("home-buzon.btn")}</h4> </div></NavLink>
             		</div>
         		</div>
 
@@ -278,36 +291,76 @@ class Home extends Component {
 
 	<div id="carouselExampleControls2" className="carousel slide" data-ride="carousel">
 		<div className="carousel-inner">
-		<div className="carousel-item active">
-			<img className="slider" src="../images/bg-index4.png" alt="¿Que es ESR?" />
-			<div className="carousel-caption  d-md-block textoEncima"  >
-		<h1  className="sliderVacanteh1">
-			<img className="img-slider" src="../images/damsa-esr.png" alt="Empresa socialmente responsable" />
-		</h1>
+			<div className="carousel-item active">
+				<img className="slider" src="../images/s_esr.png" alt={t("home-esr.title")} />
+				<div className="carousel-caption  d-md-block textoEncima"  >
+					<h1  className="sliderVacanteh1">
+						<img className="img-slider" src="../images/damsa-esr.png" alt={t("home-esr.title")} />
+					</h1>
 					<div className="row justify-content-center">
 						<div className="col-sm-12" >
-							<div className="tuto" >  <h4 className="texto texto_vacantes" > {t("home-esr.btn")}</h4> </div>
+							<NavLink to="/esr" onClick={()=> {window.scrollTo(0, 0);}}>
+								<div className="tuto" ><h4 className="texto texto_vacantes" > {t("home-esr.btn")}</h4> </div>
+							</NavLink>
 						</div>
 					</div>
-
-			</div>
-		</div>
-		<div className="carousel-item">
-			<img className="slider" src="../images/bg-index4.png" alt="Empresa socialmente responsable"/>
-			<div className="carousel-caption  d-md-block textoEncima"  >
-				<h1  className="sliderVacanteh1">
-			<img className="img-slider" src="../images/damsa-esr.png" alt="Empresa socialmente responsable"/>
-		</h1>
-
-				<div className="row justify-content-center">
-						<div className="col-sm-12" >
-							<div className="tuto" >  <h4 className="texto texto_vacantes" > {t("home-esr.btn")}</h4> </div>
-						</div>
 				</div>
-
 			</div>
 
-		</div>
+			<div className="carousel-item">
+				<img className="slider" src="../images/s_comunidad.png" alt={t("home-esr.title-comunidad")} />
+				<div className="carousel-caption  d-md-block textoEncima"  >
+					<h1  className="sliderVacanteh1">
+						{t("home-esr.title-comunidad")}
+					</h1>
+
+					<h4 className="color-white">{t("home-esr.subtitle-comunidad")}</h4>
+
+					<div className="row justify-content-center">
+						<div className="col-sm-12" >
+							<NavLink to="/galeria" onClick={()=> {window.scrollTo(0, 0);}}>
+								<div className="tuto" >  <h4 className="texto texto_vacantes" > {t("home-esr.btn-comunidad")}</h4> </div>
+							</NavLink>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div className="carousel-item">
+				<img className="slider" src="../images/s_club.png" alt={t("home-esr.title-club")} />
+				<div className="carousel-caption  d-md-block textoEncima"  >
+					<h4 className="color-white">{t("home-esr.subtitle-club")}</h4>
+					<h1  className="sliderVacanteh1">
+						{t("home-esr.title-club")}
+					</h1>
+					<div className="row justify-content-center">
+						<div className="col-sm-12" >
+							<NavLink to="/club" onClick={()=> {window.scrollTo(0, 0);}}>
+								<div className="tuto" >  <h4 className="texto texto_vacantes" > {t("home-esr.btn-club")}</h4> </div>
+							</NavLink>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div className="carousel-item">
+				<img className="slider" src="../images/s_inclusion.png" alt={t("home-esr.title-cultura")} />
+				<div className="carousel-caption  d-md-block textoEncima"  >
+					<h1  className="sliderVacanteh1">
+						{t("home-esr.title-cultura")}
+					</h1>
+
+					<h4 className="color-white">{t("home-esr.subtitle-cultura")}</h4>
+
+					<div className="row justify-content-center">
+						<div className="col-sm-12" >
+							<a href="./assets/manual_inclusion.pdf" target="_blank" rel="noopener noreferrer">
+								<div className="tuto" >  <h4 className="texto texto_vacantes" > {t("home-esr.btn-cultura")}</h4> </div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<a className="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
 			<span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -543,7 +596,7 @@ class Home extends Component {
 
 	</div>
 
-  <div id="contacto" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div id="contacto"  className="col-xs-12 col-sm-12 col-md-12 col-lg-12" ref={(section) => { this.contacto = section; }} >
   <br></br>
   <br></br>
   <h3 className="title yellow" ><b>{t("home-contact.title")}</b></h3>
