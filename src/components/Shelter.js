@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
 import { translate } from 'react-i18next';
 
 class Shelter extends Component {
@@ -14,7 +13,7 @@ class Shelter extends Component {
 						<div className="demo carousel slide" data-ride="carousel">
 							<div className="carousel-inner">
 								<div className="carousel-item active">
-									<img className="imgNosotros" src="../images/bg-servicios.png" alt="Damsa Shelter" />
+									<img className="imgNosotros" src="./images/bg-servicios.png" alt="Damsa Shelter" />
 
 									<div className="carousel-caption d-md-block" >
 										<h1  className="sliderh1"> {t("shelter.title")}  </h1>

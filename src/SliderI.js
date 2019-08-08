@@ -30,7 +30,7 @@ class SliderI extends Component {
 
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img className="slider" src="../images/bg-index1.png" />
+              <img className="slider" src="./images/bg-index1.png" />
               <div className="carousel-caption  d-md-block" id="textoEncima1" >
               <p className="sliderP">EN DAMSA SOMOS </p>
               <h1  className="sliderh1">GENTE   </h1>
@@ -49,7 +49,7 @@ class SliderI extends Component {
               </div>
             </div>
             <div className="carousel-item">
-              <img className="slider" src="../images/bg-index1.png" />
+              <img className="slider" src="./images/bg-index1.png" />
               <div className="carousel-caption  d-md-block" id="textoEncima1" >
               <p className="sliderP">EN DAMSA SOMOS </p>
               <h1  className="sliderh1">GENTE   </h1>
@@ -67,7 +67,7 @@ class SliderI extends Component {
 
             </div>
             <div className="carousel-item">
-              <img className="slider" src="../images/bg-index1.png" />
+              <img className="slider" src="./images/bg-index1.png" />
               <div className="carousel-caption  d-md-block" id="textoEncima1" >
               <p className="sliderP">EN DAMSA SOMOS </p>
               <h1  className="sliderh1">GENTE   </h1>

@@ -15,7 +15,7 @@ class Footer extends Component {
       <div className="container-fluid" id="footer_main">
       <div className="row">
       <div className="col-md-12 relative" id="menu1">
-        <img className="logodam" src="../images/damsa.png" alt="Damsa" />
+        <img className="logodam" src="./images/damsa.png" alt="Damsa" />
         <nav id="main">
           <div className="border-none"><span className="icon-call-center" ></span></div>
           <div ><span><Mailto tel='01-800-7013959' /></span></div>

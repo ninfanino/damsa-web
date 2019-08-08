@@ -4,11 +4,11 @@
         "servicios": "servicios",
         "talento": "talento",
         "shelter": "shelter",
-        "galeria": "galeria",
+        "galeria": "galería",
         "club": "damsaclub",
         "blog": "blog",
         "contacto": "contacto",
-        "buzon": "buzon"
+        "buzon": "buzón"
     },
     "sesion": {
     	"bienvenido": "Bienvenido",
@@ -24,7 +24,7 @@
     	"gente": "gente que",
     	"trabaja": "trabaja",
     	"para": "para la gente",
-    	"btn": "Envianos tu CV",
+    	"btn": "Envíanos tu CV",
 
         "mas": "Más de",
         "veinte": "20 años",
@@ -98,7 +98,7 @@
     	"subtitle4": "Somos el primer proveedor de RH con certificado de clase mundial."
     },
     "home-buzon": {
-    	"title": "Buzon",
+    	"title": "Buzón",
     	"subtitle": "Damsa",
     	"btn": "Contáctanos"
     },
@@ -131,7 +131,7 @@
     	"company": "Empresa",
     	"phone": "Teléfono",
     	"mail": "Email",
-    	"area": "Area",
+    	"area": "Área",
     	"city": "Ciudad",
     	"message": "Mensaje",
     	"enviar": "Enviar"
@@ -143,9 +143,9 @@
     },
     "nosotros-section1": {
     	"title1": "MISIÓN",
-    	"text1": "Ofrecer soluciones integrales de tercerización de recursos humanos adaptadas a las necesidades de nuestros clientes, estableciendo relaciones de confianza duraderas, trabajando siempre con los más altos estandares éticos y con criterios de calidad total, generando beneficios para nuestros socios comerciales, rentabilidad para los accionistas, mejor calidad de vida para el persinal que colabora y un impacto positivo a los demas grupos de interés",
+    	"text1": "Ofrecer soluciones integrales de tercerización de recursos humanos adaptadas a las necesidades de nuestros clientes, estableciendo relaciones de confianza duraderas, trabajando siempre con los más altos estándares éticos y con criterios de calidad total, generando beneficios para nuestros socios comerciales, rentabilidad para los accionistas, mejor calidad de vida para el personal que colabora y un impacto positivo a los demás grupos de interés",
     	"title2": "VISIÓN",
-    	"text2": "Ser reconocidos por nuestros socios comerciales como los mejores por la flexibbilidad y calidad de nuestras soluciones en gestión de talento con base a relaciones a largo plazo con clientes estratégicos.",
+    	"text2": "Ser reconocidos por nuestros socios comerciales como los mejores por la flexibilidad y calidad de nuestras soluciones en gestión de talento con base a relaciones a largo plazo con clientes estratégicos.",
     	"title3": "VALORES",
     	"list1": "Lealtad",
     	"list2": "Integridad",
@@ -159,17 +159,17 @@
     	"title": "SEMBLANZA",
     	"slogan": "TE VAS A QUERER QUEDAR CON NOSOTROS",
     	"subtitle1": "EMPLEADOS",
-    	"text1": "Desde nuestro origen en 1996, hemos prodesado alrededor de 50 millones de nóminas, para cerca de 200,000 empleados, asignando a más de 500 clientes satisfechos, que hansido atendidos por más de 300 especialistas distribuidos en el territorio nacional.",
+    	"text1": "Desde nuestro origen en 1996, hemos procesado alrededor de 50 millones de nóminas, para cerca de 200,000 empleados, asignando a más de 500 clientes satisfechos, que han sido atendidos por más de 300 especialistas distribuidos en el territorio nacional.",
     	"subtitle2": "CLIENTES SATISFECHOS",
     	"text2": "Somos socios comerciales de todo tipo de empresas, desde Pequeñas y Medianas Empresas hasta grandes consorcios globales y en muy diversos ramos, tales como extracción, tiendas de autoservicios, electrónica, almacenaje, manufactura, agroindustria y alimentos, entre otros.",
-    	"text3": "Cada proyecteo es evaluado por nuestro equipo de trabajo, conformando por expertos en diferentes áreas como Atención a Clientes, Compensaciones, Operaciones, Jurídico y Fiscal.",
-    	"text4": "Gracias a nuestra flexibilidad y a un enfoque interdisciplinario, cada solución en especifico para cada uno de nuestros clientes representa la conbinación exacta de metodologías, procesos, herramientas tecnológicas y procedimientos."
+    	"text3": "Cada proyecto es evaluado por nuestro equipo de trabajo, conformando por expertos en diferentes áreas como Atención a Clientes, Compensaciones, Operaciones, Jurídico y Fiscal.",
+    	"text4": "Gracias a nuestra flexibilidad y a un enfoque interdisciplinario, cada solución en específico para cada uno de nuestros clientes representa la combinación exacta de metodologías, procesos, herramientas tecnológicas y procedimientos."
     },
     "nosotros-section3": {
     	"title": "NUESTRAS POLÍTICAS",
     	"btn": "Reporte anual de responsabilidad social",
     	"politica1": "Política de Responsabilidad Social",
-    	"text1": "Es el compromiso que busca la sustentabilidad de la empresa y delas partes interesadas, por lo tanto, integra la organización con las expectativas de los grupos de interés con las que se relaciona, buscando lograr la mejora continua en la gestión de la responsabilidad social empresarial, espor esto que reconocemos a nuestra estrategia de negocio y sistemas de planeación, los intereses de accionistas, clientes, colaboradores/as proveedores así como el ciudado del planeta.",
+    	"text1": "Es el compromiso que busca la sustentabilidad de la empresa y delas partes interesadas, por lo tanto, integra la organización con las expectativas de los grupos de interés con las que se relaciona, buscando lograr la mejora continua en la gestión de la responsabilidad social empresarial, es por esto que reconocemos a nuestra estrategia de negocio y sistemas de planeación, los intereses de accionistas, clientes, colaboradores/as proveedores así como el cuidado del planeta.",
     	"politica2": "Política de Calidad",
     	"text2": "DAMSA está dedicada a ofrecer soluciones integrales de tercerización de recursos humanos flexibles y adaptables a las necesidades de nuestros clientes y partes interesadas.",
     	"text2b": "Lo anterior mediante el cumplimiento de los siguientes compromisos:",
@@ -189,7 +189,7 @@
     	"text7": "En DAMSA valoramos la opinión de nuestros colaboradores y partes interesadas por eso mantenemos canales de comunicación efectivos, seguros y confidenciales para emitir y recibir información que facilite el logro de metas y objetivos institucionales en todas nuestras áreas y proyectos.",
     	"politica8": "Política de Sistema de Gestión",
     	"text8": "En DAMSA es responsabilidad de la dirección y un compromiso institucional el logro de las metas y objetivos por medio de una capacitación constante, comunicación efectiva, cumpliendo requisitos legales y de los clientes, evaluando los riesgos y buscando siempre la mejora continua.",
-    	"text8b": "Confiamos en la contribución de los trabajadores y en una adecuada documentación del Sistema de Gestión Integral y sus riesgos para establecer nuestras actividades a todos los niveles y cuando sea necesario implementar medidas correctivas, aplicando auditorías y evaluaciones periódicas no solo internas si no también a nuestros proveedores en beneficio a todas las partes interesadas."
+    	"text8b": "Confiamos en la contribución de los trabajadores y en una adecuada documentación del Sistema de Gestión Integral y sus riesgos para establecer nuestras actividades a todos los niveles y cuando sea necesario implementar medidas correctivas, aplicando auditorías y evaluaciones periódicas no solo internas sino también a nuestros proveedores en beneficio a todas las partes interesadas."
     },
     "nosotros-esr": {
     	"title": "MEJORA CONTINUA",
@@ -200,8 +200,8 @@
     	"text3": "Por estas acciones, DAMSA ha sido distinguida por el Centro Mexicano para la Filantropía - CEMEFI - como una empresa socialmente responsable.",
     	"certificacion1": "Estamos certificados en ISO 9001:2015, fortaleciendo así nuestros procesos para cumplir y satisfacer las necesidades de nuestros clientes.",
     	"certificacion2": "Estamos alineados a los estándares de C-TPAT con la finalidad de dar seguridad dentro de la cadena de valor.",
-    	"certificacion3": "Somos el primer proveedor de recursos humanos certificado por la Cadena Productiva de la Electrónica (por sus siglas CADELEC) como proveedor de clase mundial; nuestros procesos operativos, contables y de Responsabilidad Social son auditados por esta institución.",
-    	"altcertificacion4": "Certicación igualdad de género",
+    	"certificacion3": "Somos una de las Super Empresas Expansión 2019. TOP COMPANIES.",
+    	"altcertificacion4": "Certificación igualdad de género",
         "certificacion4": "El Instituto Nacional de las Mujeres nos certificó por la implementación del Modelo de Equidad de Género. Con esto manifestamos nuestro compromiso hacia una sociedad con igualdad de oportunidades laborales, sin distinciones por edad, género, estado civil, creencias religiosas o por alguna discapacidad.",
     	"text4": "Es nuestro compromiso mantener y mejorar las prácticas que nos han llevado a estas distinciones y que nos ayudan a impulsar nuestro desarrollo, el de nuestros socios comerciales, proveedores y colaboradores.",
     	"text5": "Hoy por hoy la responsabilidad social debiera ser inherente a las operaciones de todas las empresas, y ante tanta competencia, el diferenciador será que aunado a la conciencia del consumidor, el proveedor ofrezca soluciones alineadas a prácticas de sostenibilidad que le permita ofrecer un servicio de calidad, justo y con beneficios para todos los que se relacionan con ella.",
@@ -211,7 +211,7 @@
     	"title": "SERVICIOS",
     	"subtitle": "Y SOLUCIONES",
     	"title1": "ADMINISTRACIÓN INTEGRAL DEL PERSONAL",
-    	"text1": "Reclutar y seleccionar grandes cantidades de personal operativo en cortos periodos de tiempo.Reclutar y seleccionar cantidades de personal administrativo y gerencial con alta efectividad. Garantizar el pago en tiempo y forma del trabajador independientemente de las variables en que nos enfrentemos. Operar en cualquier parte del país. Resolver de forma inmediata cualquier problema que se presente.",
+    	"text1": "Reclutar y seleccionar grandes cantidades de personal operativo en cortos periodos de tiempo. Reclutar y seleccionar cantidades de personal administrativo y gerencial con alta efectividad. Garantizar el pago en tiempo y forma del trabajador independientemente de las variables en que nos enfrentemos. Operar en cualquier parte del país. Resolver de forma inmediata cualquier problema que se presente.",
     	"title2": "BÚSQUEDA DE TALENTO EJECUTIVO",
     	"text2": "Contar con un equipo administrativo, gerencial y directivo integrado por gente comprometida y de alto desempeño, suele ser la diferencia entre una empresa promedio o el líder del mercado. DAMSA cuenta con un equipo de expertos en la búsqueda de talento, apoyado por herramientas y procesos que garantizan la localización y atracción del mejor capital humano.",
     	"title3": "APLICACIÓN E INTERPRETACIÓN DE PRUEBAS PSICOMÉTRICAS",
@@ -281,7 +281,7 @@
     	"paseo-anual-mty-2018": "Paseo anual MTY 2018",
     	"paseo-anual-mx-2018": "Paseo anual MX 2018",
     	"dia-abuelo-2018": "Día del abuelo 2018",
-    	"reforestacion-2018": "Reforestacion 2018",
+    	"reforestacion-2018": "Reforestación 2018",
     	"dia-padre-2018": "Día del padre 2018",
     	"dia-madres-2018": "Día de las madres",
     	"dia-nino-2018": "Día del niño 2018"
@@ -374,7 +374,7 @@
             "more":"Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
         },
         "Canon_de_la_flores": {
-            "txt": "El Cañon de las Flores es el lugar donde siempre te divertirás. Ven en compañía de toda tu familia y refrésquense en sus limpias albercas. Presenta tu membresía DamsaClub y goza el precio especial.",
+            "txt": "El Cañón de las Flores es el lugar donde siempre te divertirás. Ven en compañía de toda tu familia y refrésquense en sus limpias albercas. Presenta tu membresía DamsaClub y goza el precio especial.",
             "discount0": "TARIFA ADULTO $90.00 .",
             "details0": "A partir de 13 años.",
             "more":"La tarifa para niños es de $60.00, de 4-12 años. El empleado más un máximo de 5 personas adultas contarán con este beneficio. Promoción válida hasta el 31 de diciembre de 2019. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
@@ -389,7 +389,7 @@
             "txt": "Ejercítate en Sports World, el club deportivo de primer nivel con lo último en equipamiento y tecnología para tu entrenamiento físico. No te puedes perder el gran descuento al presentar la membresía DamsaClub.",
             "discount0": "50% DE DESCUENTO",
             "details0": "Membresías Familiares e Individuales.",
-            "more":"Contacta a tu ejecutivo corporativo Ma. Patricia Ramos para mayor información y cotizaciones maria.ramos@sportworld.com.mx. Pregunta por la promoción corporativa vigente. No aplica con otras promociones. Descuentos no acumulables. Recuerda presentar siempre tu membres´a Damsa Club para hacer válidos tus beneficios."
+            "more":"Contacta a tu ejecutivo corporativo Ma. Patricia Ramos para mayor información y cotizaciones maria.ramos@sportworld.com.mx. Pregunta por la promoción corporativa vigente. No aplica con otras promociones. Descuentos no acumulables. Recuerda presentar siempre tu membresía Damsa Club para hacer válidos tus beneficios."
         },
         "chopo": {
             "txt": "Laboratorio Médico del Chopo te ofrece el servicio de estudios y análisis clínicos con los más altos estándares de calidad, presenta tu membresía DamsaClub y obtén descuentos diversos.",
@@ -399,7 +399,7 @@
             "details1": "En estudios de gabinete",
             "discount2": "3% DE DESCUENTO",
             "details2": "En promociones, manteletas, check up y perfiles",
-            "more":"No aplica con otras promociones.Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios. Presentar el numero del convenio: 101777 Llamar antes de acudir a cualquiera de nuestras sucursales para ver los requisitos del examen o estudio y saber en qué sucursal lo realizan."
+            "more":"No aplica con otras promociones. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios. Presentar el número del convenio: 101777 Llamar antes de acudir a cualquiera de nuestras sucursales para ver los requisitos del examen o estudio y saber en qué sucursal lo realizan."
         },
         "granja_las_americas": {
             "txt": "Centro de entretenimiento familiar enfocado en la comprensión y valoración del cuidado de la naturaleza, que ofrece experiencias de aprendizaje lúdico para la formación integral de la niñez, presenta tu membresía DamsaClub y disfruta de estos beneficios.",
@@ -469,14 +469,14 @@
             "details0": "COMUNÍCATE CON NOSOTROS",
             "paquete1": "PUERTO VALLARTA",
             "condicion1": "12 Quincenas de $375 pesos",
-            "txt1": "4 Días y 3 Noches 2 Adultos y 2 Menores (hasta 6 años) Desayunos, Comidas, Cenas, Snacks, Bebidas Nacionales e Internacionales ilimitadas, Actividades acuáticas no motorizadas. Apartalo con $1500 pesos, el resto a pagar $4,499 pesos a 12 Quincenas de $375 pesos",
+            "txt1": "4 Días y 3 Noches 2 Adultos y 2 Menores (hasta 6 años) Desayunos, Comidas, Cenas, Snacks, Bebidas Nacionales e Internacionales ilimitadas, Actividades acuáticas no motorizadas. Apártalo con $1500 pesos, el resto a pagar $4,499 pesos a 12 Quincenas de $375 pesos",
             "paquete2": "CANCÚN",
             "condicion2": "12 Quincenas de $383 pesos",
-            "txt2":"4 Días y 3 Noches. 2 Adultos y 2 Menores (hasta 6 años). Desayunos, Comidas, Cenas, Snacks, Bebidas Nacionales e Internacionales ilimitadas. Actividades acuáticas no motorizadas. Apartalo con $1500 pesos, el resto a pagar $4,600 pesos a 12 Quincenas de $383 pesos",
+            "txt2":"4 Días y 3 Noches. 2 Adultos y 2 Menores (hasta 6 años). Desayunos, Comidas, Cenas, Snacks, Bebidas Nacionales e Internacionales ilimitadas. Actividades acuáticas no motorizadas. Apártalo con $1500 pesos, el resto a pagar $4,600 pesos a 12 Quincenas de $383 pesos",
             "paquete3": "LOS CABOS",
             "condicion3": "12 Quincenas de $458 pesos",
-            "txt3":"4 Días y 3 Noches. 2 Adultos y 2 Menores (hasta 6 años). Desayunos, Comidas, Cenas, Snacks, Bebidas Nacionales e Internacionales ilimitadas. Actividades acuáticas no motorizadas. Aplica para verano y puentes. Apartalo con $1500 pesos, el resto a pagar $5,500 pesos a 12 Quincenas de $458 pesos",
-            "more":"Disponibilidad sujeta al hotel.No incluye transportación.Puerto Vallarta y Cancún aplica suplementos.No aplica con otras promociones. Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+            "txt3":"4 Días y 3 Noches. 2 Adultos y 2 Menores (hasta 6 años). Desayunos, Comidas, Cenas, Snacks, Bebidas Nacionales e Internacionales ilimitadas. Actividades acuáticas no motorizadas. Aplica para verano y puentes. Apártalo con $1500 pesos, el resto a pagar $5,500 pesos a 12 Quincenas de $458 pesos",
+            "more":"Disponibilidad sujeta al hotel. No incluye transportación. Puerto Vallarta y Cancún aplica suplementos. No aplica con otras promociones. Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
         },
         "gayosso": {
             "txt": "En Gayosso encuentras paquetes a previsión en servicios funerarios con las mejores tarifas, al presentar tu membresía de beneficios DamsaClub.",
@@ -493,11 +493,11 @@
             "discount5": "15% DE DESCUENTO",
             "details5": "Directo en servicio de uso inmediato",
             "discount6": "DESCUENTO ADICIONAL POR FORMA DE PAGO:",
-            "details6": "Contado / Domiciliada a tarjeta de credito (36 meses) / Meses sin intereses (solo tarjetas de credito participantes",
+            "details6": "Contado / Domiciliada a tarjeta de crédito (36 meses) / Meses sin intereses (solo tarjetas de crédito participantes",
             "more":"No aplica con otras promociones. Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
         },
         "pampas": {
-            "txt": "Presenta tu membresía de beneficios DamsaClub y disfruta de todo el sabor de la autentica comida brasileña en Mr. Pampas.",
+            "txt": "Presenta tu membresía de beneficios DamsaClub y disfruta de todo el sabor de la auténtica comida brasileña en Mr. Pampas.",
             "discount0": "15% DE DESCUENTO",
             "details0": "En Rodizio.",
             "more":"Por cada credencial presentada, aplica para 4 acompañantes. Valido de lunes a sábado, de 12:00pm a 6:00pm. Excepto dí­as festivos. No valido domingo y mes de diciembre. No aplica con otras promociones. Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
@@ -507,6 +507,246 @@
             "discount0": "30% DE DESCUENTO EN LOS SERVICIOS",
             "details0": "Laboratorio / Estudios de Rayos X / Estudios de Ultrasonido / Estudios de Tomografía / Estudios de Medicina Nuclear / Estudios de Cardiodiagnóstico",
             "more":"No aplica con otras promociones. Descuentos no acumulables. Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "cityexpress": {
+            "txt": "Aprovecha tu beneficio DamsaClub y disfruta de un ambiente único, no lo dejes perder y vive la experiencia City Express al mejor precio, para ti.",
+            "discount0": "CONOCE LAS TARIFAS DISPONIBLES.",
+            "details0": "Descarga las tarifas",
+            "more":"La tarifa preferencial no aplica cuando la persona llega directamente al hotel. No aplica con otras promociones. / Descuentos no acumulables. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "taqueria_charro": {
+            "txt": "Siempre es buen momento para disfrutar de unos sabrosos tacos. Taquería el Charro te brinda un inigualable sabor a un precio especial, presenta tu membresía DamsaClub y pregunta por sus paquetes y descuentos.",
+            "discount0": "10% DE DESCUENTO.",
+            "details0": "Para cualquiera de los platillos del menú",
+            "discount1": "PAQUETES A $60.00 C/U:",
+            "details1": "Paquete 1: 1 Torta estilo México de carnitas, 1 agua de 600ml y 1 gelatina. \n Paquete 2: 5 Tacos de pastor y 1 agua de 600ml. \n Paquete 3: 1 Burrito texano de pastor y 1 agua de 600 ml. \n Paquete 4: 1 Especialidad acompañada de frijoles charros.",
+            "more":"La tarifa preferencial no aplica cuando la persona llega directamente al hotel. No aplica con otras promociones. / Descuentos no acumulables. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "Poptails": {
+            "txt": "Ven a probar de un delicioso helado que además de sabor es toda una experiencia. Poptails y DamsaClub te consienten con un descuento para el total de tu compra. No olvides presentar la membresía.",
+            "discount0": "15% DE DESCUENTO.",
+            "details0": "En todas nuestras sucursales",  
+            "more":"15% de descuento en su compra total. Descuento aplica en todas nuestras sucursales. / Ottawa 1406 (Centro Ottawa) Col. Providencia. / Beethoven 4551-5 (Plaza Punto Beethoven) Col. Lomas del Seminario. / Tepeyac 850 Col. Chapalita. / Obsidiana 3033 Col. Residencial Victoria. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "Roca_azul": {
+            "txt": "Club Privado, Deportivo y Recreativo ubicado a 53 km de Guadalajara; en el municipio de Jocotepec, cuenta con cabañas, alberca recreativa gigante, alberca de agua termal Roca Azul, vestidores con baño de vapor, canchas, salón de juegos, salón de conferencias, jardines para eventos y más. Presenta tu membresía DamsaClub y disfruta de estos increíbles beneficios.",
+            "discount0": "70% DE DESCUENTO",
+            "details0": "En membresías familiares para 5 personas \nIncluye una cortesía de cabaña una vez al mes",  
+            "more":"No aplica con otras promociones. / Las 5 personas que estén dentro de la membresía son fijas. / La cortesía de cabaña es de lunes a jueves, No válida en días festivos, No acumulables. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "twoidea": {
+            "txt": "Plasma tu idea con los mejores promocionales, utilizando tu membresía de beneficios DamsaClub en Two Idea Guadalajara y obtén precios preferenciales.",
+            "discount0": "OBTEN UN 10% DE DESCUENTO EN TU PRIMERA COMPRA.",
+            "details0": "Paquete Fiestas Infantiles (Cilindros, bolsas, botones) \n Paquete Bodas (Cilindros, bolsas, botones, playeras) \n Paquete Regalos (Playeras con vinil) ",
+            "more" : "No aplica con otras promociones. / Descuentos no acumulables. / Válido sólo en la primera compra. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "alexa_stiletto": {
+            "txt": "Alexa es una empresa mexicana dedicada a la venta de calzado para dama y caballero, disfruta de los descuentos que DamsaClub tiene para ti, presentando tu membresía directo en tienda.",
+            "discount0": "15% DE DESCUENTO.",
+            "details0": "Sobre compra total en sucursales de Alexa y Stiletto",
+            "more" : "No aplica con otras promociones. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "Black_Coffe": {
+            "txt": "Black Coffee Gallery es una empresa mexicana que inspira a deleitarse a través del arte, deliciosos platillos y bebidas únicas hechas a base de café; sólo presenta tu membresía DamsaClub en cualquier sucursal y disfruta tu descuento.",
+            "discount0": "15% DE DESCUENTO.",
+            "details0": "En el consumo total de la cuenta.",
+            "more" : "No aplica con otras promociones. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "lemime": {
+            "txt": "El helado en rollo de Le' Mime es toda una experiencia. Ven y deleita el paladar con delicioso sabor y una diferente e innovadora presentación. Presenta tu membresía DamsaClub y aprovecha el descuento especial.",
+            "discount0": "10% DE DESCUENTO.",
+            "details0": "En helados en Rollo.",
+            "more" : "No aplica con otras promociones. / Acudir a cualquier establecimiento Le Mime helados en rollo SA de CV. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "univa": {
+            "txt": "Continúa con tu educación con las ofertas educativas que UNIVA y DamsaClub tienen para ti, no lo dejes pasar e infórmate de los beneficios.",
+            "discount0": "ALIANZA EMPRESARIAL.",
+            "details0": "Continúa con tu crecimiento profesional y aprovecha los beneficios en nuestros programas escolarizados: Bachillerato, Licenciatura, Posgrados, Diplomados, Idiomas.",
+            "discount1": "20% DE DESCUENTO.",
+            "details1": "En colegiaturas vigentes para sucursales de Guadalajara.",
+            "discount2": "15% DE DESCUENTO.",
+            "details2": "En colegiaturas vigentes para las demás sucursales.",
+            "discount3": "15% DE DESCUENTO.",
+            "details3": "En Licenciatura de impulso profesional.",
+            "more" : "No aplica con otras promociones. / Descuentos no acumulables. / Queda excluido el Bachillerato Auto-Planeado, Lic. Médico Cirujano, Educación a Distancia y Doctorados. / Exclusivo solo en nuevo ingreso. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "peter_pipper": {
+            "txt": "Dicen que la pizza es el mejor amigo del hambre. En Peter Piper Pizza te garantizan sabor y calidad en cada rebanada. Ven y disfruta con tu descuento especial de la membresía DamsaClub.",
+            "discount0": "10% DE DESCUENTO.",
+            "details0": "Sobre su compra total",
+            "more" : "No aplica con otras promociones. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "museo_cera": {
+            "txt": "Ven con toda tu familia a uno de los destinos turísticos imperdibles en el Centro Histórico de Guadalajara. El Museo de cera y todos sus realistas personajes te esperan ansiosos. Descuentos increíbles con tu membresía DamsaClub.",
+            "discount0": "40% DE DESCUENTO.",
+            "details0": "En los boletos de entrada",
+            "more" : "No aplica con otras promociones. / Marca a los teléfonos: 36 148487 /0187 y pide tu clave de reservación. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "uvm": {
+            "txt": "Desarrolla tu potencial con las ofertas educativas que UVM tiene para ti y aprovecha los descuentos en programas presenciales y en línea, al presentar tu membresía de beneficios DamsaClub.",
+            "discount0": "60% en inscripción.",
+            "details0": "Del primer ciclo de bachillerato, licenciatura tradicional, licenciatura ejecutiva y posgrado presencial o en línea.",
+            "discount1": "30% en parcialidades.",
+            "details1": "Bachillerato y licenciatura tradicional ",
+            "discount2": "35% en parcialidades.",
+            "details2": "Licenciatura ejecutiva presencial o en línea",
+            "discount3": "40% en parcialidades.",
+            "details3": "Posgrados presencial o en línea",
+            "discount4": "35% DE DESCUENTO.",
+            "details4": "Programas de educación continua presencial o en línea",
+            "more" : "Aplica sólo para nuevo ingreso. / Sujetas al reglamento de becas y descuentos de la universidad. / Préstamo de instalaciones de campus Zapopan (sujeto a disponibilidad y se requiere previa reservación). / No aplica con otras promociones. / Descuentos no acumulables. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios.."
+        },
+        "innovasport": {
+            "txt": "Descubre lo mejor en accesorios, ropa y calzado deportivo en Innovasport. Aprovecha el descuento general en el total de tu compra al presentar tu membresía DamsaClub.",
+            "discount0": "10% EN TODAS TUS COMPRAS. Excepto artículos electrónicos",
+            "details0": "Descarga el cupón",
+            "more" : "No valido con otras promociones ni acumulable. Aplica en todas las sucursales de innova sports excepto formato Outlet, Invictus y Nike. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "benedictus": {
+            "txt": "Ameniza tus reuniones sociales con Benedictus, que te ofrece sus servicios musicales para ceremonias religiosas como bodas, aniversarios, bautizos y/o reuniones corporativas. Haz de ese momento una ocasión especial y disfruta de un 10% de descuento sobre el costo total, por ser miembro de DamsaClub",
+            "discount0": "10% de descuento",
+            "details0": "Sobre el costo total de la compra realizada.",
+            "more" : "No aplica con otras promociones. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "latelier": {
+            "txt": "L'Atelier Salón y Belleza tiene para ti una experiencia de belleza inolvidable. Disfruta sus servicios de peluquería, uñas, maquillaje y mucho más a un costo especial presentando tu membresía DamsaClub.",
+            "discount0": "25% de descuento",
+            "details0": "En todos los servicios.",
+            "more" : "No aplica con otras promociones. / No válido en otros productos. / Descuentos no acumulables. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "best_western": {
+            "txt": "Con tu beneficio DamsaClub y el Hotel Best Western, vive experiencias y emociones únicas al mejor precio.",
+            "discount0": "25% de descuento",
+            "details0": "Sobre la tarifa pública vigente por temporada, en cualquier tipo de habitación.",
+            "more" : "No aplica con otras promociones. / Aplica sólo por reservación anticipada y sujeto a confirmación al momento. / Aplica a un máximo de 3 habitaciones en las mismas fechas. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "erectus": {
+            "txt": "Vive tu sexualidad de una forma divertida, libre, placentera y responsable, adquiriendo los mejores productos de Erectus a un precio especial, presentando en tiendas tu membresía DamsaClub.",
+            "discount0": "10% de descuento",
+            "details0": "En productos de la marca DUSA® Freedom to love",
+            "discount1": "7% de descuento",
+            "details1": "Toda la tienda Excepto: LELO®",
+            "discount2": "5% de descuento",
+            "details2": "En productos de la marca LELO®",
+            "more" : "No aplica con otras promociones. / Descuentos no acumulables. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "patagonica": {
+            "txt": "Aprovecha tus beneficios DamsaClub y estudia con expertos en alta cocina, sólo en Patagónica Escuela Gastronómica de Guadalajara.",
+            "discount0": "20% de descuento",
+            "details0": "En las carreras Chef Gastronómico y Chef Repostero",
+            "discount1": "10% de descuento",
+            "details1": "Curso Somelier",
+            "more" : "No aplica con otras promociones. / Descuentos en colegiaturas / Descuentos no acumulables. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "viajescarnaval": {
+            "txt": "Servicios turísticos para hacer de tu experiencia un viaje inolvidable, ofreciendo un servicio cálido y de calidad.",
+            "discount0": "10% de descuento",
+            "details0": "En hotelería nacional",
+            "discount1": "5% de descuento",
+            "details1": "En paquetes a Europa",
+            "discount2": "5% de descuento",
+            "details2": "En cruceros",
+            "discount3": "Boda gratis en la playa",
+            "details3": "En la contratación de cierto número de habitaciones",
+            "discount4": "Promociones",
+            "details4": "En paquetes a Cancún",
+            "more" : "No aplica con otras promociones. / Pago en efectivo o tranferencia bancaria. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "anfibios": {
+            "txt": "La natación en niños y adultos suma importantes beneficios para la salud integral. Club anfibios tiene para ti un gran descuento especial en inscripción, anualidad y mensualidad. No olvides presentar tu membresía DamsaClub.",
+            "discount0": "50% de descuento",
+            "details0": "En inscripción",
+            "discount1": "30% de descuento",
+            "details1": "Pago de anualidad",
+            "discount2": "20% de descuento",
+            "details2": "Pago de mensualidad",
+            "more" : "No aplica con otras promociones. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "ula": {
+            "txt": "No dejes tu educación para otro momento. Consulta ahora los programas de estudio presencial o en línea que ULA tiene para ti y aprovecha los privilegios con tu DamsaClub.",
+            "discount0": "Licenciaturas Ejecutivas",
+            "details0": "Descuento del 5% al 20% de acuerdo al campus y programa de interés",
+            "discount1": "Maestrías Ejecutivas",
+            "details1": "Descuento del 5% al 15% de acuerdo al campus y programa de interés",
+            "discount2": "Programa Online (LICENCIATURAS O MAESTRÍAS)",
+            "details2": "Descuento del 5% al 25% de acuerdo al programa de interés",
+            "more" : "Para aplicar el beneficio del descuento, el alumno debe ser de nuevo ingreso. / Presentar identificación vigente como empleado o familiar directo de algún empleado de DAMSA, la cual deberá ser presentada en cada inicio de periodo. / Presentar Identificación oficial (IFE, pasaporte, licencia). / Acreditar mediante certificado original, haber concluÍdo la preparatoria. Para el caso de maestría presentar el título de licenciatura. / Para el caso de programas ejecutivos, deberá tener mínimo 24 años o carta patronal. En el caso de que los empleados sean menores de edad, la ULA se reservará el derecho de su admisión con la evaluación del comité de ingreso. / Entregar documentación de admisión requerida por el campus para su inscripción."
+        },
+        "Krystal": {
+            "txt": "Aprovecha tu beneficio DamsaClub y vive la experiencia de hospedarte durante tu viaje, en un hotel increíble y al mejor precio para ti.",
+            "discount0": "INCREÍBLES DESCUENTOS",
+            "details0": "En las nuevas tarifas 2019.",
+            "more" : "No aplica con otras promociones. / Descuentos no acumulables. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "benessere": {
+            "txt": "Se parte de los beneficios exclusivos que Benessere tiene para ti y disfruta de productos de reconocidas marcas a precios especiales. Descuentos extra al presentar tu membresía DamsaClub.",
+            "discount0": "15 al 25% de descuento",
+            "details0": "Venta en instalaciones",
+            "discount1": "25% de descuento",
+            "details1": "Venta directa en tus instalaciones de trajes de baño",
+            "discount2": "25% de descuento",
+            "details2": "Venta directa en tus instalaciones productos de tecnología de la marca REVKO",
+            "more" : "No aplica con otras promociones. / Descuentos no acumulables. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "Vivens": {
+            "txt": "Relaja tu cuerpo y despeja tu mente en los armoniosos y exclusivos espacios de Vivens Spa. La experiencia será aún más placentera al presentar tu membresía Damsaclub y disfrutar del descuento especial.",
+            "discount0": "15% de descuento",
+            "details0": "sobre la compra total",
+            "more" : "No aplica con otras promociones. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "Acuario": {
+            "txt": "Disfruta de la increíble experiencia con tu familia y amigos en uno de los acuarios más importantes y modernos de México en Guadalajara. Presenta tu membresía DamsaClub y aprovecha la tarifa especial.",
+            "discount0": "25% de descuento",
+            "details0": "sobre el boleto de entrada para ti y cinco acompañantes.",
+            "more" : "No aplica con otras promociones. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "renta_tu_auto": {
+            "txt": "Mexico Car Rental es una firma de renta de autos que garantiza el mejor precio del país, ofrece un servicio de renta con todo incluido; kilometraje sin límite, todos los seguros e impuestos cubiertos, así como con formas de pago accesibles y seguridad certificada; cuenta también, con registro ante SECTUR para brindar mayor confianza y seguridad al usuario. Presenta tu Membresía Damsa Club y disfruta de increíbles descuentos en sus servicios.",
+            "discount0": "35% A 65% DE DESCUENTO",
+            "details0": "En tarifas sin previo aviso.",
+            "more" : "No aplica con otras promociones. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "Porta_blanca": {
+            "txt": "Porta Blanca Salón & Spa, es el lugar ideal para relajarte, ya que ofrece servicio de sauna, vapor, masajes, tratamientos corporales, áreas verdes, jardín y alberca. Presenta tu membresía Damsa Club y disfruta esta plácida experiencia.",
+            "discount0": "25% DE DESCUENTO",
+            "details0": "En todos los servicios Spa sobre precio de lista.",
+            "more" : "No aplica con otras promociones. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "devlyn": {
+            "txt": "Devlyn tiene para ti, marcas exclusivas de lentes de sol y oftálmicos, presenta tu membresía DamsaClub y obtén descuentos especiales.",
+            "discount0": "15% DE DESCUENTO",
+            "details0": "EN PAGO EN EFECTIVO",
+            "more" : "No aplica con otras promociones. / Descuentos no acumulables. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "tec_milenio": {
+            "txt": "Si buscas crecimiento profesionalmente, consulta los descuentos que Tec Milenio tiene para ti en licenciaturas, posgrados, cursos presenciales y en línea. Presenta tu membresía DamsaClub y goza de estos increíbles beneficios.",
+            "discount0": "20% DE DESCUENTO",
+            "details0": "en Preparatoria y en Carreras presenciales",
+            "discount1": "30% DE DESCUENTO",
+            "details1": "Carreras en línea y Postgrados",
+            "discount2": "25% DE DESCUENTO",
+            "details2": "Cursos presenciales y en línea",
+            "discount3": "Bonificación de $2,500",
+            "details3": "En maestrías",
+            "more" : "No aplica con otras promociones. / Descuentos en Colegiaturas. / Descuentos no acumulables. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "sams": {
+            "txt": "Con Sam’s Club hazte socio y disfruta de grandes beneficios, adquiere tu membresía dorada a un precio especial en las ventas presenciales que Damsa Club realiza para ti.",
+            "discount0": "$50 EN LA MEMBRESÍA TITULAR Y EN LA MEMBRESÍA BENEFITS",
+            "details0": "Un mes adicional de vigencia en la membresía Benefits sin costo (en total obtendrás 13 meses",
+            "more" : "Una cuponera de ahorro para cada socio. / Un directorio Benefits con cupones especiales. / Incluye una membresía titular y una complementaria. / Promoción válida en módulos de visita de la empresa."
+        },
+        "suburbia": {
+            "txt": "Con DamsaClub viste a la moda y aprovecha los descuentos que Suburbia tiene para ti, presentando tu membresía DamsaClub.",
+            "discount0": "7% DE DESCUENTO",
+            "details0": "En productos Seleccionados",
+            "more" : "Recuerda mencionar tu numero de cliente 137 / El descuento no se aplica en las marcas Levi’s, Converse y en Telefonía, Tiempo Aire, Electrónica, Certificado de regalo. / No aplica con promociones que afecten el precio original. / Descuentos no acumulables. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
+        },
+        "high_vision": {
+            "txt": "Con Ópticas High Vision obtén servicios profesionales para mejorar tu salud visual a un precio preferencial, presentando tu membresía DamsaClub.",
+            "discount0": "PRECIO PREFERENCIAL",
+            "details0": "EN ARMAZONES Y MICAS",
+            "more" : "No aplica con otras promociones. / Descuentos no acumulables. / Recuerda presentar siempre tu membresía DamsaClub para hacer válidos tus beneficios."
         }
     }
 }

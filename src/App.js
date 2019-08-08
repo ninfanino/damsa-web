@@ -69,12 +69,12 @@ class App extends Component {
                 </div>
                 
                 <div className="text-center">
-                  <a className="btn-login" href="https://www.damsa.com.mx/NewSite/Login/Index.aspx">
-                    <img className="semblaIcon" src="../images/semblanza2.png" alt="Clientes"/>
+                  <a className="btn-login" href="https://www.damsa.com.mx/loginnew.aspx?typ=1">
+                    <img className="semblaIcon" src="./images/semblanza2.png" alt="Clientes"/>
                     <span>{t("sesion.clientes")}</span>
                   </a>
-                  <a className="btn-login" href="https://www.damsa.com.mx/NewSite/Login/Index.aspx" >
-                    <img className="semblaIcon" src="../images/semblanza1.png" alt="Empleados"/>
+                  <a className="btn-login" href="https://www.damsa.com.mx/loginnew.aspx?typ=0" >
+                    <img className="semblaIcon" src="./images/semblanza1.png" alt="Empleados"/>
                     <span>{t("sesion.empleados")}</span>
                   </a>
                 </div>

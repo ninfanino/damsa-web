@@ -7,15 +7,10 @@ class Slider extends Component {
     const { t } = this.props;
     return (
       <div className="SliderI">
-      
-
-
-
-
                 <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                   <div className="carousel-inner">
                     <div className="carousel-item active">
-                      <img className="slider" src="../images/slidder.png" alt="Gente que trabaja para la gente"/>
+                      <img className="slider" src="./images/slidder.png" alt="Gente que trabaja para la gente"/>
                       <div className="carousel-caption  d-md-block" >
                         <p className="sliderP">{t("slider.somos")} </p>
                         <h1  className="sliderh1">{t("slider.gente")}   </h1>
@@ -30,7 +25,13 @@ class Slider extends Component {
                     </div>
 
                     <div className="carousel-item">
-                      <img className="slider" src="../images/slidder1.png" alt="Más de 20 años de experiencia nos respaldan"/>
+                        <video width="100%" controls autoPlay>
+                          <source src="./assets/video.mp4" type="video/mp4"/>
+                        </video>
+                    </div>
+
+                    <div className="carousel-item">
+                      <img className="slider" src="./images/slidder1.png" alt="Más de 20 años de experiencia nos respaldan"/>
                       <div className="carousel-caption  d-md-block" >
                         <p className="sliderP2">{t("slider.mas")} </p>
                         <h1  className="sliderh1">{t("slider.veinte")}   </h1>
@@ -39,8 +40,10 @@ class Slider extends Component {
                       </div>
                     </div>
 
+                    
+
                     <div className="carousel-item">
-                      <img className="slider" src="../images/slidder2.png" alt="Trabajamos bajo los estándares más altos de calidad"/>
+                      <img className="slider" src="./images/slidder2.png" alt="Trabajamos bajo los estándares más altos de calidad"/>
                       <div className="carousel-caption  d-md-block" >
                         <p className="sliderP">{t("slider.trabajamos")} </p>
                         <h1  className="sliderh1">{t("slider.estandares")}   </h1>
@@ -55,7 +58,7 @@ class Slider extends Component {
                     </div>
 
                     <div className="carousel-item">
-                      <img className="slider" src="../images/slidder3.png" alt="Somos líderes en Innovación  de servicios"/>
+                      <img className="slider" src="./images/slidder3.png" alt="Somos líderes en Innovación  de servicios"/>
                       <div className="carousel-caption  d-md-block" >
                         <p className="sliderP2">{t("slider.lideres")} </p>
                         <h1  className="sliderh1">{t("slider.innovacion")}   </h1>
@@ -65,7 +68,7 @@ class Slider extends Component {
                     </div>
 
                     <div className="carousel-item">
-                      <img className="slider" src="../images/slidder4.png" alt="Te escuchamos, entendemos y nos adaptamos a ti "/>
+                      <img className="slider" src="./images/slidder4.png" alt="Te escuchamos, entendemos y nos adaptamos a ti "/>
                       <div className="carousel-caption  d-md-block" >
                         <p className="sliderP">{t("slider.escuchamos")} </p>
                         <h1  className="sliderh1">{t("slider.entendemos")}   </h1>
@@ -79,7 +82,7 @@ class Slider extends Component {
                     </div>
 
                     <div className="carousel-item">
-                      <img className="slider" src="../images/slidder5.png" alt="Tenemos socios comerciales nacionales e internacionales "/>
+                      <img className="slider" src="./images/slidder5.png" alt="Tenemos socios comerciales nacionales e internacionales "/>
                       <div className="carousel-caption  d-md-block" >
                         <p className="sliderP">{t("slider.socios")} </p>
                         <h1  className="sliderh1">{t("slider.nacionales")}   </h1>

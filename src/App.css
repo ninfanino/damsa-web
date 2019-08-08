@@ -220,7 +220,7 @@ left: 30px;
     -o-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
     color: #fff;
-
+    text-transform: unset;
     border-right: 1px solid #fff;
     font-size: 14px;
     font-weight: 400;
@@ -277,7 +277,7 @@ left: 30px;
 .damsa-escucha {
   width: 100%;
   height: 500px;
-  background:url('/images/bg-contacto.png') no-repeat;
+  background:url('https://www.damsa.com.mx/corporativo/damsa_nuevo/images/bg-contacto.png') no-repeat;
   background-size: cover;
 }
 .texto_redes{
@@ -443,7 +443,7 @@ margin-top: 30px;
   height: 535px;
   padding-right: 1px;
   padding-left: 1px;
-  background:url('/images/bg-index2.png') no-repeat;
+  background:url('https://www.damsa.com.mx/corporativo/damsa_nuevo/images/bg-index2.png') no-repeat;
   background-size: cover;
 }
 .imgServ {
@@ -490,7 +490,7 @@ margin-top: 30px;
 }
 
 .porque-trabajar {
-  background:url('/images/bg-index3.png') no-repeat;
+  background:url('https://www.damsa.com.mx/corporativo/damsa_nuevo/images/bg-index3.png') no-repeat;
   background-size: cover;
   height: 700px;
   width: 100%;
@@ -935,7 +935,7 @@ text-align: center;
     margin-left: 0;
 }
 .Nosotros .seccion2{
-  background: url(/images/bg-nosotros1.png) no-repeat;
+  background: url('https://www.damsa.com.mx/corporativo/damsa_nuevo/images/bg-nosotros1.png') no-repeat;
     background-size: cover;
   height: auto;
   padding-bottom: 80px;
@@ -1020,7 +1020,7 @@ text-align: center;
 
 .Nosotros .seccion4{
   height: auto;
-  background: url(/images/bg-nosotros2.png) no-repeat;
+  background: url('https://www.damsa.com.mx/corporativo/damsa_nuevo/images/bg-nosotros2.png') no-repeat;
     background-size: cover;
     text-align: center;
 
@@ -1046,7 +1046,7 @@ text-align: center;
 
 .Nosotros .seccion6{
   padding: 50px;
-  background: url(/images/bg-nosotros3.png) no-repeat;
+  background: url('https://www.damsa.com.mx/corporativo/damsa_nuevo/images/bg-nosotros3.png') no-repeat;
     background-size: cover;
     text-align: center;
 }
@@ -1134,7 +1134,7 @@ text-align: center;
 .Servicios .seccion4 {
     height: auto;
     padding: 80px 0px 100px;
-    background: url(/images/bg-servicios1.png) no-repeat;
+    background: url('https://www.damsa.com.mx/corporativo/damsa_nuevo/images/bg-servicios1.png') no-repeat;
       background-size: cover;
       text-align: center;
 }
@@ -1323,7 +1323,7 @@ position: absolute;
 }
 
 .Ers .seccion3 {
-    background: url(/images/bg-index3.png) no-repeat;
+    background: url('https://www.damsa.com.mx/corporativo/damsa_nuevo/images/bg-index3.png') no-repeat;
     background-size: cover;
     height: auto;
     padding: 50px 0px;
@@ -1712,6 +1712,7 @@ width: 70px;
 .btn-login:hover {
   background: #f0c23c;
 }
+
 .modal-title {
   color: #f0c23c;
 }
@@ -1880,7 +1881,7 @@ img.hover-shadow {
   text-align: center;
 
 
-  background: url(/images/bg-index5.png) no-repeat;
+  background: url('https://www.damsa.com.mx/corporativo/damsa_nuevo/images/bg-index5.png') no-repeat;
     background-size: cover;
     height: 800px;
     width: 100%;
@@ -1927,8 +1928,21 @@ color: #fff;
     border: 0px solid #ffffff;
     padding: 10px;
     border-radius: 0px;
+    cursor: pointer;
 }
-
+#formul #boton:disabled {
+    cursor: default;
+}
+#formul #boton.send {
+  opacity: .4;
+  pointer-events: none;
+}
+.color-white {
+  color: #fff;
+}
+.color-blue {
+  color: #224ca4;
+}
 #nCuenta{
   display: none;
 }
@@ -1971,7 +1985,7 @@ color: #fff;
 }
 
 .Contact .seccion6 {
-  background:url('/images/bg-atencion-clientes.jpg') no-repeat;
+  background:url('https://www.damsa.com.mx/corporativo/damsa_nuevo/images/bg-atencion-clientes.jpg') no-repeat;
   height: 480px;
   background-size: cover;
 }
@@ -2044,7 +2058,7 @@ text-decoration: none;
 margin-top: 30px;
      cursor: pointer;
      text-shadow: none;
-     margin-bottom: 50px;
+     margin-bottom: 20px;
 }
 
 .btn-contacto:hover{
@@ -2353,16 +2367,16 @@ border-color: #3649ac57;
   -webkit-animation: giro 1s 1;
   animation: giro 1s 1;
   border-radius: 0px;
-  border:1px solid #eee;
-  padding: 20px;
-  height: 313px;
-  margin-bottom: 30px;
+  border:none !important;
+  background: none !important;
+  height: 280px;
+  position: relative;
 }
 
 .card img {
     width: 100%;
-    height: 273px;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
 }
 
 .card p {
@@ -2375,16 +2389,12 @@ border-color: #3649ac57;
 div.front {
   align-content: center; 
   padding: 0;
-  position: absolute;
-  left: 20px;
-  right: 20px;
+  
 }
 div.back {
   align-content: center;
   padding: 0;
-  position: absolute;
-  left: 20px;
-  right: 20px;
+  
 }
 .card .front,
 .card .back {
@@ -2393,6 +2403,11 @@ div.back {
   color: white;
   display: block;
   text-align: center;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  top:10px;
 }
 .card img.front {
   padding: 0px;
@@ -2460,6 +2475,10 @@ img.logo-beneficio {
     font-weight: 400;
     margin-top: 10px;
 }
+.terms-discount p {
+  color: #fff;
+  line-height: 16px;
+}
 .terms {
   color: #6f6f6f;
   margin-top: 30px;
@@ -2467,6 +2486,39 @@ img.logo-beneficio {
 .address {
     color: #6f6f6f;
     margin-top: 20px;
+}
+.menuFilters {
+  background: #FEC324;
+  color: #224ca4;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: -34px;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+.itemMenuFilters {
+  padding: 10px 0;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.containerGrid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+    justify-content: space-between;
+}
+.col-grid {
+  width: 280px;
+  height: 280px;
+  margin: 10px;
+  border:1px solid #eee;
+}
+.itemIcon {
+  font-size: 18px !important;
+  color: #224ca4;
+  display: none;
 }
 
 @media (max-width: 2990px) {
@@ -3122,6 +3174,21 @@ img.logo-beneficio {
     color: #fff;
   }
 }
+@media (max-width: 836px) {
+  .col-grid {
+    width: 47%;
+    height: auto;
+  }
+  .card {
+    height: 320px;
+  }
+  .itemIcon {
+    display: block;
+  }
+  .itemFilterTxt {
+    display: none;
+  }
+}
 @media (max-width: 800px) {
 
   .Ers .seccion3 {
@@ -3220,6 +3287,12 @@ img.logo-beneficio {
   }
   .Galeri .seccion6 .contenedorGaleria {
     height: 300px;
+  }
+  .col-grid {
+    width: 46%;
+  }
+  .card {
+    height: 270px;
   }
 }
 
@@ -3476,7 +3549,16 @@ img.logo-beneficio {
   .Contact .col-md-3 {
     width: 100%;
   }
-
+  .containerGrid {
+    justify-content: center
+  }
+  .col-grid {
+    width: 300px;
+    
+  }
+  .card {
+    height: 300px;
+  }
 }
 @media (max-width: 495px) {
   .imgNosotros {
@@ -3502,4 +3584,7 @@ img.logo-beneficio {
     padding: 0px 7px;
     font-size: 10px;
   }
+}
+.carousel-control-next, .carousel-control-prev {
+  bottom: 100px !important;
 }

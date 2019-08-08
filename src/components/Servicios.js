@@ -13,7 +13,7 @@ class Servicios extends Component {
 						<div className="demo carousel slide" data-ride="carousel">
 							<div className="carousel-inner">
 								<div className="carousel-item active">
-									<img className="imgNosotros" src="../images/bg-servicios.png" alt="Servicios y Soluciones" />
+									<img className="imgNosotros" src="./images/bg-servicios.png" alt="Servicios y Soluciones" />
 									<div className="carousel-caption  d-md-block" >
 										<h1  className="sliderh1">{t("servicios.title")}  </h1>
 										<p className="sliderP2">{t("servicios.subtitle")}</p>

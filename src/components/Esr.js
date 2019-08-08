@@ -21,7 +21,7 @@ class ESR extends Component {
         for(var key in galerias) {
           let children = []
           var link = "#/galerias/" + galerias[key]['src'] + "/" + galerias[key]['photos']; 
-          var img =  "../images/" + galerias[key]['src'] + "/1.jpg";
+          var img =  "./images/" + galerias[key]['src'] + "/1.jpg";
           var name = "galerias." + galerias[key]['src'];
           children.push(<a href={link}><div class="contenedorGaleria"><img class="logoesr" src={img} alt={t(name)} /><div class="filtro"></div><div class="texto"><h3>{t(name)}</h3><label> <i class="fa fa-plus" aria-hidden="true"></i></label></div></div></a>);
           contenidoDiv.push(<div class="gale col-xs-12 col-sm-6 col-md-6 col-lg-4">{children}</div>)
@@ -39,7 +39,7 @@ class ESR extends Component {
 						<div className="demo carousel slide" data-ride="carousel">
 							<div className="carousel-inner">
 								<div className="carousel-item active">
-									<img className="imgNosotros" src="../images/bg-responsabilidad.png" alt="Damsa te escucha" />
+									<img className="imgNosotros" src="./images/bg-responsabilidad.png" alt="Damsa te escucha" />
 
 									<div className="carousel-caption d-md-block" >
 										<h1  className="sliderh1"> {t("esr.title")}  </h1>
@@ -54,7 +54,7 @@ class ESR extends Component {
 				<div className="seccion2" >
 					<div className="row justify-content-center">
 						<div  className="sembla col-xs-12 col-sm-8 col-md-5 col-lg-6">
-							<img className="logoesr" src="../images/grupos_interes.png" alt={t("esr.subtitle")} />
+							<img className="logoesr" src="./images/grupos_interes.png" alt={t("esr.subtitle")} />
 						</div>
 
 						<div   className="sembla col-xs-12 col-sm-10 col-md-7 col-lg-6">
@@ -127,7 +127,7 @@ class ESR extends Component {
 						<div className="row">
 							<div className="valoresh col-xs-12 col-sm-6 col-md-4 col-lg-4">
 								<div className="borde" >
-								<img className="logosapoyos" src="../images/esr-suenos.jpg" alt="Sueños y Esperanzas A.C." />
+								<img className="logosapoyos" src="./images/esr-suenos.jpg" alt="Sueños y Esperanzas A.C." />
 
 								<div className="contenedor1">
 								<p className="cont1" >{t("esr.causa1")} </p>
@@ -138,7 +138,7 @@ class ESR extends Component {
 
 							<div className="valoresh col-xs-12 col-sm-6 col-md-4 col-lg-4">
 								<div className="borde" >
-								<img className="logosapoyos" src="../images/esr-pronatura.jpg" alt="ProNatura" />
+								<img className="logosapoyos" src="./images/esr-pronatura.jpg" alt="ProNatura" />
 
 								<div className="contenedor1">
 								<p className="cont1"> {t("esr.causa2")} </p>
@@ -149,7 +149,7 @@ class ESR extends Component {
 
 							<div className="valoresh col-xs-12 col-sm-6 col-md-4 col-lg-4">
 								<div className="borde" >
-								<img className="logosapoyos" src="../images/esr-lazos.jpg" alt="Lazos" />
+								<img className="logosapoyos" src="./images/esr-lazos.jpg" alt="Lazos" />
 
 								<div className="contenedor1">
 								<p className="cont1"> {t("esr.causa3")} </p>
@@ -162,7 +162,7 @@ class ESR extends Component {
 
 							<div className="valoresh col-xs-12 col-sm-6 col-md-4 col-lg-4">
 								<div className="borde" >
-								<img className="logosapoyos" src="../images/esr-fm4.jpg" alt="FM4 Paso Libre" />
+								<img className="logosapoyos" src="./images/esr-fm4.jpg" alt="FM4 Paso Libre" />
 
 								<div className="contenedor1">
 								<p className="cont1"> {t("esr.causa4")}</p>
@@ -175,7 +175,7 @@ class ESR extends Component {
 
 							<div className="valoresh col-xs-12 col-sm-6 col-md-4 col-lg-4">
 								<div className="borde" >
-								<img className="logosapoyos" src="../images/esr-taiyari.jpg" alt="Taiyari" />
+								<img className="logosapoyos" src="./images/esr-taiyari.jpg" alt="Taiyari" />
 
 								<div className="contenedor1">
 								<p className="cont1"> {t("esr.causa5")}</p>
@@ -188,7 +188,7 @@ class ESR extends Component {
 
 							<div className="valoresh col-xs-12 col-sm-6 col-md-4 col-lg-4">
 								<div className="borde" >
-								<img className="logosapoyos" src="../images/esr-complices.jpg" alt="Complices A.C." />
+								<img className="logosapoyos" src="./images/esr-complices.jpg" alt="Complices A.C." />
 
 								<div className="contenedor1">
 								<p className="cont1"> {t("esr.causa6")}</p>
@@ -201,7 +201,7 @@ class ESR extends Component {
 
 							<div className="valoresh -xs-12 col-sm-6 col-md-4 col-lg-4">
 								<div className="borde" >
-								<img className="logosapoyos" src="../images/esr-telocompro.jpg" alt="Te lo Compro" />
+								<img className="logosapoyos" src="./images/esr-telocompro.jpg" alt="Te lo Compro" />
 
 								<div className="contenedor1">
 								<p className="cont1"> {t("esr.causa7")}</p>
@@ -214,7 +214,7 @@ class ESR extends Component {
 
 							<div className="valoresh col-xs-12 col-sm-6 col-md-4 col-lg-4">
 								<div className="borde" >
-								<img className="logosapoyos" src="../images/esr-extra.png" alt="Extra" />
+								<img className="logosapoyos" src="./images/esr-extra.png" alt="Extra" />
 
 								<div className="contenedor1">
 								<p className="cont1"> {t("esr.causa8")} </p>
@@ -227,7 +227,7 @@ class ESR extends Component {
 							
 							<div className="valoresh col-xs-12 col-sm-6 col-md-4 col-lg-4">
 								<div className="borde" >
-								<img className="logosapoyos" src="../images/esr-kamami.jpg" alt="Kamami" />
+								<img className="logosapoyos" src="./images/esr-kamami.jpg" alt="Kamami" />
 
 								<div className="contenedor1">
 								<p className="cont1"> {t("esr.causa9")}</p>

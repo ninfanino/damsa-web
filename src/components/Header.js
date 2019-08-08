@@ -17,11 +17,8 @@ class Header extends Component {
 	}
 
 	render () {
-		const { t, i18n } = this.props;
+		const { t } = this.props;
 
-	    const changeLanguage = lng => {
-	      i18n.changeLanguage(lng);
-	    };
 		return (
 			<header className="header">
 		      	<div className="container-fluid" id="header_main">
@@ -67,7 +64,7 @@ class Header extends Component {
         									<span className="icon-bar"></span>
       									</button>
 
-      									<NavLink to="/" onClick={()=> {window.scrollTo(0, 0);}}><img className="logodam" src="../images/damsa.png" alt="Damsa" onClick={this.closeMenu}	 /></NavLink>
+      									<NavLink to="/" onClick={()=> {window.scrollTo(0, 0);}}><img className="logodam" src="./images/damsa.png" alt="Damsa" onClick={this.closeMenu}	 /></NavLink>
 
 
       									<nav id="menu-complete" className="main">

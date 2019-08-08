@@ -27,7 +27,7 @@ class Servicios extends React.Component {
         for(var key in galerias) {
           let children = []
           var link = "#/galerias/" + galerias[key]['src'] + "/" + galerias[key]['photos']; 
-          var img =  "../images/" + galerias[key]['src'] + "/1.jpg";
+          var img =  "./images/" + galerias[key]['src'] + "/1.jpg";
           var name = "galerias." + galerias[key]['src'];
           children.push(<a href={link}><div class="contenedorGaleria"><img class="logoesr" src={img} alt={t(name)} /><div class="filtro"></div><div class="texto"><h3>{t(name)}</h3><label> <i class="fa fa-plus" aria-hidden="true"></i></label></div></div></a>);
           contenidoDiv.push(<div class="gale col-xs-12 col-sm-6 col-md-6 col-lg-4">{children}</div>)

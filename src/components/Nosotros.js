@@ -36,7 +36,7 @@ class Nosotros extends Component {
 						<div className="demo carousel slide" data-ride="carousel">
 							<div className="carousel-inner">
 								<div className="carousel-item active">
-									<img className="imgNosotros" src="../images/bg-nosotros.png" alt="Nosotros" />
+									<img className="imgNosotros" src="./images/bg-nosotros.png" alt="Nosotros" />
 
 									<div className="carousel-caption  d-md-block" >
 
@@ -99,7 +99,7 @@ class Nosotros extends Component {
 
 					<div className="row justify-content-center">
 						<div className="sembla col-xs-12 col-sm-10 col-md-6 col-lg-6">
-							<img className="semblaIcon" src="../images/semblanza1.png" alt="200,000 Empleados"/>
+							<img className="semblaIcon" src="./images/semblanza1.png" alt="200,000 Empleados"/>
 							<div className="cont-semblanza d-inline-block text-left">
 								<h1 > 200,000</h1>
 								<h3 > {t("nosotros-section2.subtitle1")}</h3>
@@ -110,7 +110,7 @@ class Nosotros extends Component {
 						</div>
 
 						<div className="sembla col-xs-12 col-sm-10 col-md-6 col-lg-6">
-							<img className="semblaIcon" src="../images/semblanza2.png" alt={t("nosotros-section2.subtitle2")} />
+							<img className="semblaIcon" src="./images/semblanza2.png" alt={t("nosotros-section2.subtitle2")} />
 							<div className="cont-semblanza d-inline-block text-left">
 								<h1> +500</h1>
 								<h3>{t("nosotros-section2.subtitle2")}</h3>
@@ -223,7 +223,7 @@ class Nosotros extends Component {
 
 						<div className="row justify-content-center">
 							<div className="sembla col-xs-12 col-sm-6 col-md-5 col-lg-3">
-								<img className="logoesr" src="../images/logoesr.png" alt={t("nosotros-esr.alt")} />
+								<img className="logoesr" src="./images/logoesr.png" alt={t("nosotros-esr.alt")} />
 							</div>
 							<div className="sembla col-xs-12 col-sm-10 col-md-7 col-lg-9">
 								<div className="contenedor1">
@@ -242,7 +242,7 @@ class Nosotros extends Component {
 						<div className="row">
 							<div className="sembla col-xs-12 col-sm-6 col-md-6 col-lg-6">
 								<div className="logo-certificacion">
-									<img className="logosr" src="../images/logoiso.png" alt="ISO 9001:2015" />
+									<img className="logosr" src="./images/logoiso.png" alt="ISO 9001:2015" />
 								</div>
 								<div className="contenedor1">
 									<p className="cont1"> <p className="cont1"> {t("nosotros-esr.certificacion1")}</p></p>
@@ -251,7 +251,7 @@ class Nosotros extends Component {
 
 							<div className="sembla col-xs-12 col-sm-6 col-md-6 col-lg-6">
 								<div className="logo-certificacion">
-									<img className="logosr" src="../images/logoctpat.png" alt="C-TPAT" />
+									<img className="logosr" src="./images/logoctpat.png" alt="C-TPAT" />
 								</div>
 								<div className="contenedor1">
 									<p className="cont1"> {t("nosotros-esr.certificacion2")}</p>
@@ -259,21 +259,13 @@ class Nosotros extends Component {
 							</div>
 						</div>
 
-						<div className="row">
-							<div className="sembla col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<div className="row justify-content-md-center">
+							<div className="sembla col-lg-6 col-offset-3">
 								<div className="logo-certificacion">
-									<img className="logosr" src="../images/logocadelec.png" alt="CADELEC" />
+									<img width={341} className="logosr" src="./images/logo-topcompanies.png" alt="TOP COMPANIES" />
 								</div>
 								<div className="contenedor1">
 									<p className="cont1"> {t("nosotros-esr.certificacion3")}</p>
-								</div>
-							</div>
-							<div className="sembla col-xs-12 col-sm-6 col-md-6 col-lg-6">
-								<div className="logo-certificacion">
-									<img className="logosr" src="../images/logoinm.png" alt={t("nosotros-esr.altcertificacion4")} />
-								</div>
-								<div className="contenedor1">
-									<p className="cont1"> {t("nosotros-esr.certificacion4")} </p>
 								</div>
 							</div>
 						</div>

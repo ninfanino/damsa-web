@@ -227,7 +227,7 @@ class ClubBeneficio extends Component {
             	'hye': {
             		name:'Hoteles y experiencias',
 	            	logo:'logo-hye.png',
-	            	img:'catalogo-hye-b01.jpg',
+	            	img:'foto.png',
 	            	fb:'https://www.facebook.com/HotelesyExperiencias',
 	            	city:'Nacional',
 	            	benefits: 1,
@@ -277,6 +277,375 @@ class ClubBeneficio extends Component {
 					address: [
 						['Contacto', 'Dra. María Cristina Álvarez Ordoñez medicina.industrial@upc.com.mx (33)3669-0334']
 					]
+				},
+				'cityexpress': {
+            		name:'City Express',
+	            	logo:'logo-cityexpress.png',
+	            	img:'catalogo-cityexpress-b01.png',
+	            	fb:'https://www.facebook.com/CityExpressMX',
+	            	city:'Nacional',
+					benefits: 1,
+					download:'Tarifas.pdf',
+					address: [
+						['Contacto', 'Yadira Sujel Rentería 3880-3700 ext.187 e-mail: yrenteria@hotelescity.com']
+					]
+				},
+				'taqueria_charro': {
+            		name:'Taquería el Charro',
+	            	logo:'logo.jpg',
+	            	img:'4-Interior.png',
+	            	fb:'https://www.facebook.com/TaqueriaelcharroGRILL/',
+	            	city:'GDL',
+					benefits: 2,
+					address: [
+						['Contacto', 'Avenida Enrique Díaz de León #150, Colonia Americana. Tel: (33)-15-97-06-11. ']
+					]
+            	},
+				'Poptails': {
+            		name:'Poptails',
+	            	logo:'logonuevo.png',
+	            	img:'b01.png',
+	            	fb:'https://www.facebook.com/poptailsicecream/',
+	            	city:'GDL',
+					benefits: 1,
+					address: [
+						['Contacto', 'Avenida Enrique Díaz de León #150, Colonia Americana. Tel: (33)-15-97-06-11. ']
+					]
+				},
+				'Roca_azul': {
+            		name:'Club Roca Azul',
+	            	logo:'logo-roca_azul.png',
+	            	img:'roca-azul-b02.png',
+	            	fb:'https://www.facebook.com/rocaazulrv/',
+	            	city:'GDL',
+					benefits: 1,
+					address: [
+						['Contacto', 'Jocotepec, Jalisco. Carretera GDL-Morelia Km 53, Av. La carpa. Guadalajara: 3337005378 Jocotepec: 3310431768']
+					]
+            	},
+				'twoidea': {
+            		name:'Two Idea',
+	            	logo:'logo-twoidea.png',
+	            	img:'catalogo-twoidea-a02.png',
+	            	fb:'https://www.facebook.com/Two-Idea-Art%C3%ADculos-Promocionales-326544837469755',
+	            	city:'GDL',
+					benefits: 1,
+					address: [
+						['Contacto', 'Twoidea.com.mx Tel:3630.9725 Tel:4445.5268/69 Tel:1306.0812/13']
+					]
+            	},
+				'alexa_stiletto': {
+            		name:'Alexa y Stiletto',
+	            	logo:'1-Frente.png',
+	            	img:'alexa-b1.png',
+	            	fb:'https://www.facebook.com/AlexaModaOficial/',
+	            	city:'GDL',
+					benefits: 1,
+					address: [
+						['Contacto', 'Monterrey NL, Reynosa Tamaulipas, Chihuahua, Guadalajara, Veracruz, Coatzacoalcos, Tabasco, Villahermosa, Mérida Yucatán.']
+					]
+            	},
+				'Black_Coffe': {
+            		name:'Black Coffee Gallery',
+	            	logo:'logotipo_bcg-01.png',
+	            	img:'catalogo-blackcoffee-b01.png',
+	            	fb:'https://www.facebook.com/BlackCoffeeG/',
+	            	city:'GDL',
+					benefits: 1,
+					address: [
+						['Contacto', 'Zona Metropolitana de Guadalajara']
+					]
+            	},
+				'lemime': {
+            		name:'Le Mime',
+	            	logo:'logo.png',
+	            	img:'lemime_b01.png',
+	            	fb:'https://www.facebook.com/lemimehelados/',
+	            	city:'GDL',
+					benefits: 1,
+					address: [
+						['Contacto', 'Zona Metropolitana de Guadalajara']
+					]
+            	},
+				'univa': {
+            		name:'UNIVA',
+	            	logo:'logo-univa.png',
+	            	img:'catalogo-univa-b01.png',
+	            	fb:'https://www.facebook.com/UnivaGuadalajara/',
+	            	city:'GDL',
+					benefits: 3,
+					address: [
+						['Contacto', 'Luis Gabriel Robles, luis.robles@univa.mx, 31340800 ext. 1773']
+					]
+            	},
+				'peter_pipper': {
+            		name:'Peter Piper Pizza',
+	            	logo:'logo.png',
+	            	img:'peter_piper-b01.png',
+	            	fb:'https://www.facebook.com/PeterPiperPizzaPuertaDeHierro/',
+	            	city:'GDL',
+					benefits: 1,
+					address: [
+						['Contacto', 'Av. Patria #2051 (4,43 km) 45116 Zapopan']
+					]
+            	},
+				'museo_cera': {
+            		name:'Museo de Cera',
+	            	logo:'logo.png',
+	            	img:'interior.png',
+	            	fb:'https://www.facebook.com/MuseodeCeraOficial/',
+	            	city:'GDL',
+					benefits: 1,
+					address: [
+						['Contacto', 'Zona Metropolitana de Guadalajara']
+					]
+				},
+				'uvm': {
+            		name:'UVM',
+	            	logo:'logo-uvm.png',
+	            	img:'interior.png',
+	            	fb:'https://www.facebook.com/UniversidaddelValledeMexico/',
+	            	city:'GDL',
+					benefits: 5,
+					address: [
+						['Contacto', 'LCM. Manuel Alberto Lopez Asesor Educativo Licenciaturas Ejecutivas Campus Zapopan Cel:33 1940.5606 Tel:33 3777.3400 ext. 46813'],
+						['Campus Zapopan', 'Periférico Poniente No. 7900 Jardines de Collí, Zapopan, Jalisco'],
+						['Campus Guadalajara Sur', 'Periférico Sur 8100 Col. Santa María Tequepexpan, Tlaquepaque, Jalisco']
+					]
+				},
+				'innovasport': {
+            		name:'Innova Sport',
+	            	logo:'logo.png',
+	            	img:'innova_b01.png',
+	            	fb:'https://www.facebook.com/innovasport',
+	            	city:'Nacional',
+					benefits: 1,
+					download: 'Promo_Descargable.jpg',
+					address: [
+						['Contacto', 'Sucursales Innova Sport']
+					]
+            	},
+				'benedictus': {
+            		name:'Benedictus',
+	            	logo:'Benedictus-logo.png',
+	            	img:'Benedictus-Interior.png',
+	            	fb:'https://www.facebook.com/BenedictusCoroYOrquesta',
+	            	city:'GDL',
+					benefits: 1,
+					address: [
+						['Contacto', 'Paseo Lomas Altas 4989, col. Jardines de la Patria, Zapopan, Jalisco. 3310672006 y 3316594684. contacto@benedictus.mx']
+					]
+				},
+				'latelier': {
+            		name:'L\'atelier',
+	            	logo:'logo-latelier.png',
+	            	img:'b01.png',
+	            	fb:'https://www.facebook.com/lateliersalonybelleza/',
+	            	city:'GDL',
+					benefits: 1,
+					address: [
+						['Contáctanos', 'Plaza Entorno Margarita Eulogio Parra #3200 Local 20 Col. Prados Providencia 3640-4799 www.latelier.mx']
+					]
+				},
+				'best_western': {
+            		name:'Best Western',
+	            	logo:'logo-best_western.png',
+	            	img:'catalogo-best_western-b01.jpg',
+	            	fb:'https://www.facebook.com/BestWesternPlusGHCH/',
+	            	city:'GDL',
+					benefits: 1,
+					address: [
+						['Contáctanos', 'Calz Independencia Sur 168, Zona Centro, 44100 Guadalajara, Jal. Teléfono: 044 33 3613 9770']
+					]
+				},
+				'erectus': {
+            		name:'Erectus',
+	            	logo:'logo-erectus.png',
+	            	img:'catalogo-erectus-b01.jpg',
+	            	fb:'https://www.facebook.com/erectusoficial/',
+	            	city:'GDL',
+					benefits: 3,
+					address: [
+						['Contáctanos', 'https://erectus.com.mx/']
+					]
+				},
+				'patagonica': {
+            		name:'Patagonica',
+	            	logo:'logo-patagonica.png',
+	            	img:'catalogo-patagonica-b01.jpg',
+	            	fb:'https://www.facebook.com/PatagonicaEscuela/',
+	            	city:'GDL',
+					benefits: 2,
+					address: [
+						['Contáctanos', 'Rocío Pérez Reforma #2412 Col. Ladrón de Guevara 3669-0333 patagonicogastronomia@gmail.com']
+					]
+				},
+				'viajescarnaval': {
+            		name:'Viajes Carnaval',
+	            	logo:'logo.png',
+	            	img:'Carnaval_Inside.jpg',
+	            	fb:'https://www.facebook.com/Viajes-Carnaval-114192738684300/',
+	            	city:'Nacional',
+					benefits: 5,
+					address: [
+						['Contáctanos', 'Francia Areli Larios Loza Teléfono: 3319442755, Correo electrónico: FranciaLarios_c11@hotmail.com']
+					]
+            	},
+				'anfibios': {
+            		name:'Club Anfibios',
+	            	logo:'logo.png',
+	            	img:'anfibios-b01.jpg',
+	            	fb:'https://www.facebook.com/Escuela-de-Natacion-Club-Anfibios-491801754288071/',
+	            	city:'GDL',
+					benefits: 3,
+					address: [
+						['Contáctanos', 'Calle Vista a la Campiña 555, Cerro del Tesoro, 45608 San Pedro Tlaquepaque, Jal.']
+					]
+				},
+				'ula': {
+            		name:'ULA',
+	            	logo:'logo.png',
+	            	img:'b1.png',
+	            	fb:'https://www.facebook.com/ULA.Oficial/',
+	            	city:'Nacional',
+					benefits: 3,
+					address: [
+						['Contáctanos', 'norma.cruz@ula.edu.mx Tel: (55)-51-10-18-27 .']
+					]
+            	},
+				'Krystal': {
+            		name:'Grupo Hotelero Santa Fe',
+	            	logo:'logo.png',
+	            	img:'SantaFeGH.jpg',
+	            	fb:'https://www.facebook.com/grupohotelerosantafe/',
+	            	city:'Nacional',
+					benefits: 1,
+					address: [
+						['Contáctanos', 'http://www.gsf-hotels.com/']
+					]
+            	},
+				'benessere': {
+            		name:'Benessere',
+	            	logo:'logo.png',
+	            	img:'Benessere-b01.jpg',
+	            	fb:'',
+	            	city:'GDL',
+					benefits: 3,
+					address: [
+						['Contáctanos', 'http://www.benessere.mx/']
+					]
+            	},
+				'Vivens': {
+            		name:'Vivens',
+	            	logo:'vivens-logo.jpg',
+	            	img:'vivens-b01.jpg',
+	            	fb:'',
+	            	city:'GDL',
+					benefits: 1,
+					address: [
+						['Zapopan', 'Av. Patria 1437 Local SAM01, Colonia Jardines del Sol Zapopan, Jalisco, CP. 45050'],
+						['Tlajomulco', 'Av. López Mateos Sur 1450, Local 22 Plaza Las Villas, CP. 45647, Tlajomulco de Zuñiga, Jalisco.']
+					]
+            	},
+				'Acuario': {
+            		name:'Acuario Michin',
+	            	logo:'logo.png',
+	            	img:'acuario_michin-b01.jpg',
+	            	fb:'https://www.facebook.com/AcuarioMichinOficial/',
+	            	city:'GDL',
+					benefits: 1,
+					address: [
+						['Contáctanos', 'Av. Mariano Bárcenas 990, Zona centro, Guadalajara, Jalisco, México']
+					]
+            	},
+				'renta_tu_auto': {
+            		name:'Mexico Car Rental',
+	            	logo:'LogoP.png',
+	            	img:'Mexico-CarRental.png',
+	            	fb:'https://www.facebook.com/mexicocarrental/',
+	            	city:'Nacional',
+					benefits: 1,
+					address: [
+						['Contáctanos', 'Monterrey NL, Reynosa Tamaulipas, Chihuahua, Guadalajara, Veracruz, Coatzacoalcos, Tabasco, Villahermosa, Mérida Yucatán.']
+					]
+            	},
+				'Porta_blanca': {
+            		name:'porta Blanca',
+	            	logo:'logo.png',
+	            	img:'porta_blanca-b01.jpg',
+	            	fb:'https://www.facebook.com/PortaBlancaSpa/',
+	            	city:'GDL',
+					benefits: 1,
+					address: [
+						['Contáctanos', 'Zapopan Jalisco, Privada Brillante #6 Arroyo Hondo, Prolongación Federalismo Norte. 3861 9973']
+					]
+            	},
+				'devlyn': {
+            		name:'Devlyn',
+	            	logo:'logo-devlyn.png',
+	            	img:'catalogo-devlyn-b01.jpg',
+	            	fb:'https://www.facebook.com/opticasdevlyn/',
+	            	city:'Nacional',
+					benefits: 1,
+					address: [
+						['Contáctanos', 'https://www.devlyn.com.mx/']
+					]
+            	},
+				'tec_milenio': {
+            		name:'Tec Milenio',
+	            	logo:'Tecmi.png',
+	            	img:'Girl.png',
+	            	fb:'https://www.facebook.com/UniversidadTecmilenio/',
+	            	city:'Nacional',
+					benefits: 4,
+					address: [
+						['Contáctanos', 'Alejandra Gómez 3055 5210 Ext 4508 www.tecmilenio.mx'],
+						['Campus Norte Zapopan', 'Anillo Periférico Norte S/N y Calzada de los Constituyentes, Col. Constitución, Zapopan, Jalisco']
+					]
+            	},
+				'sams': {
+            		name:'Sam\'s',
+	            	logo:'logo-sams.png',
+	            	img:'catalogo-sams-b01.jpg',
+	            	fb:'https://www.facebook.com/SamsClubMexico/',
+	            	city:'GDL',
+					benefits: 1,
+					address: [
+						['Contáctanos', 'https://www.sams.com.mx/']
+					]
+            	},
+				'suburbia': {
+            		name:'Suburbia',
+	            	logo:'logo-suburbia.png',
+	            	img:'fondo2.jpg',
+	            	fb:'https://www.facebook.com/moda.suburbia',
+	            	city:'GDL',
+					benefits: 1,
+					address: [
+						['Contáctanos', 'https://www.suburbia.com.mx/tienda/inicio/']
+					]
+            	},
+				'tony': {
+            		name:'Tony Super Papelerias',
+	            	logo:'logo-tony.png',
+	            	img:'catalogo-tony-b01.jpg',
+	            	fb:'https://www.facebook.com/TonySuperPapelerias',
+	            	city:'Nacional',
+					benefits: 1,
+					address: [
+						['Contáctanos', 'http://www.tony.com.mx/']
+					]
+            	},
+				'high_vision': {
+            		name:'High Vision',
+	            	logo:'logo-high_vision.png',
+	            	img:'catalogo-high_vision-b01.jpg',
+	            	fb:'https://www.facebook.com/highvision.opticas',
+	            	city:'GDL',
+					benefits: 1,
+					address: [
+						['Contáctanos', 'Guadalupe Andrade 33-1655-0361 www.opticashighvision.com']
+					]
             	}
             }
         ];
@@ -290,26 +659,37 @@ class ClubBeneficio extends Component {
         let paquetes = [];
         for(var key in galerias) {
         	
-	        var logo = "../images/club/" + beneficio + "/" + galerias[key][beneficio]['logo']; 
-	        var img =  "../images/club/" + beneficio + "/" + galerias[key][beneficio]['img'];
+	        var logo = "./images/club/" + beneficio + "/" + galerias[key][beneficio]['logo']; 
+	        var img =  "./images/club/" + beneficio + "/" + galerias[key][beneficio]['img'];
 	        var text = "club." + beneficio + ".txt";
 	        
-	        var more = "club." + beneficio + ".more";
-	        
-	        
-	        for(var i = 0; i < galerias[key][beneficio]['benefits']; i++) {
+			var more = "club." + beneficio + ".more";
+			var download = "./images/club/" + beneficio + "/" + galerias[key][beneficio]['download'];
+			
+			
+	        for(let i = 0; i < galerias[key][beneficio]['benefits']; i++) {
 	        	var discount = "club." + beneficio + ".discount" + i;
-	        	var details = "club." + beneficio + ".details" + i;
+				var details = "club." + beneficio + ".details" + i;
+				
+				var txtNuevo = t(details).split('\n').map(c => {
+					
+					return ( <p> {c} </p>) 
+					 });
+				
+				if(galerias[key][beneficio]['download']  && i===0) {
+	        		benefits.push(<a href={download} target="_blank" rel="noopener noreferrer" ><div className="discount" key={i}>{t(discount)}<div className="terms-discount">{t(details)}</div></div></a>)
+				} else {
+					benefits.push(<div className="discount" key={i}>{t(discount)}<div className="terms-discount color-white" >{txtNuevo}</div></div>);
+				}
+				 
+			}
 
-	        	benefits.push(<div className="discount" key={i}>{t(discount)}<div className="terms-discount">{t(details)}</div></div>);
-	        }
-
-	        if(beneficio == 'hye') {
-	        	for(var i = 1; i <= 3; i++) {
+	        if(beneficio === 'hye') {
+	        	for(let i = 1; i <= 3; i++) {
 	        		var paquete = "club." + beneficio + ".paquete" + i;
 	        		var condicion = "club." + beneficio + ".condicion" + i;
 	        		var texto = "club." + beneficio + ".txt" + i;
-	        		var imgHotel =  "../images/club/" + beneficio + "/paquete" + i + ".jpg";
+	        		var imgHotel =  "./images/club/" + beneficio + "/paquete" + i + ".jpg";
 
 	        		paquetes.push(<div className="discount paquete row"><div className="col-md-7">{t(paquete)}<div className="terms-discount">{t(condicion)}</div><p>{t(texto)}</p></div><div className="col-md-5"><img className="photo-paquete" src={imgHotel} alt={paquete} /></div></div>);
 	        	}

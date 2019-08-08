@@ -5,6 +5,7 @@ import $ from 'jquery';
 import { NavLink } from "react-router-dom";
 import { translate } from 'react-i18next';
 import scrollToComponent from 'react-scroll-to-component';
+import axios from 'axios';
 
 $(document).ready(
 	function()
@@ -37,6 +38,62 @@ class Home extends Component {
 		$('.navb').removeClass('open');
 	}
 
+	constructor(props) {
+		super(props);
+		this.state = {
+			fname : '',
+			fempresa : '',
+			ftel : '',
+			femail : '',
+			farea : '',
+			fciudad : '',
+			fmensaje : '',
+			send : ''
+		}
+	}
+
+	cleanState = () => {
+		this.setState({
+			fname : '',
+			fempresa : '',
+			ftel : '',
+			femail : '',
+			farea : '',
+			fciudad : '',
+			fmensaje : '',
+			send : ''
+		})
+	}
+
+	sendEmail = (e) => {
+		e.preventDefault();
+
+		const mensaje = ' Nombre: ' + this.state.fname + ' <br/> Empresa: ' +  this.state.fempresa 
+									+ ' <br/> Teléfono: ' +  this.state.ftel + ' <br/> Correo: ' + this.state.femail 
+									+ ' <br/> Area: ' + this.state.farea + ' <br/> Ciudad: ' + this.state.fciudad 
+									+ ' <br/> Mensaje: ' + this.state.fmensaje;
+		
+		
+		axios.post('https://www.damsa.com.mx/WebSiteCore/WebApiEnvioDeCorreo/api/Correos', {
+    		Id_Sistema: "SITIO_CONTACTO",
+  			De: "noreply@damsa.com.mx",
+  			Para: "loversareinsane@gmail.com",
+  			Copia: "nnino@damsa.com.mx",
+  			CopiaOculta: "nnino@damsa.com.mx",
+  			Asunto: "Correo enviado desde el formulario de contacto",
+  			Msg: mensaje
+
+  		})
+  		.then(function (response) {
+    		document.getElementById("res-contacto").innerHTML = "Su email fue enviado"
+  		})
+  		.catch(function (error) {
+    		document.getElementById("res-contacto").innerHTML = "Ocurrio un error. Intente más tarde"
+			});
+			
+			this.cleanState()
+	}
+
 	componentDidMount() {
 		var contacto = this.props.match.params.contacto;
 		switch(contacto) {
@@ -50,6 +107,8 @@ class Home extends Component {
 	}
 	render () {
 		const { t } = this.props;
+		const { fname, ftel, femail, fmensaje } = this.state
+		const enabled = fname.length > 0 && ftel.length > 0 && femail.length > 0 && fmensaje.length > 0;
 	return (
 		<div ref={(section) => { this.home = section; }} >
 			<Slider/>
@@ -211,60 +270,56 @@ class Home extends Component {
 			</div>
 
 			<div className="container-fluid">
-			<div className="row">
-			<div className="mejoracuadros1 col-xs-12 col-sm-6 col-md-3 col-lg-3">
-				<div className="num-mejora">1</div>
+				<div className="row">
+					<div className="mejoracuadros1 col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						<div className="num-mejora">1</div>
+						<div className="valign">
+		  					<h3 > {t("home-certificaciones.title1")}</h3>
+		    				<h2 >{t("home-certificaciones.subtitle1")}</h2>
+		    			</div>
+					</div>
+
+					<div className="mejoracuadros2 col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						<div className="num-mejora">2</div>
+						<div className="valign">
+		  					<h3 > {t("home-certificaciones.title2")}</h3>
+		    				<h2 > {t("home-certificaciones.subtitle2")}</h2>
+		    			</div>
+					</div>
+
+					<div className="mejoracuadros1 second col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						<div className="num-mejora">3</div>
+						<div className="valign">
+		  					<h3 > {t("home-certificaciones.title3")}</h3>
+		    				<h2>{t("home-certificaciones.subtitle3")}</h2>
+		    			</div>
+					</div>
+
+					<div className="mejoracuadros2 second col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						<div className="num-mejora">4</div>
+						<div className="valign">
+		  					<h3 >{t("home-certificaciones.title4")}</h3>
+		    				<h2> {t("home-certificaciones.subtitle4")}</h2>
+		    			</div>
+					</div>
+				</div>
+			</div>
+
+			<div className="damsa-escucha">
 				<div className="valign">
-  					<h3 > {t("home-certificaciones.title1")}</h3>
-    				<h2 >{t("home-certificaciones.subtitle1")}</h2>
-    			</div>
+		      		<div className="container" >
+		      			<h1  className="sliderVacanteh3">{t("home-buzon.title")} </h1>
+		        		<h1 className="sliderVacanteh4" >{t("home-buzon.subtitle")}</h1>
+
+		        		<div className="row justify-content-center">
+		            		<div className="col-sm-12" >
+		              			<NavLink to="/buzon" onClick={()=> {window.scrollTo(0, 0);}}><div className="tuto" >  <h4 className="texto texto_redes" > {t("home-buzon.btn")}</h4> </div></NavLink>
+		            		</div>
+		        		</div>
+
+		      		</div>
+		    	</div>
 			</div>
-
-			<div className="mejoracuadros2 col-xs-12 col-sm-6 col-md-3 col-lg-3">
-				<div className="num-mejora">2</div>
-				<div className="valign">
-  					<h3 > {t("home-certificaciones.title2")}</h3>
-    				<h2 > {t("home-certificaciones.subtitle2")}</h2>
-    			</div>
-			</div>
-
-			<div className="mejoracuadros1 second col-xs-12 col-sm-6 col-md-3 col-lg-3">
-				<div className="num-mejora">3</div>
-				<div className="valign">
-  					<h3 > {t("home-certificaciones.title3")}</h3>
-    				<h2>{t("home-certificaciones.subtitle3")}</h2>
-    			</div>
-			</div>
-
-			<div className="mejoracuadros2 second col-xs-12 col-sm-6 col-md-3 col-lg-3">
-				<div className="num-mejora">4</div>
-				<div className="valign">
-  					<h3 >{t("home-certificaciones.title4")}</h3>
-    				<h2> {t("home-certificaciones.subtitle4")}</h2>
-    			</div>
-			</div>
-			</div>
-			</div>
-
-
-
-  <div className="damsa-escucha">
-		<div className="valign">
-      		<div className="container" >
-      			<h1  className="sliderVacanteh3">{t("home-buzon.title")} </h1>
-        		<h1 className="sliderVacanteh4" >{t("home-buzon.subtitle")}</h1>
-
-        		<div className="row justify-content-center">
-            		<div className="col-sm-12" >
-              			<NavLink to="/buzon" onClick={()=> {window.scrollTo(0, 0);}}><div className="tuto" >  <h4 className="texto texto_redes" > {t("home-buzon.btn")}</h4> </div></NavLink>
-            		</div>
-        		</div>
-
-      		</div>
-    	</div>
-
-
-  </div>
 
 
 
@@ -292,10 +347,10 @@ class Home extends Component {
 	<div id="carouselExampleControls2" className="carousel slide" data-ride="carousel">
 		<div className="carousel-inner">
 			<div className="carousel-item active">
-				<img className="slider" src="../images/s_esr.png" alt={t("home-esr.title")} />
+				<img className="slider" src="./images/s_esr.png" alt={t("home-esr.title")} />
 				<div className="carousel-caption  d-md-block textoEncima"  >
 					<h1  className="sliderVacanteh1">
-						<img className="img-slider" src="../images/damsa-esr.png" alt={t("home-esr.title")} />
+						<img className="img-slider" src="./images/damsa-esr.png" alt={t("home-esr.title")} />
 					</h1>
 					<div className="row justify-content-center">
 						<div className="col-sm-12" >
@@ -308,7 +363,7 @@ class Home extends Component {
 			</div>
 
 			<div className="carousel-item">
-				<img className="slider" src="../images/s_comunidad.png" alt={t("home-esr.title-comunidad")} />
+				<img className="slider" src="./images/s_comunidad.png" alt={t("home-esr.title-comunidad")} />
 				<div className="carousel-caption  d-md-block textoEncima"  >
 					<h1  className="sliderVacanteh1">
 						{t("home-esr.title-comunidad")}
@@ -327,7 +382,7 @@ class Home extends Component {
 			</div>
 
 			<div className="carousel-item">
-				<img className="slider" src="../images/s_club.png" alt={t("home-esr.title-club")} />
+				<img className="slider" src="./images/s_club.png" alt={t("home-esr.title-club")} />
 				<div className="carousel-caption  d-md-block textoEncima"  >
 					<h4 className="color-white">{t("home-esr.subtitle-club")}</h4>
 					<h1  className="sliderVacanteh1">
@@ -344,7 +399,7 @@ class Home extends Component {
 			</div>
 
 			<div className="carousel-item">
-				<img className="slider" src="../images/s_inclusion.png" alt={t("home-esr.title-cultura")} />
+				<img className="slider" src="./images/s_inclusion.png" alt={t("home-esr.title-cultura")} />
 				<div className="carousel-caption  d-md-block textoEncima"  >
 					<h1  className="sliderVacanteh1">
 						{t("home-esr.title-cultura")}
@@ -439,7 +494,7 @@ class Home extends Component {
 
 		</div>
 
-  		<iframe title="mapa" src="../images/mexicoHigh.svg" width="100%" height="680"></iframe>
+  		<iframe title="mapa" src="./images/mexicoHigh.svg" width="100%" height="680"></iframe>
 
 		<span id="sucursal1" className="icon-pointer" onClick={this.openMenu.bind(this, 'menu-map1')}></span>
 		<span id="sucursal2" className="icon-pointer" onClick={this.openMenu.bind(this, 'menu-map2')}></span>
@@ -597,7 +652,7 @@ class Home extends Component {
 	</div>
 
   <div id="contacto"  className="col-xs-12 col-sm-12 col-md-12 col-lg-12" ref={(section) => { this.contacto = section; }} >
-  <br></br>
+  	<br></br>
   <br></br>
   <h3 className="title yellow" ><b>{t("home-contact.title")}</b></h3>
 
@@ -609,55 +664,57 @@ class Home extends Component {
     </div>
 
 
-    <form id="formul" action="/qualtra/contacto/enviar" method="POST" acceptCharset="utf-8" >
+    <form id="formul" onSubmit={this.sendEmail}>
 		<div className="container">
 			<div className="row">
 				<div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 	                <div className="form-group" >
-	                    <input type="text" name="nombre" placeholder={t("home-contact.name")} className="form-control" required="" />
+	                    <input type="text" name="nombre" placeholder={t("home-contact.name")} value={this.state.fname} onChange={e => this.setState({ fname: e.target.value })} className="form-control" required="" />
 	                </div>
 				</div>
 	            <div  className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 	                <div className="form-group" >
-	                  	<input type="text" name="empresa" placeholder={t("home-contact.company")} className="form-control" required=""/>
+	                  	<input type="text" name="empresa" placeholder={t("home-contact.company")} value={this.state.fempresa} onChange={e => this.setState({ fempresa: e.target.value })} className="form-control" required=""/>
 	                </div>
 	            </div>
 	        </div>
 	        <div className="row">
 				<div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 					<div className="form-group" >
-						<input type="text" name="telefono"  placeholder={t("home-contact.phone")} className="form-control" required="" />
+						<input type="text" name="telefono"  placeholder={t("home-contact.phone")} value={this.state.ftel} onChange={e => this.setState({ ftel: e.target.value })} className="form-control" required="" />
 					</div>
 				</div>
 				<div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
     				<div className="form-group" >
-      					<input type="text" name="correo"  placeholder={t("home-contact.mail")} className="form-control" required="" />
+      					<input type="text" name="correo"  placeholder={t("home-contact.mail")} value={this.state.femail} onChange={e => this.setState({ femail: e.target.value })} className="form-control" required="" />
     				</div>
 				</div>
 			</div>
 			<div className="row">
                 <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 	                <div className="form-group" >
-	                  <input type="text" name="area" placeholder={t("home-contact.area")} className="form-control" required=""/>
+	                  <input type="text" name="area" placeholder={t("home-contact.area")} value={this.state.farea} onChange={e => this.setState({ farea: e.target.value })} className="form-control" required=""/>
 	                </div>
 	            </div>
               	<div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 	              <div className="form-group" >
-	                <input type="text" name="ciudad"  placeholder={t("home-contact.city")} className="form-control" required=""/>
+	                <input type="text" name="ciudad"  placeholder={t("home-contact.city")} value={this.state.fciudad} onChange={e => this.setState({ fciudad: e.target.value })} className="form-control" required=""/>
 	              </div>
 	            </div>
 	        </div>
 	        <div className="row">
 				<div id="linearoja"  className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div className="form-group">
-                      <textarea id="areatext" name="mensaje" placeholder={t("home-contact.message")} className="form-control3 w-100" required="" ></textarea>
+                      <textarea id="areatext" name="mensaje" placeholder={t("home-contact.message")} value={this.state.fmensaje} onChange={e => this.setState({ fmensaje: e.target.value })} className="form-control3 w-100" required="" ></textarea>
                     </div>
 				</div>
 
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div className="form-group" id="btncontact" >
-                      <button id="boton" type="submit" className="btn btn-default"  >{t("home-contact.enviar")}</button>
+                      <button id="boton" disabled={!enabled} type="submit" className="btn btn-default {this.state.send ? 'send': null} "  >{t("home-contact.enviar")}</button>
                     </div>
+
+										<div id="res-contacto" className="text-left color-white"></div>
                 </div>
             </div>
         </div>

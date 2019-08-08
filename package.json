@@ -2,7 +2,9 @@
   "name": "web-damsa",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://ninfadg.com/corporativo/damsa_nuevo/",
   "dependencies": {
+    "axios": "^0.18.0",
     "i18next": "^14.0.1",
     "i18next-browser-languagedetector": "2.2.0",
     "icomoon-react": "^0.1.7",
