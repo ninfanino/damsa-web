@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://ninfadg.com/corporativo/damsa_nuevo/",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "i18next": "^14.0.1",
     "i18next-browser-languagedetector": "2.2.0",
     "icomoon-react": "^0.1.7",
